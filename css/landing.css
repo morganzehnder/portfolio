@@ -7,7 +7,7 @@ div.hero.container-fluid{
   min-height:490px;
 }
 /* navigation */
-.col-xl-12 > li{
+.col-sm-12 > li{
   font-size:16px;
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   color:#27202E;
@@ -16,13 +16,13 @@ div.hero.container-fluid{
   padding: 40px 0px 100px 0px;
 }
 
-ul.col-xl-12{
+ul.col-sm-12{
   list-style:none;
   padding:0px 0px 0px 60px;
   margin-bottom:490px;
 }
 
-.col-xl-12 li.active {
+.col-sm-12 li.active {
   padding-bottom: 1px;
   border-bottom: 2px solid #27202E;
   text-indent:0px;
@@ -44,31 +44,29 @@ margin:0;
 }
 
 /* intro */
-.jumbotron.intro{
-  background-image: url("../images/gg.png");
-  max-height:610px;
-  width:auto;
-  overflow:hidden;
-  padding:0;
-  margin:0;
+.row.intro{
+  padding-top:20px
 }
 
-.container-fluid{
-  padding:0;
-  margin:0;
-}
-.col-xl-4.intro-text{
+.col-sm-8.intro-text{
   width:100%;
   height:auto;
+  background-color:#FEDD46;
 }
-.col-xl-4.intro-text > h2{
+
+.col-sm-8.intro-text > h2{
   width:90%;
   padding:40px;
 }
-.col-xl-4{
-  padding:40px;
+
+.col-sm-8, .col-sm-4{
   margin:0;
-  height:400px;
+  padding:0;
+  overflow:hidden;
+}
+
+.col-sm-4.gg > img{
+  height:100%;
   overflow:hidden;
 }
 
@@ -81,35 +79,51 @@ margin:0;
   border-width: 2px;
   border-color:#933FDB;
   border-radius:0;
-  padding:10px 500px
-  margin-top:10px;
+  padding:10px 50px;
+  margin-top:35px;
+}
+
+.row.action{
+  background-image: linear-gradient(-180deg, #FCF5FB 0%, #F7E7F6 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.75);
+  height:120px;
 }
 
 /* case-1 dockit */
 .container-fluid.cases{
+  padding:5% 0 5% 0;
   background: #FFFFFF;
   box-shadow: 0 6px 2px 0 #FFFFFF;
 }
-.col-xl-6.dockit-logo{
+
+.col-sm-6.dockit-logo{
   width:100%;
   height:auto;
 }
-.col-xl-6.dockit-logo > img{
-  width:70%;
-  margin:15%;
+
+.col-sm-6.dockit-logo > img{
+  width:75%;
+  margin: 5% 0 5% 15%;
 }
-.col-xl-6.header{
+
+.col-sm-6.header{
   height:auto;
   padding:10px;
-  margin-top:10%;
+  margin-top:7.5%;
 }
-.col-xl-6.header > h3{
+
+.col-sm-6.header > h3{
   width:80%;
-  margin:10% 10% 10% 3%;
+  margin:2.5% 2.5% 2.5% 9.5%;
 }
-.col-xl-6.header > h4{
+
+.col-sm-6.header > h4{
   width:80%;
-  margin:10% 10% 10% 3%;
+  margin:2.5% 2.5% 2.5% 9.5%;
+}
+
+.col-sm-6.header > a.btn{
+  margin:2.5% 2.5% 2.5% 9.5%;
 }
 
 /* footer */
@@ -118,16 +132,16 @@ margin:0;
   background-color:#27202E;
   min-height:320px;
 }
-.col-xl-12 h2{
+.col-sm-12 h2{
   color:#FFFFFF;
   padding-top:40px;
 }
-.col-xl-12 > ul{
+.col-sm-12 > ul{
   list-style:none;
   margin:0px;
   padding: 20px 0px 40px 0px;
 }
-.col-xl-12 > ul > li{
+.col-sm-12 > ul > li{
   display:inline-block;
   font-size:36px;
   margin:10px;
@@ -150,6 +164,6 @@ margin:0;
   padding:15px;
   border-radius:50%;
 }
-.col-xl-12 p{
+.col-sm-12 p{
   color:#FFFFFF;
 }
