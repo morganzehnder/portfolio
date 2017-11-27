@@ -15,6 +15,9 @@ div.hero.container-fluid{
 ul.col-sm-12{
   margin-bottom:490px;
 }
+.col-sm-12 li.active {
+  text-indent:0px;
+}
 
 
 /* hero image */
@@ -107,6 +110,6 @@ ul.col-sm-12{
   background-color:#27202E;
   min-height:320px;
 }
-.col-sm-12 p{
+.col-sm-12 p, .col-sm-12 h2{
   color:#FFFFFF;
 }
