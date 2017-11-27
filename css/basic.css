@@ -1,0 +1,21 @@
+h1, h2, h3{
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  color:#27202E;
+}
+
+h2{
+  font-size:36px;
+  font-weight:bold;
+}
+
+h3{
+  font-size: 28px;
+  color: #27202E;
+  font-family: JosefinSans-Light;
+}
+
+h4{
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #E7738F;
+}
