@@ -1,4 +1,4 @@
-h1, h2, h3{
+h1, h2, h3, h4{
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -14,29 +14,57 @@ h3{
 }
 
 h4{
+  font-family:JosefinSans-Light;
+  font-size:18px;
+  color:#27202E;
+}
+h5{
   font-family: "Ruluko", Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: #E7738F;
+}
+
+h6{
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  margin-top:60px;
+}
+h6:before,
+h6:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 35%;
+}
+h6:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h6:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+p, ul{
+  font-family:JosefinSans-Light;
+  font-size:16px;
+  color:#27202E;
+  text-align:left;
+}
+
+a{
+  font-family:JosefinSans-Light;
+  color:#933FDB;
+}
+
+.fa{
+  font-size:30px;
 }
 
 /* navigation */
-.col-sm-12 > li{
-  font-size:16px;
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  color:#27202E;
-  display:inline-block;
-  text-indent:30px;
-}
 
-ul.col-sm-12{
-  list-style:none;
-  padding:0px 0px 0px 60px;
-}
-
-.col-sm-12 li.active {
-  padding-bottom: 1px;
-  border-bottom: 2px solid #27202E;
-}
 
 /* action button */
 .btn{

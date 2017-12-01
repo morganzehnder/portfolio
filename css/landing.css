@@ -8,14 +8,25 @@ div.hero.container-fluid{
 }
 
 /* navigaton in basic css */
+
 .col-sm-12 > li{
+  font-size:16px;
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  color:#27202E;
+  display:inline-block;
+  text-indent:30px;
   padding: 40px 0px 100px 0px;
 }
 
 ul.col-sm-12{
+  list-style:none;
+  padding:0px 0px 0px 60px;
   margin-bottom:490px;
 }
+
 .col-sm-12 li.active {
+  padding-bottom: 1px;
+  border-bottom: 2px solid #27202E;
   text-indent:0px;
 }
 

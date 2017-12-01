@@ -1,0 +1,88 @@
+/* hero */
+.header.container{
+
+}
+
+/* nav */
+
+a.col-sm-2.personal-logo > img{
+  height:60px;
+  width:auto;
+}
+
+img.mx-auto.d-block.dockit-frame{
+  height:120px;
+  width:auto;
+  margin-top:40px;
+}
+
+ul.float-right, ul.float-left{
+  margin-top:40px;
+  list-style:none;
+}
+
+/* case preview */
+img.mx-auto.d-block.mobile-laptop{
+  margin-top:60px;
+}
+
+/* roles */
+h4.col-sm-12.input-position.text-center{
+  margin-top:40px;
+}
+
+/*scroll down*/
+p.col-sm-12.input-position.text-center.view-study{
+  margin-top:60px;
+  margin-bottom:0px;
+}
+
+i.mx-auto.d-block.scroll-down{
+  margin-top:20px;
+}
+
+
+
+/*the short version*/
+img.summary{
+  width:160px;
+  height:auto;
+}
+
+p.short{
+  width:80%;
+}
+div.row.short{
+  margin-top:60px;
+}
+
+/* my process */
+
+/* research */
+.row.question{
+  margin-top:120px;
+}
+img.mx-auto.d-block.section-intro{
+  margin-top:120px;
+  margin-bottom:60px;
+}
+
+p.col-sm-12.section.mx-auto.d-block{
+  width:80%;
+  height:auto;
+}
+
+div.col-sm-6.input-position.text-center > h4{
+  width:100%;
+}
+
+img.mx-auto.d-block.likes-dislikes{
+  width:80%;
+  height:auto;
+}
+
+/* analysis */
+.row.analysis{
+  margin-top:60px;
+  margin-bottom:60px;
+}
