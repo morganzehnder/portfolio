@@ -1,47 +1,66 @@
 /* hero */
-.header.container{
 
+/* case specific css */
+.case.btn{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+div.row.graphic{
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+/* large section images */
+
+img.mx-auto.d-block{
+  width:80%;
+  height:auto;
+}
+
+/* all section text */
+div.row.section-text{
+  width:80%;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+div.row.table{
+  width:80%;
+  margin:auto;
+  margin-top:60px;
+  margin-bottom:60px;
 }
 
 /* nav */
 
-a.col-sm-2.personal-logo > img{
+a.navbar-brand > img{
+  margin-top:40px;
   height:60px;
   width:auto;
+  max-width:110px;
 }
 
-img.mx-auto.d-block.dockit-frame{
+i.fa.fa-angle-right{
+  margin-top:40px;
+}
+
+.navbar-header{
+  width:100%;
   height:120px;
-  width:auto;
-  margin-top:40px;
 }
 
-ul.float-right, ul.float-left{
-  margin-top:40px;
-  list-style:none;
-}
-
-/* case preview */
-img.mx-auto.d-block.mobile-laptop{
+/* case logo */
+img.mx-auto.d-block.dockit-logo{
   margin-top:60px;
+  width:40%;
 }
 
 /* roles */
 h4.col-sm-12.input-position.text-center{
-  margin-top:40px;
-}
-
-/*scroll down*/
-p.col-sm-12.input-position.text-center.view-study{
   margin-top:60px;
-  margin-bottom:0px;
 }
-
-i.mx-auto.d-block.scroll-down{
-  margin-top:20px;
-}
-
-
 
 /*the short version*/
 img.summary{
@@ -51,6 +70,7 @@ img.summary{
 
 p.short{
   width:80%;
+  margin-top:20px;
 }
 div.row.short{
   margin-top:60px;
@@ -58,31 +78,102 @@ div.row.short{
 
 /* my process */
 
-/* research */
-.row.question{
-  margin-top:120px;
+/* img.summary covers others */
+
+img.mx-auto.d-block.summary{
+  width:160px;
+  height:auto;
+  margin-top:0px;
 }
+
+/* new headers */
 img.mx-auto.d-block.section-intro{
-  margin-top:120px;
-  margin-bottom:60px;
+  width:50%;
+  margin-top:200px;
+  margin-bottom:200px;
 }
 
-p.col-sm-12.section.mx-auto.d-block{
-  width:80%;
-  height:auto;
+
+
+
+/* research */
+
+/* survey results */
+div.col-sm-6 > ul {
+  list-style:none;
 }
 
-div.col-sm-6.input-position.text-center > h4{
+div.col-sm-6 > ul > li{
+  margin-top:40px;
+}
+
+li.col-sm-6{
+    margin-left:0px;
+}
+
+
+/* like most / like least */
+.row.question{
+  margin-top:60px;
+}
+
+div.col-sm-6.input-position.text-center {
   width:100%;
-}
-
-img.mx-auto.d-block.likes-dislikes{
-  width:80%;
-  height:auto;
+  margin-top;
 }
 
 /* analysis */
-.row.analysis{
-  margin-top:60px;
-  margin-bottom:60px;
+
+
+.col-sm-4.pro-con.mx-auto.d-block > img {
+  width:50%;
+  height:auto;
+  margin-left:15%;
+}
+
+.row.pc{
+  margin-top:40px;
+}
+
+div.col-sm-4.pro-con > p{
+  width:80%;
+}
+
+div.col-sm-4.pro-con > h5{
+  padding-left:35%;
+}
+
+/* user interviews */
+
+ul.col-sm-12 > li{
+  margin-left:40px;
+}
+
+/* mental model */
+
+
+/* user flows */
+
+
+/* logo design */
+
+div.col-sm-4 > img.logo{
+  width:70%;
+}
+
+div.col-sm-4.ld > p, div.col-sm-4.ld > h4 {
+  width:60%;
+  margin-top:30px;
+  margin-left:30px;
+}
+
+div.row.ld{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+/* final logo */
+
+img.mx-auto.d-block.final-logo{
+  width:50%;
 }

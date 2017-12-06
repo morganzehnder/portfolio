@@ -21,37 +21,39 @@
 </head>
 <body>
 
+<header>
   <!--hero-->
-  <header>
-    <div class="container">
-      <div class="row nav">
-        <div class="col-sm-2">
-          <ul class="back float-left">
-            <li><a href="landing.html"><i class="fa fa-angle-left"></i></a></li>
-            <li><a href="landing.html" class="col-sm-2 personal-logo"><img src="images/mz-logo-final.png" alt="personal logo"/></a></li>
-          </ul>
-        </div>
-        <div class="col-sm-8">
-          <img src="images/dockit-frame.png" class="mx-auto d-block dockit-frame" alt="dockit logo"/>
-        </div>
-        <div class="col-sm-2">
-          <ul class="next-case float-right">
-            <li><a href="case2.html">Next Case</a></li>
-            <li><a href="case2.html"><i class="fa fa-angle-right"></i></a><li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="landing.html" class="navbar-brand"><img src="images/mz-logo-final.png" alt="personal logo"/></a>
       </div>
-      <div class="row col-sm-12">
-          <img src="images/dockit-mobile-laptop.png" class="mx-auto d-block mobile-laptop"/>
+      <div class="nav navbar-nav navbar-right">
+          <a href="case2.html" class="navbar .navbar-btn"><i class="fa fa-angle-right"></i></a>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/dockit-logo.png" class="mx-auto d-block dockit-logo" alt="dockit logo"/>
+        </div>
       </div>
       <div class="row jobs">
         <h4 class="col-sm-12 input-position text-center">
-          Research | Branding | Wireframes | Prototype | Visual Design | Frontend Development | <span><a href="invision.com">View Invision Prototype</a></span>
+          User Research | Branding | Wireframes | Prototype | Visual Design | Frontend Development
         </h4>
       </div>
-
-      <div class="row scroll col-sm-12">
-          <i class="fa fa-angle-down mx-auto d-block scroll-down"></i>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/dockit-mobile-laptop.png" class="mx-auto d-block"/>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-12 ">
+          <a href="survey.html" class="case btn">Invision Prototype</a>
+        </div>
       </div>
     </div>
   </header>
@@ -60,7 +62,7 @@
   <!-- the short version -->
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">The short version.</h6>
+      <h3 class="col-sm-12 input-position text-center">The short version.</h3>
     </div>
     <div class="row short">
       <div class="col-sm-4"><img src="images/summary-frame.png" class="float-right summary"/></div>
@@ -80,7 +82,7 @@
   <!-- my process -->
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">My Process</h6>
+      <h3 class="col-sm-12 input-position text-center">My Process</h3>
     </div>
     <div class="row">
       <h4 class="col-sm-12 input-position text-center">Click on frame to navigate to specific section.</h4>
@@ -91,38 +93,74 @@
       <div class="col-sm-4"><a href="research section"><img src="images/Design-frame.png" class="float-left summary"/></a></div>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><a href="research section"><img src="images/test-frame.png" class="float-right summary"/></a></div>
+      <div class="col-sm-4"><a href="research section"><img src="images/testing-frame.png" class="float-right summary"/></a></div>
       <div class="col-sm-4"><a href="research section"><img src="images/develop-frame.png" class="mx-auto d-block summary"/></a></div>
-      <div class="col-sm-4"><a href="research section"><img src="images/reflect-frame.png" class="float-left summary"/></a></div>
+      <div class="col-sm-4"><a href="research section"><img src="images/reflection-frame.png" class="float-left summary"/></a></div>
     </div>
   </div>
 
   <!-- research -->
 <div class="container">
-  <img src="images/research-large.png" class="mx-auto d-block section-intro"/>
+  <div class="row header">
+    <div class="col-sm-12"><img src="images/research-lrg.png" class="mx-auto d-block section-intro"/></div>
+  </div>
 </div>
 
+
+<!--user survey -->
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">User Survey</h6>
+      <h3 class="col-sm-12 input-position text-center">User Survey</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Conducted to understand how users currently store content, what methods they use to save content, what types of content they save the most, and what is missing from their current file storage system.</p>
     </div>
-    <div class="row survey">
-      <div class="col-sm-12"><img src="images/survey-results.png" class="mx-auto d-block"/></div>
+    <div class="row table">
+      <div class="col-sm-6">
+        <h4 class="text-center">Results</h4>
+        <ul>
+          <li>
+            <span class="font-weight-bold">100%</span> store content on their <span class="font-weight-bold">smartphones,</span>
+            <span class="font-weight-bold">83%</span> on <span class="font-weight-bold">laptops,</span>
+            <span class="font-weight-bold">37%</span> on <span class="font-weight-bold">tablets</span>
+           </li>
+          <li>
+            <span class="font-weight-bold">66%</span> bookmark content on their <span class="font-weight-bold">browser bar,</span>
+            <span class="font-weight-bold">53% download </span>it, and
+            <span class="font-weight-bold">26%</span> use a <span class="font-weight-bold">web app</span>
+          </li>
+          <li>
+            <span class="font-weight-bold">81%</span> use their <span class="font-weight-bold">browser,</span>
+            <span class="font-weight-bold">62%</span> use <span class="font-weight-bold">Pinterest,</span>
+            <span class="font-weight-bold">12.5%</span> use <span class="font-weight-bold">Pocket,</span> and
+            <span class="font-weight-bold">50%</span> use <span class="font-weight-bold">Facebook</span>
+          </li>
+          <li>
+            <span class="font-weight-bold">88%</span> of users work in a <span class="font-weight-bold">collaborative </span>environment and
+            <span class="font-weight-bold">75%</span> share files <span class="font-weight-bold">often </span> with their team
+          </li>
+      </div>
+      <div class="col-sm-6">
+        <h4 class="text-center">Conclusions</h4>
+        <ul>
+          <li>Build a <span class="font-weight-bold">fully responsive </span>web application that will work flawlessly on phones and tablets</li>
+          <li>Develop a <span class="font-weight-bold">browser application </span> so users can save content with one-click</li>
+          <li>Understand <span class="font-weight-bold">likes/dislikes</span> of closest competitors <span class="font-weight-bold"> Pinterest and Pocket </span></li>
+          <li>Include<span class="font-weight-bold"> collaborative and sharing</span> capabilities </li>
+        </ul>
+      </div>
     </div>
     <div class="row question">
-      <div class="col-sm-6 input-position text-center"><h4>What do you like the most </br>about your current system?</h4></div>
-      <div class="col-sm-6 input-position text-center"><h4>What do you like the least </br>about your current system?</h4></div>
+      <div class="col-sm-6 input-position text-center"><h4>What do you like the <span class="font-weight-bold">most</span></br>about your current system?</h4></div>
+      <div class="col-sm-6"><img src="images/like-most-list.png" class="mx-auto d-block"/></div>
     </div>
-    <div class="row survey">
-      <div class="col-sm-6"><img src="images/like-most-frame.png" class="mx-auto d-block likes-dislikes"/></div>
-      <div class="col-sm-6"><img src="images/like-least-frame.png" class="mx-auto d-block likes-dislikes"/></div>
+    <div class="row question">
+      <div class="col-sm-6 input-position text-center"><h4>What do you like the <span class="font-weight-bold">least</span></br>about your current system?</h4></div>
+      <div class="col-sm-6"><img src="images/like-least-list.png" class="mx-auto d-block"/></div>
     </div>
     <div class="row text-center">
-      <div class="col-sm-12 intro-btn">
-        <a href="survey.html" class="btn">View full survey + results</a>
+      <div class="col-sm-12">
+        <a href="https://docs.google.com/forms/d/13hK1YLLRvG6Se0my6NhmLNha0kcFlO9ieUaGCNU_NsQ/viewanalytics" class="case btn">View Full Survey</a>
       </div>
     </div>
   </div>
@@ -131,17 +169,39 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Competitive Analysis</h6>
+      <h3 class="col-sm-12 input-position text-center">Competitive Analysis</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">File storage web applications offer different sets of tools for perfoming relatively the same task - saving content. Before deciding on the features to include in Dockit, I conducted a competitive analysis to assess the strengths and weaknesses of competitors against our users needs.
       </p>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/competitive-analysis.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-12"><img src="images/competitive-analysis-quality.png" class="mx-auto d-block"/></div>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/strength-weakness-chart.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 pro-con mx-auto d-block"><img src="images/strengths.png"/></div>
+      <div class="col-sm-4 pro-con mx-auto d-block"><img src="images/weakness.png"/></div>
+    </div>
+    <div class="row pc">
+      <div class="col-sm-4 pro-con"><h5>Pinterest</h5></div>
+      <div class="col-sm-4 pro-con"><p>Quick and easy for saving visual content</p></div>
+      <div class="col-sm-4 pro-con"><p>Not good for any non-visual content</p></div>
+    </div>
+    <div class="row pc">
+      <div class="col-sm-4 pro-con"><h5>Pocket</h5></div>
+      <div class="col-sm-4 pro-con"><p>Ability to tag right when you save, easy organization</p></div>
+      <div class="col-sm-4 pro-con"><p>Cannot upload or create supplemental content</p></div>
+    </div>
+    <div class="row pc">
+      <div class="col-sm-4 pro-con"><h5>Dropbox</h5></div>
+      <div class="col-sm-4 pro-con"><p>Easy to collaborate and share files</p></div>
+      <div class="col-sm-4 pro-con"><p>No way to save files directly from web</p></div>
+    </div>
+    <div class="row pc">
+      <div class="col-sm-4 pro-con"><h5>Evernote</h5></div>
+      <div class="col-sm-4 pro-con"><p>Ability to clip content, don't have to save whole web page</p></div>
+      <div class="col-sm-4 pro-con"><p>More complicated interface and organizational system, focus on text-based, educational material</p></div>
     </div>
   </div>
 
@@ -149,33 +209,30 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">User Interviews</h6>
+      <h3 class="col-sm-12 input-position text-center">User Interviews</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">To further understand the needs of my users, finalize product requirements, and ensure I design a product fit to solve my problem, I conducted three user interviews to develop user personas.
       </p>
     </div>
-    <div class="row">
-      <h4>Our ideal user...<h4>
-    </div>
-    <div class="row">
-        <ul class="col-sm-12">
+    <div class="row section-text">
+        <ul class="col-sm-12"><h4><span class="font-weight-bold">Our ideal user...</span></h4>
           <li>Uses various bookmarking sites dependent upon nature of content</li>
           <li>Bookmarks content for both personal and professional use</li>
           <li>Works in a collaborative environment</li>
         </ul>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/tim-persona-case-size.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-12"><img src="images/tim-persona.png" class="mx-auto d-block"/></div>
     </div>
     <div class="row text-center">
-      <div class="col-sm-12 intro-btn">
-        <a href="survey.html" class="btn">View all personas</a>
+      <div class="col-sm-12">
+        <a href="survey.html" class="case btn">View all personas</a>
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-sm-12 intro-btn">
-        <a href="survey.html" class="btn">View Interview Questions</a>
+      <div class="col-sm-12">
+        <a href="survey.html" class="case btn">View Interview Questions</a>
       </div>
     </div>
   </div>
@@ -184,13 +241,13 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Mental Model</h6>
+      <h3 class="col-sm-12 input-position text-center">Mental Model</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block"> After capturing user behavior, paint points and needs from survey and interviews, I developed a Mental Model to map out features based on my findings.
       </p>
     </div>
-    <div class="row analysis">
+    <div class="row graphic">
       <div class="col-sm-12"><img src="images/mental-model.png" class="mx-auto d-block"/></div>
     </div>
   </div>
@@ -199,15 +256,15 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">User Stories</h6>
+      <h3 class="col-sm-12 input-position text-center">User Stories</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Based on the business requirements and user research, I put together a list of user stories to help create user flows for the main tasks of my Dockit users, focusing on new and returning user groups.
       </p>
     </div>
     <div class="row text-center">
-      <div class="col-sm-12 intro-btn">
-        <a href="user-stories.html" class="btn">View list of user stories</a>
+      <div class="col-sm-12">
+        <a href="https://docs.google.com/spreadsheets/d/1ZuvxhNgGm77wOZrJWJKszSXJJWVlhSuqX8Ub6IMyMA8/edit?usp=sharing" class="case btn">View User Stories</a>
       </div>
     </div>
   </div>
@@ -216,34 +273,35 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">User Flows</h6>
+      <h3 class="col-sm-12 input-position text-center">User Flows</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block"> To clarify the complexities of user tasks and establish the information architecture of Dockit, I created user flows prior to developing my visual designs. Here are a few samples:
       </p>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/dockit-user-flows-case.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-12"><img src="images/dockit-user-flows.png" class="mx-auto d-block"/></div>
     </div>
   </div>
 
-<!-- brand -->
+  <!-- brand -->
 <div class="container">
-  <img src="images/brand-frame-lrg.png" class="mx-auto d-block section-intro"/>
+  <div class="row header">
+    <div class="col-sm-12"><img src="images/branding-lrg.png" class="mx-auto d-block section-intro"/></div>
+  </div>
 </div>
 
   <!--styleguide-->
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Styleguide</h6>
+      <h3 class="col-sm-12 input-position text-center">Styleguide</h3>
     </div>
-    <div class="row">
-      <p class="col-sm-12 section mx-auto d-block">To clarify the complexities of user tasks and establish the information architecture of Dockit, I created user flows prior to developing my visual designs. Here are a few samples:
-      </p>
+    <div class="row section-text">
+      <p class="col-sm-12 section mx-auto d-block">For Dockit I kept style choices simple and engaging. Users spend a lot of time surfing the web and Dockit is a tool that would get frequent use. Understanding that, I kept the interface friendly and uncomplicated with warm color choices paired with grounding, darker teal hues.</br> </br> I selected one font for this project, Lato. Lato is an elegant, sleek sans-serif font that reads easily in body text and has some surprising forms when enlarged for header texts. Hence, it allowed me to stick with a single font for this project. Again, keeping things simple and clean for users.
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/dockit-styleguide-case-size.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-12"><img src="images/dockit-styleguide.png" class="mx-auto d-block"/></div>
     </div>
   </div>
 
@@ -251,13 +309,13 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Name</h6>
+      <h3 class="col-sm-12 input-position text-center">Name</h3>
     </div>
-    <div class="row">
-      <p class="col-sm-12 section mx-auto d-block">To clarify the complexities of user tasks and establish the information architecture of Dockit, I created user flows prior to developing my visual designs. Here are a few samples:
+    <div class="row section-text">
+      <p class="col-sm-12 section mx-auto d-block">Below you can see why exactly I settled on the name Dockit. Originally I racked my brain for words related to files, web files, ideas, inspiration, content, etc. I landed on the word "docket" because of it's literal relationship to "file". My thought process took off from there.
       </p>
     </div>
-    <div class="row analysis">
+    <div class="row graphic">
       <div class="col-sm-12"><img src="images/name-analysis-chart.png" class="mx-auto d-block"/></div>
     </div>
   </div>
@@ -266,14 +324,32 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Logo Design</h6>
+      <h3 class="col-sm-12 input-position text-center">Logo Design</h3>
     </div>
-    <div class="row">
-      <p class="col-sm-12 section mx-auto d-block">To clarify the complexities of user tasks and establish the information architecture of Dockit, I created user flows prior to developing my visual designs. Here are a few samples:
+    <div class="row section-text">
+      <p class="col-sm-12 section mx-auto d-block">With the function of the Dockit revolving around storing files, the immediate jumping off point for me in terms of logo design - a plane. A flat piece of paper, an old school representation of a “file”. I played around with color, arrangement, and movement. All with planes as the foundation.
+      </br></br>The use of abstract shapes with a hint of a retro vibe did not stop at the logo, but also carried through with the custom Dockit illustrations shown following.
       </p>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/logo-steps-chart.png" class="mx-auto d-block"/></div>
+    <div class="row ld">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 ld"><h4><span class="font-weight-bold">What I liked</span></h4></div>
+      <div class="col-sm-4 ld"><h4><span class="font-weight-bold">What I didn't</span></h4></div>
+    </div>
+    <div class="row ld">
+      <div class="col-sm-4 ld"><img src="images/dockit-logo-5-frame.png" class="logo float-right"/></div>
+      <div class="col-sm-4 ld"><p>Play with planes, abstract representation of files. Look of “portal”, so to speak.</p></div>
+      <div class="col-sm-4 ld"><p>Logo and text didn’t seem to “fit” together. Appeared disjointed. </p></div>
+    </div>
+    <div class="row ld">
+      <div class="col-sm-4 ld"><img src="images/dockit-logo-2-frame.png" class="logo float-right"/></div>
+      <div class="col-sm-4 ld"><p>One plane appears to be “docked” on another.</p></div>
+      <div class="col-sm-4 ld"><p>Text didn’t ever fit the way I wanted it to across the two planes.</p></div>
+    </div>
+    <div class="row ld">
+      <div class="col-sm-4 ld"><img src="images/dockit-logo-4-frame.png" class="logo float-right"/></div>
+      <div class="col-sm-4 ld"><p>Movement of graphic, several planes “files” moving backwards.</p></div>
+      <div class="col-sm-4 ld"><p>Graphic didn’t look as clean from further away. Had to make text stand out at expense of making graphic harder to view/make sense of.</p></div>
     </div>
   </div>
 
@@ -281,14 +357,14 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Final Logo</h6>
+      <h3 class="col-sm-12 input-position text-center">Final Logo</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">The breaking up of “dockit” clearly indicates how the name is meant to be pronounced and what it implies. This version is clean, easy to read and representative of brand. It continues to play on planes moving backwards and physically “docks” the text on planes.
       </p>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/dockit-logo-3-frame.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-12"><img src="images/dockit-logo-3-frame.png" class="mx-auto d-block final-logo"/></div>
     </div>
   </div>
 
@@ -296,33 +372,38 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Custom Illustrations</h6>
+      <h3 class="col-sm-12 input-position text-center">Custom Illustrations</h3>
     </div>
-    <div class="row">
-      <p class="col-sm-12 section mx-auto d-block">Done with illustrator. The homepage lacked cohesiveness. Wanted the illustrations to clearly showcase capabilities of website through the use of simple, abstract shapes. Starting with the two toned icons, representative of the types of content the platform is built to save. These icons are then used throughout the remaining illustrations to demonstrate some of Dockit’s capabilities.
+    <div class="row section-text">
+      <p class="col-sm-12 section mx-auto d-block">Cohesiveness and design patterns are a huge part of branding. I design and created these illustrations to further bring my design together. They also serve a practical purpose, abstractly showing the functions of Dockit through the use of simple, colorful shapes. </br> </br> The two-toned icons representing the types of files Dockit is built to store are carried through the remainder of the icons, depicting the basic functionality of the tool.
       </p>
     </div>
-    <div class="row analysis">
-      <div class="col-sm-12"><img src="images/dockit-icons-collage-case-size.png" class="mx-auto d-block"/></div>
+    <div class="row graphic">
+      <div class="col-sm-3"><img src="images/dockit-icons-frame.png" class="mx-auto d-block"/></div>
+      <div class="col-sm-3"><img src="images/dockit-org-frame.png" class="mx-auto d-block"/></div>
+      <div class="col-sm-3"><img src="images/dockit-share-frame.png" class="mx-auto d-block"/></div>
+      <div class="col-sm-3"><img src="images/dockit-app-frame.png" class="mx-auto d-block"/></div>
     </div>
   </div>
 
-<!-- brand -->
+<!-- design -->
 <div class="container">
-  <img src="images/design-frame-large.png" class="mx-auto d-block section-intro"/>
+  <div class="row header">
+    <div class="col-sm-12"><img src="images/design-lrg.png" class="mx-auto d-block section-intro"/></div>
+  </div>
 </div>
 
   <!--low fi wireframes-->
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Low-fi Wireframes</h6>
+      <h3 class="col-sm-12 input-position text-center">Low-fi Wireframes</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Done with Balsamiq, below are the wireframes for the homepage, dashboard, and account settings pages. <br/><br/>The homepage is designed to highlight the features of the platform, you’ll see they take up a majority of the homepage. Seesawing down the page with plenty of whitespace, minor amounts of text and large illustrations. It is clear to users what Dockit can offer..
       </p>
     </div>
-    <div class="row analysis">
+    <div class="row graphic">
       <div class="col-sm-12"><img src="images/low-fi-wireframes.png" class="mx-auto d-block"/></div>
     </div>
   </div>
@@ -331,13 +412,13 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">High-fi Mockups</h6>
+      <h3 class="col-sm-12 input-position text-center">High-fi Mockups</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">My high fidelity wireframe mockups were done in Sketch. I’d like to point out some of the improvements made in later iterations to simplify pages and make actions quicker and clearer for users.
       </p>
     </div>
-    <div class="row analysis">
+    <div class="row graphic">
       <div class="col-sm-12"><img src="images/high-fi.png" class="mx-auto d-block"/></div>
     </div>
   </div>
@@ -346,82 +427,84 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Prototype</h6>
+      <h3 class="col-sm-12 input-position text-center">Prototype</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Using Invision, I created a clickable prototype of my high-fidelity wireframes, as well as a design prototype. Five different users were asked to perform key actions on the site and provided some valuable feedback.
       </p>
     </div>
-    <div class="row text-center">
-      <div class="col-sm-12 intro-btn">
-        <a href="user-stories.html" class="btn">View Prototype</a>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-sm-12 intro-btn">
-        <a href="user-stories.html" class="btn">View User Tasks</a>
-      </div>
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <a href="survey.html" class="case btn">Invision Prototype</a>
     </div>
   </div>
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <a href="survey.html" class="case btn">View User Tasks</a>
+    </div>
+  </div>
+</div>
 
 <!-- test -->
 <div class="container">
-  <img src="images/test-frame-lrg.png" class="mx-auto d-block section-intro"/>
+  <div class="row header">
+    <div class="col-sm-12"><img src="images/testing-lrg.png" class="mx-auto d-block section-intro"/></div>
+  </div>
 </div>
 
   <!--prototype feedback-->
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Prototype Feedback</h6>
+      <h3 class="col-sm-12 input-position text-center">Prototype Feedback</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Using Invision, I created a clickable prototype of my high-fidelity wireframes, as well as a design prototype. Five different users were asked to perform key actions on the site and provided some valuable feedback.
       </p>
     </div>
   </div>
 
-  <!--five second test-->
+  <!--5 second test-->
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">5 Second Test</h6>
+      <h3 class="col-sm-12 input-position text-center">5 Second Test</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">I conducted a five second test of my homepage to ensure my landing conveys it’s brand and message quickly to users.
       </p>
     </div>
-    <div class="row">
+    <div class="row section-text">
         <ul class="col-sm-12">
           <li>80% of testers believed the page looked trustworthy </li>
           <li>Almost every user noticed a different item on the homepage</li>
           <li>90% of users understood the nature of the site </li>
         </ul>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Takeaway: Decide what is most important on the homepage, simplify, and make it stand out
       </p>
     </div>
   </div>
 
-  <!--nav test test-->
+  <!--nav test-->
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Nav Test</h6>
+      <h3 class="col-sm-12 input-position text-center">Nav Test</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">I conducted a five second test of my homepage to ensure my landing conveys it’s brand and message quickly to users.
       </p>
     </div>
-    <div class="row">
+    <div class="row section-text">
         <ul class="col-sm-12">
           <li>80% of testers believed the page looked trustworthy </li>
           <li>Almost every user noticed a different item on the homepage</li>
           <li>90% of users understood the nature of the site </li>
         </ul>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Takeaway: Decide what is most important on the homepage, simplify, and make it stand out
       </p>
     </div>
@@ -431,47 +514,60 @@
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">Preference Test</h6>
+      <h3 class="col-sm-12 input-position text-center">Preference Test</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">I conducted a five second test of my homepage to ensure my landing conveys it’s brand and message quickly to users.
       </p>
     </div>
-    <div class="row">
+    <div class="row section-text">
         <ul class="col-sm-12">
           <li>80% of testers believed the page looked trustworthy </li>
           <li>Almost every user noticed a different item on the homepage</li>
           <li>90% of users understood the nature of the site </li>
         </ul>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">Takeaway: Decide what is most important on the homepage, simplify, and make it stand out
       </p>
     </div>
   </div>
 
 <!-- develop -->
-<div class="container">
-  <img src="images/develop-frame-lrg.png" class="mx-auto d-block section-intro"/>
-</div>
+  <div class="container">
+    <div class="row header">
+      <div class="col-sm-12"><img src="images/development-lrg.png" class="mx-auto d-block section-intro"/></div>
+    </div>
+  </div>
 
-<!-- develop -->
-<div class="container">
-  <img src="images/conclude-frame-lrg.png" class="mx-auto d-block section-intro"/>
-</div>
+
+<!-- reflect -->
+  <div class="container">
+    <div class="row header">
+      <div class="col-sm-12"><img src="images/reflection-lrg.png" class="mx-auto d-block section-intro"/></div>
+    </div>
+  </div>
+
 
   <!--what I learned-->
 
   <div class="container">
     <div class="row header">
-      <h6 class="col-sm-12 input-position text-center">What I learned</h6>
+      <h3 class="col-sm-12 input-position text-center">What I learned</h3>
     </div>
-    <div class="row">
+    <div class="row section-text">
       <p class="col-sm-12 section mx-auto d-block">I conducted a five second test of my homepage to ensure my landing conveys it’s brand and message quickly to users.
       </p>
     </div>
 
+<!-- absolute nav -->
+<!--
 
+<li class="align-middle"><a href="landing.html"><i class="fa fa-angle-left"></i></a></li>
+
+<li class="align-middle"><a href="case2.html">Next Case</a></li>
+
+-->
 
 
 

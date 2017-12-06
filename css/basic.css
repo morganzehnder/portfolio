@@ -1,17 +1,40 @@
-h1, h2, h3, h4{
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+h1, h2 {
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size:96px;
 }
 
 h2{
   font-size:48px;
-  font-weight:bold;
 }
 
 h3{
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
   font-size: 28px;
-  color: #27202E;
-  font-family: JosefinSans-Light;
+  margin-top:60px;
 }
+
+h3:before,
+h3:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 35%;
+}
+h3:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h3:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
 
 h4{
   font-family:JosefinSans-Light;
@@ -23,29 +46,6 @@ h5{
   font-size: 24px;
 }
 
-h6{
-  font-family: "Ruluko", Helvetica, Arial, sans-serif;
-  font-size: 28px;
-  margin-top:60px;
-}
-h6:before,
-h6:after {
- background-color: #333;
- content: "";
- display: inline-block;
- height: 1px;
- position: relative;
- vertical-align: middle;
- width: 35%;
-}
-h6:before {
- right: 0.5em;
- margin-left: -50%;
-}
-h6:after {
- left: 0.5em;
- margin-right: -50%;
-}
 
 p, ul{
   font-family:JosefinSans-Light;
@@ -56,11 +56,11 @@ p, ul{
 
 a{
   font-family:JosefinSans-Light;
-  color:#933FDB;
+  color:#84235F;
 }
 
 .fa{
-  font-size:30px;
+  font-size:40px;
 }
 
 /* navigation */
@@ -68,16 +68,18 @@ a{
 
 /* action button */
 .btn{
-  color: #933FDB;
+  color: #FFFFFF;
+  background-image: radial-gradient(-38% 57%, #FE4826 0%, #84235F 62%);
   font-family: "JosefinSans-SemiBold", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
-  padding: 10px 50px;
-  border-width: 2px;
-  border-color:#933FDB;
+  padding: 10px 40px;
+  border-width: 0px;
   border-radius:0;
-  padding:10px 50px;
-  margin-top:35px;
+}
+
+.case.btn{
+  margin-top:60px;
 }
 
 .row.action{
