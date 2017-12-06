@@ -177,3 +177,18 @@ div.row.ld{
 img.mx-auto.d-block.final-logo{
   width:50%;
 }
+
+.angle-right {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+}
+.navbar-secondary {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 100;
+}
+.case-container {
+  padding-top: 100px;
+}
