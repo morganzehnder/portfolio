@@ -63,13 +63,52 @@ a{
   font-size:40px;
 }
 
-/* navigation */
+
+/* nav */
+
+.angle-right {
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+}
+
+.navbar-primary {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height:80px;
+}
+
+.navbar-header{
+  width:100%;
+}
+
+.case-container {
+  padding-top: 100px;
+}
+
+a.navbar-brand > img{
+  margin-top:15px;
+  margin-bottom:15px;
+  height:50px;
+  width:auto;
+  max-width:110px;
+}
+
+i.fa.fa-angle-right{
+  color:#84235F;
+}
+
+.navbar-text{
+  margin-top:10px;
+}
+
 
 
 /* action button */
 .btn{
-  color: #FFFFFF;
-  background-image: radial-gradient(-38% 57%, #FE4826 0%, #84235F 62%);
+  color: #27202E;
+  background-color:#F8E71C;
   font-family: "JosefinSans-SemiBold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   text-decoration: none;
@@ -82,15 +121,21 @@ a{
   margin-top:60px;
 }
 
-.row.action{
-  background-image: linear-gradient(-180deg, #FCF5FB 0%, #F7E7F6 100%);
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.75);
-  height:120px;
+.landing.btn{
+  margin-top:20px;
 }
+
 
 /* footer */
 
-/*background color of footer changes in specific css*/
+.container-fluid.footer{
+  background-color:#27202E;
+  margin-top:60px;
+  min-height:320px;
+}
+.col-sm-12 p, .col-sm-12 h2{
+  color:#FFFFFF;
+}
 
 .col-sm-12 h2{
   padding-top:40px;
@@ -107,7 +152,7 @@ a{
 }
 .fa-envelope{
   color:white;
-  background-color:#E7738F;
+  background-color:#84235F;
   padding:15px;
   border-radius:50%;
 }

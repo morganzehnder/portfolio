@@ -4,7 +4,7 @@
 div.hero.container-fluid{
   background-size: cover;
   margin:0px;
-  min-height:490px;
+  min-height:720px;
 }
 
 /* navigaton in basic css */
@@ -14,14 +14,6 @@ div.hero.container-fluid{
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   color:#27202E;
   display:inline-block;
-  text-indent:30px;
-  padding: 40px 0px 100px 0px;
-}
-
-ul.col-sm-12{
-  list-style:none;
-  padding:0px 0px 0px 60px;
-  margin-bottom:490px;
 }
 
 .col-sm-12 li.active {
@@ -40,85 +32,35 @@ ul.col-sm-12{
   margin:0;
 }
 
-/* scroll down icon */
-.fa-angle-down{
-  color:#27202E;
-  font-size: 100px;
-}
-
 /* intro */
-.row.intro{
-  padding-top:20px
-}
-
-.col-sm-8.intro-text{
-  width:100%;
-  height:auto;
-  background-color:#FEDD46;
-}
-
-.col-sm-8.intro-text > h2{
-  width:90%;
-  padding:40px;
-  color:#27202E;
-}
-
-.col-sm-8, .col-sm-4{
-  margin:0;
-  padding:0;
-  overflow:hidden;
-}
-
-.col-sm-4.gg > img{
-  height:100%;
-  overflow:hidden;
-}
-
-
-
-
-
-/* case-1 dockit */
-.container-fluid.cases{
-  padding:5% 0 5% 0;
-  background: #FFFFFF;
-  box-shadow: 0 6px 2px 0 #FFFFFF;
-}
-
-.col-sm-6.dockit-logo{
-  width:100%;
-  height:auto;
-}
-
-.col-sm-6.dockit-logo > img{
-  width:75%;
-  margin: 5% 0 5% 15%;
-}
-
-.col-sm-6.header{
-  height:auto;
-  padding:10px;
-  margin-top:7.5%;
-}
-
-.col-sm-6.header > h3{
+p.col-sm-6.section{
+  margin-top:15%;
   width:80%;
-  margin:2.5% 2.5% 2.5% 9.5%;
+}
+
+/* cases dockit */
+
+.col-sm-6.case-img > img{
+  width:50%;
+  margin-top:60px;
 }
 
 .col-sm-6.header > h4{
+  margin-top:15%;
   width:80%;
-  margin:2.5% 2.5% 2.5% 9.5%;
 }
 
-.col-sm-6.header > a.btn{
-  margin:2.5% 2.5% 2.5% 9.5%;
+.col-sm-6.header > h5{
+  margin-top:20px;
+  color:#84235F;
 }
+
 
 /* footer */
 
 .container-fluid.footer{
   background-color:#27202E;
+  margin-top:60px;
   min-height:320px;
 }
 .col-sm-12 p, .col-sm-12 h2{

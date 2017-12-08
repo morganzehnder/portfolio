@@ -1,65 +1,45 @@
+/* navbar secondary */
 
-
-/* navigaton specifics */
-
-.col-sm-6 > li{
-  font-size:16px;
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  color:#27202E;
-  display:inline-block;
-  text-indent:30px;
-  padding: 20px 0px 20px 0px;
+.navbar-secondary {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height:80px;
+  background: #FFFFFF;
+  border-bottom: 3px solid #F4DBB7;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.50);
 }
 
-ul.col-sm-6{
-  list-style:none;
-  padding:0px 0px 0px 30%;
-  margin:20px 0px 20px 0px;
-}
-
-.col-sm-6 li.active {
-  padding-bottom: 1px;
-  border-bottom: 2px solid #27202E;
-}
-
-.col-sm-6.site-logo > img{
-  height:60px;
-  width:auto;
-  margin:20px 20px 20px 40px;
-}
-
-
-
-/* hero intro */
-.jumbotron{
-  background-image: url("../images/concrete-bg.png");
+.navbar-header{
   width:100%;
-  padding:0;
-  margin:0;
 }
-.about.col-sm-6 > img{
-  width:90%;
-  padding:5% 0% 5% 13%;
+
+/* about images */
+.container-fluid.about-hero{
+  padding-top:160px;
+  padding-bottom:80px;
+  background-color:#FEDD46;
 }
-.col-sm-6 > h2{
-  color:#FFFFFF;
+
+img.mx-auto.d-block.about-icons{
+  width:100%;
+  height:auto;
+}
+
+/* intro */
+div.col-sm-6 > p{
+  margin-top:15%;
   width:80%;
-  margin:5%;
-  padding:15% 5% 5% 0%;
 }
 
-/* bio text */
-.container-fluid.about{
-  background-color:#84235F;
-}
-p.col-sm-12.about{
-  color:white;
-  font-size:26px;
-  font-family: JosefinSans-SemiBold;
-  padding:5% 10% 5% 10%;
+.col-sm-6.case-img > img{
+  width:50%;
+  margin-top:60px;
 }
 
-/* footer specifications */
-.col-sm-12 h2{
-  color:#27202E;
+/* why ux */
+div.row.section-text{
+  width:80%;
+  margin:auto;
+  margin-top:60px;
 }
