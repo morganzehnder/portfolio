@@ -141,11 +141,12 @@ li.col-sm-6{
 /* like most / like least */
 .row.question{
   margin-top:60px;
+  margin-bottom:30px;
 }
 
 div.col-sm-6.input-position.text-center {
   width:100%;
-  margin-top;
+  margin-top:60px;
 }
 
 /* analysis */
@@ -167,6 +168,10 @@ div.col-sm-4.pro-con > p{
 
 div.col-sm-4.pro-con > h5{
   padding-left:35%;
+}
+
+div.row.graphic.strong-weak{
+  margin-top:120px;
 }
 
 /* user interviews */
@@ -202,4 +207,17 @@ div.row.ld{
 
 img.mx-auto.d-block.final-logo{
   width:50%;
+}
+
+/* nav test */
+
+img.nav-test{
+  width:80%;
+  height:auto;
+}
+
+/* reflection */
+
+div.row.section-text.reflection{
+  margin-bottom:120px;
 }

@@ -1,0 +1,30 @@
+img.mx-auto.d-block.wasted-logo{
+  margin-top:40px;
+  width:50%;
+}
+
+/* summary shortened */
+img.float-right.summary.short, img.float-left.summary.short{
+  margin-right:45px;
+  margin-left:45px;
+}
+
+/* rows with tables/diagrams */
+
+div.row.diagram{
+  width:80%;
+  margin:auto;
+}
+
+div.col-sm-4.input-position.text-center.checklist{
+  margin-left:35%;
+}
+
+ul.style-none{
+  list-style: none;
+}
+
+.carousel-img{
+  width:50%;
+  height:auto;
+}
