@@ -1,9 +1,18 @@
-.case.btn{
+div.row.graphic{
   margin-top:60px;
 }
 
-div.row.graphic{
+h4.col-sm-12.input-position.text-center.ext-h{
+  margin-top:120px;
+}
+
+div.row.text-center{
   margin-top:60px;
+}
+
+/* headers in separate div from graphic, smaller header above graphic */
+div.row.graphic.ext-h{
+  margin-top:0px;
 }
 
 /* large section images */
@@ -203,10 +212,11 @@ div.row.ld{
   margin-bottom:15px;
 }
 
-/* final logo */
+/* final logo, gets 60px from "row graphic" too much space with top margin */
 
 img.mx-auto.d-block.final-logo{
   width:50%;
+  margin-top:0px;
 }
 
 /* nav test */
