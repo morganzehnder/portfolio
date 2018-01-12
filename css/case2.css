@@ -1,0 +1,75 @@
+img.mx-auto.d-block.wasted-logo{
+  margin-top:40px;
+  width:50%;
+}
+
+/* summary shortened */
+img.float-right.summary.short, img.float-left.summary.short{
+  margin-right:45px;
+  margin-left:45px;
+}
+
+/* rows with tables/diagrams */
+
+div.row.text-center{
+  margin-top:60px;
+}
+
+div.col-sm-4.border.tasks{
+  padding: 30px 30px;
+  background-color: #84235F;
+  margin: 0px;
+}
+
+div.col-sm-4.border.tasks > p, div.col-sm-8.border.results > p{
+  color:white;
+}
+
+div.col-sm-4 > h4{
+  text-align: left;
+  margin-left:35%;
+}
+
+div.col-sm-8 > h4{
+  text-align: left;
+  margin-left:5%;
+}
+
+div.col-sm-8.border.results{
+  padding: 30px 30px;
+  background-color: gray;
+  margin: 0px;
+}
+
+div > p.col-sm-4.border{
+  color:white;
+}
+
+div.row.diagram{
+  width:80%;
+  margin:auto;
+}
+
+div.row.diagram.graphic{
+  width:80%;
+  margin-top:30px;
+}
+
+div.col-sm-4.input-position.text-center.checklist{
+  margin-left:35%;
+}
+
+ul.style-none{
+  list-style: none;
+}
+
+.carousel-img{
+  width:50%;
+  height:auto;
+}
+
+/* storyframes */
+h4.col-sm-12.input-position.text-center.storyframe{
+  margin-top:0px;
+  font-style:italic;
+}

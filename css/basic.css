@@ -1,0 +1,172 @@
+h1, h2 {
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size:96px;
+}
+
+h2{
+  font-size:48px;
+}
+
+h3{
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  margin-top:60px;
+}
+
+h3:before,
+h3:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 35%;
+}
+h3:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h3:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+
+h4{
+  font-family:JosefinSans-Light;
+  font-size:18px;
+  color:#27202E;
+}
+h5{
+  font-family: "Ruluko", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+
+p, ul{
+  font-family:JosefinSans-Light;
+  font-size:16px;
+  color:#27202E;
+  text-align:left;
+}
+
+a{
+  font-family:JosefinSans-Light;
+  color:#84235F;
+}
+
+.fa{
+  font-size:40px;
+}
+
+
+/* nav */
+
+.angle-right {
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+}
+
+.navbar-primary {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height:80px;
+}
+
+.navbar-header{
+  width:100%;
+}
+
+.case-container {
+  padding-top: 100px;
+}
+
+a.navbar-brand > img{
+  margin-top:15px;
+  margin-bottom:15px;
+  height:50px;
+  width:auto;
+  max-width:110px;
+}
+
+i.fa.fa-angle-right{
+  color:#84235F;
+}
+
+.navbar-text{
+  margin-top:10px;
+}
+
+
+
+/* action button */
+.btn{
+  color: #27202E;
+  background-color:#F8E71C;
+  font-family: "JosefinSans-SemiBold", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-width: 0px;
+  border-radius:0;
+  box-shadow: 0 2px 4px 0 #C8C0CA;
+}
+
+.case.btn{
+  margin-top:0px;
+  margin-bottom:40px;
+}
+
+.landing.btn{
+  margin-top:20px;
+}
+
+
+/* footer */
+
+.container-fluid.footer{
+  background-color:#27202E;
+  margin-top:60px;
+  min-height:320px;
+}
+.col-sm-12 p, .col-sm-12 h2{
+  color:#FFFFFF;
+}
+
+.col-sm-12 h2{
+  padding-top:40px;
+}
+.col-sm-12 > ul{
+  list-style:none;
+  margin:0px;
+  padding: 20px 0px 40px 0px;
+}
+.col-sm-12 > ul > li{
+  display:inline-block;
+  font-size:36px;
+  margin:10px;
+}
+.fa-envelope{
+  color:white;
+  background-color:#84235F;
+  padding:15px;
+  border-radius:50%;
+}
+.fa-github{
+  color:white;
+  background-color:#FEDD46;
+  padding:15px;
+  border-radius:50%;
+}
+.fa-linkedin{
+  color:white;
+  background-color:#0077B5;
+  padding:15px;
+  border-radius:50%;
+}

@@ -1,0 +1,68 @@
+/* hero */
+
+/* background */
+div.hero.container-fluid{
+  background-size: cover;
+  margin:0px;
+  min-height:720px;
+}
+
+/* navigaton in basic css */
+
+.col-sm-12 > li{
+  font-size:16px;
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  color:#27202E;
+  display:inline-block;
+}
+
+.col-sm-12 li.active {
+  padding-bottom: 1px;
+  border-bottom: 2px solid #27202E;
+  text-indent:0px;
+}
+
+
+/* hero image */
+
+.jumbotron {
+  background-image: url("../images/dockit/smaller-portfolio-bg.png");
+  background-size: cover;
+  padding:0;
+  margin:0;
+}
+
+/* intro */
+p.col-sm-6.section{
+  margin-top:15%;
+  width:80%;
+}
+
+/* cases dockit */
+
+.col-sm-6.case-img > img{
+  width:50%;
+  margin-top:60px;
+}
+
+.col-sm-6.header > h4{
+  margin-top:15%;
+  width:80%;
+}
+
+.col-sm-6.header > h5{
+  margin-top:20px;
+  color:#84235F;
+}
+
+
+/* footer */
+
+.container-fluid.footer{
+  background-color:#27202E;
+  margin-top:60px;
+  min-height:320px;
+}
+.col-sm-12 p, .col-sm-12 h2{
+  color:#FFFFFF;
+}
