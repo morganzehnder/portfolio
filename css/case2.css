@@ -9,22 +9,46 @@ img.float-right.summary.short, img.float-left.summary.short{
   margin-left:45px;
 }
 
+/* checklist */
+div.col-sm-4 > h4.checklist{
+  align:left;
+  margin-left:0px;
+  font-weight:bold;
+  color:white;
+}
+
+div.col-sm-4.checklist > ul{
+  color:white;
+  margin-left:-28px;
+}
+
+div.col-sm-4.checklist{
+  padding: 30px 30px;
+  background-color: #84235F;
+  max-width: 30%;
+  margin: 1%;
+}
+
 /* rows with tables/diagrams */
 
 div.row.text-center{
   margin-top:60px;
 }
 
-div.col-sm-4.border.tasks{
+div.col-sm-4.border.tasks, ul.col-sm-4.border.tasks{
   padding: 30px 30px;
   background-color: #84235F;
   margin: 0px;
 }
 
-div.col-sm-4.border.tasks > p, div.col-sm-8.border.results > p{
+div.col-sm-4.border.tasks > p, ul.col-sm-4.border.tasks > li, div.col-sm-8.border.results > p{
   color:white;
 }
 
+span.header.font-weight-bold{
+  color:white;
+  padding-bottom:20px;
+}
 div.col-sm-4 > h4{
   text-align: left;
   margin-left:35%;
@@ -72,4 +96,13 @@ ul.style-none{
 h4.col-sm-12.input-position.text-center.storyframe{
   margin-top:0px;
   font-style:italic;
+}
+h4.font-weight-bold.storyframe, p.col-sm-12.section.storyframe{
+  color:white;
+  padding-left:0px;
+}
+
+div.row.section-text.storyframe{
+  background-color:#84235F;
+  padding:30px;
 }
