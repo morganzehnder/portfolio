@@ -136,6 +136,7 @@ i.fa.fa-angle-right{
   margin-top:60px;
   min-height:320px;
 }
+
 .col-sm-12 p, .col-sm-12 h2{
   color:#FFFFFF;
 }
@@ -143,28 +144,33 @@ i.fa.fa-angle-right{
 .col-sm-12 h2{
   padding-top:40px;
 }
+
 .col-sm-12 > ul{
   list-style:none;
   margin:0px;
   padding: 20px 0px 40px 0px;
 }
+
 .col-sm-12 > ul > li{
   display:inline-block;
   font-size:36px;
   margin:10px;
 }
+
 .fa-envelope{
   color:white;
   background-color:#84235F;
   padding:15px;
   border-radius:50%;
 }
+
 .fa-github{
   color:white;
   background-color:#FEDD46;
   padding:15px;
   border-radius:50%;
 }
+
 .fa-linkedin{
   color:white;
   background-color:#0077B5;

@@ -4,7 +4,7 @@
 div.hero.container-fluid{
   background-size: cover;
   margin:0px;
-  min-height:720px;
+  min-height:760px;
 }
 
 /* navigaton in basic css */
@@ -26,7 +26,7 @@ div.hero.container-fluid{
 /* hero image */
 
 .jumbotron {
-  background-image: url("../images/dockit/smaller-portfolio-bg-2.png");
+  background-image: url("../images/dockit/smaller-portfolio-bg-3.png");
   background-size: cover;
   padding:0;
   margin:0;
