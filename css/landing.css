@@ -56,6 +56,10 @@ div.col-sm-4.case-img{
   padding-left:0px;
 }
 
+div.container-fluid{
+  padding-left:0px;
+}
+
 /* cases dockit */
 
 div.row.case-1{
