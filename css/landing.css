@@ -1,4 +1,9 @@
 /* hero */
+div.col-sm-12.quote > img{
+  width: 50%;
+  padding: 100px 0 60px 100px;
+}
+
 
 /* background */
 div.hero.container-fluid{
