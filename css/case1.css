@@ -51,7 +51,8 @@ img.mx-auto.d-block.dockit-logo{
 
 /* roles */
 h4.col-sm-12.input-position.text-center{
-  margin-top:60px;
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
 /*the short version*/
@@ -88,7 +89,7 @@ img.mx-auto.d-block.section-intro{
 .container-header{
   background-color:#84235F;
   width:100%;
-  margin-top:60px;
+  margin-top:90px;
   margin-bottom:60px;
 }
 
