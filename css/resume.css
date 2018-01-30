@@ -5,3 +5,7 @@ div.container-fluid{
 div.row.resume{
   margin-top:0px;
 }
+
+img.mx-auto.d-block.resume{
+  margin-top:80px;
+}
