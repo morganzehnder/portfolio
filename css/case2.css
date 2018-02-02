@@ -87,6 +87,25 @@ ul.style-none{
   list-style: none;
 }
 
+/* survey */
+
+/* survey results */
+
+div.col-sm-6 > ul.survey > li{
+  margin-top:40px;
+}
+
+li.col-sm-6{
+    margin-left:0px;
+}
+
+/* name */
+div.row.section-text.name{
+  margin-bottom:0px;
+}
+
+/* high fi carousel */
+
 .carousel-img{
   width:50%;
   height:auto;
