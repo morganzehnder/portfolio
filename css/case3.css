@@ -24,3 +24,9 @@ div.col-sm-6.question > h4{
   width:20%;
   height:auto;
 }
+
+img.mx-auto.d-block.spotted-logo{
+  margin-top:40px;
+  width:50%;
+  margin-bottom:60px;
+}
