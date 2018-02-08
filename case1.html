@@ -14,27 +14,40 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Ruluko" rel="stylesheet">
 
   <!--CSS links-->
+
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/case1.css">
   <link rel="stylesheet" href="css/basic.css">
 
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#scrollspy" data-offset="0" style="overflow-y: scroll; height: 800px; position:relative;">
 
 <header>
+
   <!--hero-->
-  <nav class="navbar navbar-secondary navbar-default navbar-static-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-final.png" alt="personal logo"/></a>
-        <div class="angle-right" id="navbarText">
-          <span class="navbar-text">
-            <a href="case2.html" class="navbar navbar-btn angle"><i class="fa fa-angle-right"></i></a>
-          </span>
-        </div>
-      </div>
+  <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+      <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-final.png" alt="personal logo"/></a>
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav" id="scrollspy">
+        <a class="nav-item nav-link" href="#research-divider"><img src="images/research-nav.png" alt="user research" class="nav-icons"/><span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#brand-divider"><img src="images/brand-nav.png" alt="branding" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#design-divider"><img src="images/design-nav.png" alt="designing" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#test-divider"><img src="images/test-nav.png" alt="testing" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#develop-divider"><img src="images/develop-nav.png" alt="development" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#reflect-divider"><img src="images/reflect-nav.png" alt="reflection" class="nav-icons"/></a>
     </div>
-  </nav>
+  </div>
+
+    <a class="nav-item nav-link" href="case3.html"><img src="images/spotted/spotted-f-3-org.png" alt="spotted" class="next-logo"/></a>
+    <a class="navbar-item nav-link form-inline" href="case3.html"><i class="fa fa-angle-right"></i></a>
+
+</nav>
 
     <div class="case-container container">
       <div class="row">
@@ -49,7 +62,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <img src="images/dockit/dockit-mobile-laptop.png" class="mx-auto d-block"/>
+          <img src="images/dockit/dockit-stock.png" class="mx-auto d-block"/>
         </div>
       </div>
       <div class="row text-center">
@@ -67,44 +80,25 @@
       <h3 class="col-sm-12 input-position text-center">The short version.</h3>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><img src="images/dockit/summary-frame.png" class="float-right summary"/></div>
+      <div class="col-sm-4"><img src="images/summary-d.png" class="float-right summary"/></div>
       <div class="col-sm-8"><p class="short float-left">There are various tools on the web for saving content. Users find themselves saving and sorting content in various ways dependent on the nature of the content and functions of specific tools. Dockit is a platform built for individuals and teams to store and organize all types of web content, with the ability to create or upload supplemental content.
       </p></div>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><img src="images/dockit/problem-frame.png" class="float-right summary"/></div>
+      <div class="col-sm-4"><img src="images/problem-frame.png" class="float-right summary"/></div>
       <div class="col-sm-8"><p class="short float-left">Users need a single platform fit to store all types of content for ease of organization and file relocation.</p></div>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><img src="images/dockit/solution-frame.png" class="float-right summary"/></div>
+      <div class="col-sm-4"><img src="images/solution-frame.png" class="float-right summary"/></div>
       <div class="col-sm-8"><p class="short float-left">Design a platform fit to store and showcase all types of content so users have all of their files in a single location. </p></div>
     </div>
   </div>
 
-  <!-- my process -->
-  <div class="container">
-    <div class="row header">
-      <h3 class="col-sm-12 input-position text-center">My Process</h3>
-    </div>
-    <div class="row">
-      <h4 class="col-sm-12 input-position text-center">Click on frame to navigate to specific section.</h4>
-    </div>
-    <div class="row short">
-      <div class="col-sm-4"><a href="#research-divider"><img src="images/dockit/research-frame.png" class="float-right summary"/></a></div>
-      <div class="col-sm-4"><a href="#brand-divider"><img src="images/dockit/brand-frame.png" class="mx-auto d-block summary"/></a></div>
-      <div class="col-sm-4"><a href="#design-divider"><img src="images/dockit/design-frame.png" class="float-left summary"/></a></div>
-    </div>
-    <div class="row short">
-      <div class="col-sm-4"><a href="#test-divider"><img src="images/dockit/testing-frame.png" class="float-right summary"/></a></div>
-      <div class="col-sm-4"><a href="#develop-divider"><img src="images/dockit/develop-frame.png" class="mx-auto d-block summary"/></a></div>
-      <div class="col-sm-4"><a href="#reflect-divider"><img src="images/dockit/reflection-frame.png" class="float-left summary"/></a></div>
-    </div>
-  </div>
-
   <!-- research -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="research-divider"><div class="col-sm-12"><img src="images/dockit/research-lrg.png" class="mx-auto d-block section-intro"/></div></a>
+<div class="container-fluid container-header" id="research-divider">
+  <div class="row divider">
+    <div class="col-sm-12"><h1 class="divider-text text-center">RESEARCH</h1></div>
+    <div class="col-sm-12"><a><img class="divider-image mx-auto d-block" src="images/user-research-d.png"/></a></div>
   </div>
 </div>
 
@@ -282,11 +276,12 @@
   </div>
 
   <!-- brand -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="brand-divider"><div class="col-sm-12"><img src="images/dockit/branding-lrg.png" class="mx-auto d-block section-intro"/></div></a>
+  <div class="container-fluid container-header" id="brand-divider">
+    <div class="row divider">
+      <div class="col-sm-12"><h1 class="divider-text text-center">BRANDING</h1></div>
+      <div class="col-sm-12"><a><img class="divider-image mx-auto d-block" src="images/branding-d.png"/></a></div>
+    </div>
   </div>
-</div>
 
   <!--styleguide-->
 
@@ -380,12 +375,13 @@
     </div>
   </div>
 
-<!-- design -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="design-divider"><div class="col-sm-12"><img src="images/dockit/design-lrg-bg.png" class="mx-auto d-block section-intro"/></div></a>
+  <!-- design -->
+  <div class="container-fluid container-header" id="design-divider">
+    <div class="row divider">
+      <div class="col-sm-12"><h1 class="divider-text text-center">DESIGN</h1></div>
+      <div class="col-sm-12"><a><img class="divider-image mx-auto d-block" src="images/design-d.png"/></a></div>
+    </div>
   </div>
-</div>
 
   <!--low fi wireframes-->
 
@@ -454,9 +450,10 @@
 </div>
 
 <!-- test -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="test-divider"><div class="col-sm-12"><img src="images/dockit/testing-lrg.png" class="mx-auto d-block section-intro"/></div></a>
+<div class="container-fluid container-header" id="test-divider">
+  <div class="row divider">
+    <div class="col-sm-12"><h1 class="divider-text text-center">TESTING</h1></div>
+    <div class="col-sm-12"><a><img class="divider-image mx-auto d-block" src="images/user-testing-d.png"/></a></div>
   </div>
 </div>
 
@@ -523,21 +520,22 @@
     </div>
   </div>
 
-<!-- develop -->
-  <div class="container-fluid container-header">
-    <div class="row header">
-      <a id="develop-divider"><div class="col-sm-12"><img src="images/dockit/development-lrg.png" class="mx-auto d-block section-intro"/></div></a>
-    </div>
-  </div>
 
+<!-- develop -->
+<div class="container-fluid container-header" id="develop-divider">
+  <div class="row divider">
+    <div class="col-sm-12"><h1 class="divider-text text-center">DEVELOPMENT</h1></div>
+    <div class="col-sm-12"><a><img class="divider-image mx-auto d-block" src="images/development-d.png"/></a></div>
+  </div>
+</div>
 
 <!-- reflect -->
-  <div class="container-fluid container-header">
-    <div class="row header">
-      <a id="reflect-divider"><div class="col-sm-12"><img src="images/dockit/reflection-lrg.png" class="mx-auto d-block section-intro"/></div></a>
-    </div>
+<div class="container-fluid container-header" id="reflect-divider">
+  <div class="row divider">
+    <div class="col-sm-12"><h1 class="divider-text text-center">REFLECTION</h1></div>
+    <div class="col-sm-12"><a><img class="divider-image mx-auto d-block" src="images/reflection-d.png"/></a></div>
   </div>
-
+</div>
 
   <!--what I learned-->
 
@@ -557,5 +555,6 @@
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   <script src="basic.js"></script>
 </body>
 </html>

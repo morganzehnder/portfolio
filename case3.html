@@ -29,18 +29,28 @@
 
 <header>
   <!--hero-->
-  <nav class="navbar navbar-secondary navbar-default navbar-static-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-final.png" alt="personal logo"/></a>
-        <div class="angle-right" id="navbarText">
-          <span class="navbar-text">
-            <a href="about.html" class="navbar navbar-btn angle"><i class="fa fa-angle-right"></i></a>
-          </span>
-        </div>
-      </div>
+  <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+      <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-final.png" alt="personal logo"/></a>
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav" id="scrollspy">
+        <a class="nav-item nav-link" href="#research-divider"><img src="images/research-nav.png" alt="user research" class="nav-icons"/><span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#brand-divider"><img src="images/brand-nav.png" alt="branding" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#design-divider"><img src="images/design-nav.png" alt="designing" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#test-divider"><img src="images/test-nav.png" alt="testing" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#develop-divider"><img src="images/develop-nav.png" alt="development" class="nav-icons"/></a>
+        <a class="nav-item nav-link" href="#reflect-divider"><img src="images/reflect-nav.png" alt="reflection" class="nav-icons"/></a>
     </div>
-  </nav>
+  </div>
+
+    <a class="nav-item nav-link" href="case2.html"><img src="images/wasted/wasted-logo-dark.png" alt="wasted" class="next-logo larger"/></a>
+    <a class="navbar-item nav-link form-inline" href="case2.html"><i class="fa fa-angle-right"></i></a>
+
+</nav>
 
     <div class="case-container container">
       <div class="row">
@@ -55,7 +65,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <img src="images/spotted/stock-cell-images.png" class="mx-auto d-block"/>
+          <img src="images/spotted/spotted-stock.png" class="mx-auto d-block"/>
         </div>
       </div>
       <div class="row text-center">
@@ -73,47 +83,28 @@
       <h3 class="col-sm-12 input-position text-center">The short version.</h3>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><img src="images/dockit/summary-frame.png" class="float-right summary"/></div>
+      <div class="col-sm-4"><img src="images/summary-d.png" class="float-right summary"/></div>
       <div class="col-sm-8"><p class="short float-left">People eat out (restaurant, delivery, or pick-up) several times each week. Easy discovery and quick ordering processes determine which application user’s use to discover and order. No reliable application currently exists to discover, review, and order from a truck. Spotted is an application that provides users with the necessary information and processes to do just that.</p>
       </p></div>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><img src="images/dockit/problem-frame.png" class="float-right summary"/></div>
+      <div class="col-sm-4"><img src="images/problem-frame.png" class="float-right summary"/></div>
       <div class="col-sm-8"><p class="short float-left">There is no reliable food truck application that provides users with the information and processes they require to select a truck as opposed to a restaurant nearby.</p></div>
     </div>
     <div class="row short">
-      <div class="col-sm-4"><img src="images/dockit/solution-frame.png" class="float-right summary"/></div>
+      <div class="col-sm-4"><img src="images/solution-frame.png" class="float-right summary"/></div>
       <div class="col-sm-8"><p class="short float-left">Design a reliable application that allows users to search, filter, review and order from food trucks in their area.</p></div>
     </div>
   </div>
 
-  <!-- my process -->
-  <div class="container">
-    <div class="row header">
-      <h3 class="col-sm-12 input-position text-center">My Process</h3>
-    </div>
-    <div class="row">
-      <h4 class="col-sm-12 input-position text-center">Click on frame to navigate to specific section.</h4>
-    </div>
-    <div class="row short">
-      <div class="col-sm-4"><a href="#research-divider"><img src="images/dockit/research-frame.png" class="float-right summary"/></a></div>
-      <div class="col-sm-4"><a href="#brand-divider"><img src="images/dockit/brand-frame.png" class="mx-auto d-block summary"/></a></div>
-      <div class="col-sm-4"><a href="#info-divider"><img src="images/dockit/info-arch.png" class="float-left summary"/></a></div>
-    </div>
-    <div class="row short">
-      <div class="col-sm-4"><a href="#design-divider"><img src="images/dockit/design-frame.png" class="float-right summary"/></a></div>
-      <div class="col-sm-4"><a href="#test-divider"><img src="images/dockit/testing-frame.png" class="mx-auto d-block summary"/></a></div>
-      <div class="col-sm-4"><a href="#reflect-divider"><img src="images/dockit/reflection-frame.png" class="float-left summary"/></a></div>
-    </div>
-  </div>
-
-  <!-- research section -->
-
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="research-divider"><div class="col-sm-12"><img src="images/dockit/research-lrg.png" class="mx-auto d-block section-intro"/></div></a>
+  <!-- research -->
+<div class="container container-header">
+  <div class="row divider">
+    <div class="col-sm-6"><a id="research-divider"><img class="divider-image mx-auto d-block" src="images/user-research-d.png"/></a></div>
+    <div class="col-sm-6"><h1 class="divider-text">RESEARCH</h1></div>
   </div>
 </div>
+
 
 
 <!--user survey -->
@@ -365,11 +356,12 @@
 </div>
 
 
-  <!-- brand divider -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="brand-divider"><div class="col-sm-12"><img src="images/dockit/branding-lrg.png" class="mx-auto d-block section-intro"/></div></a>
-  </div>
+<!-- brand -->
+<div class="container container-header">
+<div class="row divider">
+  <div class="col-sm-6"><a id="brand-divider"><img class="divider-image mx-auto d-block" src="images/branding-d.png"/></a></div>
+  <div class="col-sm-6"><h1 class="divider-text">BRANDING</h1></div>
+</div>
 </div>
 
   <!--styleguide-->
@@ -451,12 +443,13 @@
   </div>
 
 
-<!-- design divider -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="design-divider"><div class="col-sm-12"><img src="images/dockit/design-lrg-bg.png" class="mx-auto d-block section-intro"/></div></a>
+  <!-- design -->
+  <div class="container container-header">
+  <div class="row divider">
+    <div class="col-sm-6"><a id="design-divider"><img class="divider-image mx-auto d-block" src="images/design-d.png"/></a></div>
+    <div class="col-sm-6"><h1 class="divider-text">DESIGN</h1></div>
   </div>
-</div>
+  </div>
 
   <!--low fi wireframes-->
 
@@ -528,10 +521,11 @@
 
 
 <!-- test -->
-<div class="container-fluid container-header">
-  <div class="row header">
-    <a id="test-divider"><div class="col-sm-12"><img src="images/dockit/testing-lrg.png" class="mx-auto d-block section-intro"/></div></a>
-  </div>
+<div class="container container-header">
+<div class="row divider">
+  <div class="col-sm-6"><a id="test-divider"><img class="divider-image mx-auto d-block" src="images/user-testing-d.png"/></a></div>
+  <div class="col-sm-6"><h1 class="divider-text">TESTING</h1></div>
+</div>
 </div>
 
 <!--peek user testing-->
@@ -615,12 +609,14 @@
     </div>
   </div>
 
-<!-- reflect -->
-  <div class="container-fluid container-header">
-    <div class="row header">
-      <a id="reflect-divider"><div class="col-sm-12"><img src="images/dockit/reflection-lrg.png" class="mx-auto d-block section-intro"/></div></a>
-    </div>
+  <!-- reflect -->
+  <div class="container container-header"><a id="reflect-divider">
+    <div class="row divider">
+      <div class="col-sm-6"><img class="divider-image mx-auto d-block" src="images/reflection-d.png"/></div>
+      <div class="col-sm-6"><h1 class="divider-text">REFLECTION</h1></div>
+    </div></a>
   </div>
+
 
 
   <!--what I learned-->
