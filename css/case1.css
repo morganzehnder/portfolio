@@ -23,6 +23,14 @@ img.mx-auto.d-block{
   margin-top:60px;
 }
 
+/* smaller section images */
+img.mx-auto.d-block.small{
+  margin-top:0px;
+  width:100%;
+  height:auto;
+  padding-left:40px;
+}
+
 /* all section text */
 div.row.section-text{
   width:80%;
@@ -112,16 +120,33 @@ li.col-sm-6{
     margin-left:0px;
 }
 
-
-/* like most / like least */
-.row.question{
-  margin-top:60px;
-  margin-bottom:30px;
+div.row.survey-results > div.col-sm-6{
+  padding: 0 40px 0 40px;
 }
 
-div.col-sm-6.input-position.text-center {
+
+/* like most / like least */
+
+img.survey{
+  width: 80%;
+  height: 100%;
+  padding-top:30px;
+}
+
+div.row.survey-like{
+  margin:90px auto auto auto;
+  width:80%;
+  padding-left:15px;
+}
+
+div.row.survey-like.two{
+  margin:30px auto auto auto;
+  width:80%;
+  padding-left:15px;
+}
+
+h4.survey{
   width:100%;
-  margin-top:60px;
 }
 
 /* analysis */
@@ -132,6 +157,7 @@ div.col-sm-6.input-position.text-center {
   height:auto;
   margin-left:15%;
 }
+
 
 .row.pc{
   margin-top:40px;
@@ -163,14 +189,14 @@ ul.col-sm-12 > li{
 
 /* logo design */
 
-div.col-sm-4 > img.logo{
+div.col-sm-3 > img.logo{
   width:70%;
 }
 
-div.col-sm-4.ld > p, div.col-sm-4.ld > h4 {
-  width:60%;
-  margin-top:30px;
-  margin-left:30px;
+div.col-sm-3.ld > p, div.col-sm-3.ld > h4 {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 div.row.ld{
@@ -181,8 +207,8 @@ div.row.ld{
 /* final logo, gets 60px from "row graphic" too much space with top margin */
 
 img.mx-auto.d-block.final-logo{
-  width:50%;
-  margin-top:0px;
+  width:100%;
+  margin-top:-20px;
 }
 
 /* custom illustrations */
