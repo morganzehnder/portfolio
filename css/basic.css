@@ -41,7 +41,7 @@ h3:after {
 
 
 h4{
-  font-family:JosefinSans-Light;
+  font-family: "JosefinSans-Light", Helvetica, Arial, sans-serif;
   font-size:18px;
   color:#27202E;
 }
@@ -53,14 +53,14 @@ h5{
 
 
 p, ul, ol{
-  font-family:JosefinSans-Light;
+  font-family:"JosefinSans-Light", Helvetica, Arial, sans-serif;
   font-size:16px;
   color:#27202E;
   text-align:left;
 }
 
 a{
-  font-family:JosefinSans-Light;
+  font-family:"JosefinSans-Light", Helvetica, Arial, sans-serif;
   color:#84235F;
 }
 
