@@ -40,11 +40,6 @@ div.col-sm-4.border.tasks, ul.col-sm-4.border.tasks{
   margin: 0px;
 }
 
-div.col-sm-4.border.tasks > p, ul.col-sm-4.border.tasks > li, div.col-sm-8.border.results > p{
-  font-style:italic;
-  color:#282828;
-}
-
 span.header.font-weight-bold{
   color:white;
   padding-bottom:20px;
@@ -61,7 +56,7 @@ div.col-sm-8 > h4{
 
 div.col-sm-8.border.results{
   padding: 30px 30px;
-  background-color: gray;
+  background-color: white;
   margin: 0px;
 }
 
@@ -109,6 +104,10 @@ div.row.section-text.name{
 .carousel-img{
   width:50%;
   height:auto;
+}
+
+div.carousel.slick-initialized.slick-slider{
+  margin-bottom:60px;
 }
 
 /* storyframes */
