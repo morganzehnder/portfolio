@@ -35,8 +35,8 @@ img.individual.float-right.dockit{
 
 img.individual.float-right.wasted{
   width:20%;
-  margin-right: 19%;
-  margin-top: -20%;
+  margin-right: 20%;
+  margin-top: -19%;
   position: relative;
 }
 
@@ -49,13 +49,13 @@ img.individual.spotted.sm{
 
 img.individual.float-right.dockit.sm{
   width: 30%;
-  margin-right: 15%;
+  margin-right: 5%;
   margin-top: 2%;
 }
 
 img.individual.float-right.wasted.sm{
   width:29%;
-  margin-right: 50%;
+  margin-right: 35%;
   margin-top: 3%;
 }
 
