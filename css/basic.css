@@ -134,24 +134,23 @@ div.navbar-nav.index{
 /* action button */
 .btn{
   color: #27202E;
-  background-color:#F8E71C;
   font-family: "JosefinSans-SemiBold", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   text-decoration: none;
-  padding: 10px 40px;
+  background: #FFF43A;
+  box-shadow: 0 4px 10px 0 #C8C0CA;
+  font-size: 16px;
+  color: #27202E;
+  letter-spacing: -0.45px;
+  padding: 15px 40px;
   border-width: 0px;
   border-radius:0;
-  box-shadow: 0 2px 4px 0 #C8C0CA;
 }
 
 .case.btn{
-  margin-top:30px;
-  margin-bottom:30px
+  margin-top:20px;
+  margin-bottom:20px
 }
 
-.landing.btn{
-  margin-top:20px;
-}
 
 
 /* footer */

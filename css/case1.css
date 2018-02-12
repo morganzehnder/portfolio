@@ -7,7 +7,7 @@ h4.col-sm-12.input-position.text-center.ext-h{
 }
 
 div.row.text-center{
-  margin-top:60px;
+  margin-top:15px;
 }
 
 /* headers in separate div from graphic, smaller header above graphic */
@@ -20,12 +20,10 @@ div.row.graphic.ext-h{
 img.mx-auto.d-block{
   width:80%;
   height:auto;
-  margin-top:60px;
 }
 
 /* smaller section images */
 img.mx-auto.d-block.small{
-  margin-top:0px;
   width:100%;
   height:auto;
   padding-left:40px;
@@ -43,6 +41,8 @@ div.row.table{
   margin:auto;
   margin-top:60px;
 }
+
+
 
 
 
@@ -77,8 +77,6 @@ p.short{
 div.row.short{
   margin-top:30px;
 }
-
-/* my process */
 
 /* img.summary covers others */
 
@@ -120,33 +118,11 @@ li.col-sm-6{
     margin-left:0px;
 }
 
-div.row.survey-results > div.col-sm-6{
-  padding: 0 40px 0 40px;
-}
 
+/* like most / like least headers */
 
-/* like most / like least */
-
-img.survey{
-  width: 80%;
-  height: 100%;
-  padding-top:30px;
-}
-
-div.row.survey-like{
-  margin:90px auto auto auto;
-  width:80%;
-  padding-left:15px;
-}
-
-div.row.survey-like.two{
-  margin:30px auto auto auto;
-  width:80%;
-  padding-left:15px;
-}
-
-h4.survey{
-  width:100%;
+div.row.question{
+  margin-top:60px;
 }
 
 /* analysis */
@@ -194,27 +170,40 @@ div.col-sm-3 > img.logo{
 }
 
 div.col-sm-3.ld > p, div.col-sm-3.ld > h4 {
-  width: 70%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+div.col-sm-4.ld > p, div.col-sm-4.ld > h4 {
   margin-top: 20px;
   margin-left: 20px;
 }
 
 div.row.ld{
-  margin-top:15px;
-  margin-bottom:15px;
+  margin-top:45px;
+  margin-bottom:45px;
+  width:80%;
+  margin:auto;
 }
 
-/* final logo, gets 60px from "row graphic" too much space with top margin */
+div.col-sm-4.ld > img.logo{
+  width:100%;
+}
+
+div.col-sm-3.ld > img.logo{
+  width:100%;
+}
 
 img.mx-auto.d-block.final-logo{
-  width:100%;
-  margin-top:-20px;
+  width:40%;
+  margin:auto;
 }
 
 /* custom illustrations */
 
 img.mx-auto.d-block.custom-icons{
-  width:60%;
+  width:50%;
+  margin:0px;
 }
 
 /* nav test */
@@ -223,6 +212,18 @@ img.nav-test{
   width:80%;
   height:auto;
 }
+
+img.nav-test-mobile{
+  width:50%;
+  height:auto;
+}
+
+div.col-sm-12 > img.nav-test-mobile{
+  width: 30%;
+  height: auto;
+  margin-left: 35%;
+}
+
 
 /* reflection */
 

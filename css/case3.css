@@ -14,6 +14,10 @@ div.row.survey-results.header{
   margin-bottom:30px;
 }
 
+div.row.survey-results > div.col-sm-6{
+  padding: 0 40px 0 40px;
+}
+
 div.col-sm-6.question > h4{
   width: 50%;
   margin-left: 38%;
