@@ -15,7 +15,7 @@
 img.collage{
   position: relative;
   width: 70%;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 20%;
 }
 
@@ -42,19 +42,19 @@ img.individual.float-right.wasted{
 
 /* xs - md breakpoints */
 img.individual.spotted.sm{
-  width: 31%;
-  margin-top: 100px;
+  width: 36%;
   margin-left: 20%;
+  margin-top:20px;
 }
 
 img.individual.float-right.dockit.sm{
-  width: 30%;
+  width: 35%;
   margin-right: 5%;
   margin-top: 2%;
 }
 
 img.individual.float-right.wasted.sm{
-  width:29%;
+  width:34%;
   margin-right: 35%;
   margin-top: 3%;
 }
