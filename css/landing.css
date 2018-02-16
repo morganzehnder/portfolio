@@ -90,7 +90,7 @@ h2{ /* basic */
   /* large backgrounds */
 
   div.container-fluid.spotted{
-    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/spot-bg-hero.png") no-repeat;
+    background: url("../images/spot-bg-hero.png") no-repeat;
     background-size: cover;
     max-height:515px;
     height:70vh;
@@ -99,7 +99,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.wasted{
-    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/wasted-hero-bg.png") no-repeat;
+    background: url("../images/wasted-hero-bg.png") no-repeat;
     background-size: cover;
     max-height:515px;
     height:70vh;
@@ -108,7 +108,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.dockit{
-    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/dckit-hero-bg.png") no-repeat;
+    background: url("../images/dckit-hero-bg.png") no-repeat;
     background-size: cover;
     max-height:515px;
     height:70vh;
@@ -152,7 +152,7 @@ h2{ /* basic */
   /* background images mobile*/
 
   div.container-fluid.d-md-none.spotted{
-    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/spotted-mobile.png") no-repeat;
+    background: url("../images/spotted-mobile.png") no-repeat; no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;
@@ -161,7 +161,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.d-md-none.wasted{
-    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/wasted-mobile-bg.png") no-repeat;
+    background: url("../images/wasted-mobile-bg.png")  no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;
@@ -170,7 +170,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.d-md-none.dockit{
-    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/dckit-mobile-bg.png") no-repeat;
+    background: url("../images/dckit-mobile-bg.png")  no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;
