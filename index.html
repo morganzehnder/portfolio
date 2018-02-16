@@ -10,69 +10,138 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
   <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Ruluko" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
   <!--CSS links-->
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/landing.css">
-  <link rel="stylesheet" href="css/basic.css">
 
 </head>
 <body>
 
   <header>
-    <div class="jumbotron">
       <div class="hero container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light bg-faded landing">
+        <nav class="navbar navbar-expand-sm bg-faded">
             <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-final.png" alt="personal logo"/></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav index float-right text-right">
-              <a href="spotted.html" class="nav-item nav-link primary">Work<span class="sr-only">(current)</span></a>
-              <a href="about.html" class="nav-item nav-link primary">About</a>
-              <a href="resume.html" class="nav-item nav-link primary">Resume</a>
+          <div class="navbar-nav index ml-auto text-right">
+              <a href="spotted.html" class="nav-item nav-link">WORK<span class="sr-only">(current)</span></a>
+              <a href="about.html" class="nav-item nav-link">ABOUT</a>
+              <a href="resume.html" class="nav-item nav-link">RESUME</a>
+              <a href="contact.html" class="nav-item nav-link">CONTACT</a>
             </div>
         </div>
       </nav>
-      <div class="d-none d-lg-block">
-        <div class="row"><div class="col-sm-12"><img class="collage" src="images/dockit/collage-bg.png"/></div></div>
-        <div class="row"><div class="col-sm-12"><a href="spotted.html"><img class="individual spotted rotate-right" src="images/spotted/spotted-frame-new.png"/></a></div></div>
-        <div class="row"><div class="col-sm-12"><a href="dockit.html"><img class="individual float-right dockit rotate-right" src="images/dockit/dockit-frame-new.png"/></a></div></div>
-        <div class="row"><div class="col-sm-12"><a href="wasted.html"><img class="individual float-right wasted rotate-left" src="images/spotted/wasted-frame-new.png"/></a></div></div>
+      <div class="d-none d-md-block">
+        <h3 class="text-left intro-text lg">Morgan Zehnder</br>is a UX Designer</br>based in San Francisco</h3>
       </div>
-      <div class="d-lg-none">
-        <div class="row"><div class="col-sm-12"><a href="spotted.html"><img class="individual spotted rotate-right sm" src="images/spotted/spotted-frame-new.png"/></a></div></div>
-        <div class="row"><div class="col-sm-12"><a href="dockit.html"><img class="individual float-right dockit rotate-right sm" src="images/dockit/dockit-frame-new.png"/></a></div></div>
-        <div class="row"><div class="col-sm-12"><a href="wasted.html"><img class="individual float-right wasted rotate-left sm" src="images/spotted/wasted-frame-new.png"/></a></div></div>
-      </div>
+      <div class="d-md-none">
+        <h3 class="text-left intro-text sm">Morgan Zehnder</br>is a UX Designer</br>based in </br>San Francisco</h3>
       </div>
     </div>
-</header>
+
+    <!-- work header -->
+
+    <div class="container-fluid">
+      <div class="d-none d-md-block">
+        <h1 class="text-left intro-text lg">Work</h1>
+      </div>
+      <div class="d-md-none">
+        <h1 class="text-left intro-text sm">Work</h1>
+      </div>
+    </div>
+
+    <!-- spotted -->
+
+    <div class="container-fluid spotted d-none d-md-block">
+      <div>
+        <h2 class="text-left case-header lg">Spotted</h2>
+        <div class="border row lg"></div>
+        <h3 class="text-left case-text lg">An android application built to help users discover and order from local food trucks</h3>
+      </div>
+    </div>
+    <div class="container-fluid spotted d-md-none">
+      <div>
+        <h2 class="text-left case-header sm">Spotted</h2>
+        <div class="border row sm"></div>
+        <h3 class="text-left case-text sm">An android application built to help users discover and order from local food trucks</h3>
+      </div>
+    </div>
+
+    <!-- wasted -->
+
+    <div class="container-fluid wasted d-none d-md-block">
+      <div>
+        <h2 class="text-left case-header lg">Wasted</h2>
+        <div class="border row lg"></div>
+        <h3 class="text-left case-text lg">A curated, e-commerce thrift store</h3>
+      </div>
+    </div>
+    <div class="container-fluid wasted d-md-none">
+      <div>
+        <h2 class="text-left case-header sm">Wasted</h2>
+        <div class="border row sm"></div>
+        <h3 class="text-left case-text sm">A curated, e-commerce thrift store</h3>
+      </div>
+    </div>
+
+    <!-- dockit -->
+
+    <div class="container-fluid dockit d-none d-md-block">
+      <div>
+        <h2 class="text-left case-header lg">Dockit</h2>
+        <div class="border row lg"></div>
+        <h3 class="text-left case-text lg">A SaaS platform built for individuals and teams to store, organize & collaborate on content</h3>
+      </div>
+    </div>
+    <div class="container-fluid dockit d-md-none">
+      <div>
+        <h2 class="text-left case-header sm">Dockit</h2>
+        <div class="border row sm"></div>
+        <h3 class="text-left case-text sm">A SaaS platform built for individuals and teams to store, organize & collaborate on content</h3>
+      </div>
+    </div>
+
+    <!--contact header -->
+    <div class="container-fluid contact">
+      <div class="d-none d-md-block">
+        <h1 class="text-left intro-text lg">Contact</h1>
+      </div>
+      <div class="d-md-none">
+        <h1 class="text-left intro-text sm">Contact</h1>
+      </div>
+    </div>
+
+  </header>
 
 
 <!--footer-->
   <footer>
     <div class="container-fluid footer">
-      <div class="row">
-        <div class="col-sm-12 input-position text-center"><h2>Say hello!</h2></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 input-position">
-            <ul class="text-center">
-              <li><a href="mailto:morganzehnderux@gmail.com" subject="subject message" target="_blank"><i class="fa fa-envelope"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
-            </ul>
+      <div class="d-none d-md-block">
+        <div class="row"><p class="footer text-left">Contact me for full-time roles, freelance projects or to simply chat about design.</p></div>
+        <div class="row"><ul class="text-left">
+          <li><a href="mailto:morganzehnderux@gmail.com" subject="subject message" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+        </ul>
         </div>
+        <div class="row"><p class="footer text-left">© 2017. Designed and developed by Morgan Zehnder.</p></div>
       </div>
-      <div class="row">
-        <div class="col-sm-12 input-position">
-          <p class="text-center">© 2017. Designed and developed by Morgan Zehnder.</p>
+      <div class="d-md-none">
+        <div class="row"><p class="footer text-left sm">Contact me for full-time roles, freelance projects </br>or to simply chat about design.</p></div>
+        <div class="row"><ul class="text-left sm">
+          <li><a href="mailto:morganzehnderux@gmail.com" subject="subject message" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+        </ul>
         </div>
+        <div class="row"><p class="footer text-left sm">© 2017. Designed and developed </br> by Morgan Zehnder.</p></div>
       </div>
     </div>
   </footer>

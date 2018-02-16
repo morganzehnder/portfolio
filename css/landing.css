@@ -1,155 +1,235 @@
+/********** navbar *********/
 
-
-/* hero image */
-
-.jumbotron{
-  background-color:white;
-  padding:0;
-  margin:0;
-  min-height:20vh;
-  width:100vw;
-  position:relative;
+.navbar{
+  width: 100%;
+  height:60px;
+  background: white;
+  position: static;
+  padding:0px;
 }
 
-/* individual images*/
-img.collage{
-  position: relative;
-  width: 70%;
-  margin-top: 20px;
-  margin-left: 20%;
+a.navbar-brand > img{ /* personal logo */
+  height:40px;
+  width:auto;
+  padding:0px;
+  margin-left:5px; /* gets 15px pad from container */
 }
 
-img.individual.spotted{
-  width: 21%;
-  margin-top: -76%;
-  margin-left: 27%;
-  position: relative;
+a.nav-item.nav-link{
+  font-size:16px;
 }
 
-img.individual.float-right.dockit{
-  width: 21%;
-  margin-right: 2%;
-  margin-top: -40%;
-  position: relative;
+a{ /* basic */
+  color:#191D2C;
+  font-family:'Source Sans Pro', Arial, sans-serif;
 }
 
-img.individual.float-right.wasted{
-  width:20%;
-  margin-right: 20%;
-  margin-top: -19%;
-  position: relative;
+/****** intro *********/
+
+div.container-fluid.hero{ /* background */
+  background-color: white;
+  height: 80vh;
 }
 
-/* xs - md breakpoints */
-img.individual.spotted.sm{
-  width: 36%;
-  margin-left: 20%;
-  margin-top:20px;
+h3.intro-text{ /* general */
+  font-family:'Source Sans Pro:900', Arial, sans-serif;
+  font-weight:900;
 }
 
-img.individual.float-right.dockit.sm{
-  width: 35%;
-  margin-right: 5%;
-  margin-top: 2%;
+h3.intro-text.text-left.lg{ /*tablet desktop */
+  margin:180px 0 0 240px;
+  font-size:48px;
 }
 
-img.individual.float-right.wasted.sm{
-  width:34%;
-  margin-right: 35%;
-  margin-top: 3%;
+h3.intro-text.text-left.sm{ /* sm xs devices */
+  margin:90px 0 0 20px;
+  font-size:34px;
 }
 
+/******* CASES ******/
 
-
-/* intro */
-div.col-sm-4.profile-img{
-  padding-left:10%;
-  padding-top: 50px;
+h2{ /* basic */
+  font-family: 'EB Garamound', serif;
+  color:white;
 }
 
-img.mx-auto.profile.d-block{
-  width:150%;
-}
+  /******** large screens  *******/
 
-div.col-sm-4.intro-text{
-  margin-top:5%;
-  margin-left:12%;
-}
 
-p.col-sm-6.section{
-  margin-top:15%;
-  width:80%;
-}
+  h1.lg{ /* basic */
+    font-family:'Source Sans Pro:900', Arial, sans-serif;
+    font-weight:900;
+    font-size: 185px;
+    color:#191D2C;
+    padding: 0px;
+    margin: 0 0 -48px 225px;
+  }
 
-div.col-sm-4.case-img{
-  padding-left:0px;
-}
+  h2.text-left.case-header.lg{
+    margin-top:80px;
+    margin-left:240px;
+    font-size:72px;
+  }
 
-div.container-fluid{
-  padding-left:0px;
-}
+  /* case dividers */
+  div.border.lg{
+    border: 3px solid white!important;
+    width: 100px;
+    margin-left: 240px;
+    margin-top: 60px;
+  }
 
-/* cases dockit */
+  /* case text */
+  h3.text-left.case-text.lg{
+    width: 400px;
+    margin-left: 240px;
+    margin-top: 60px;
+    color: white;
+  }
 
-div.row.case-1{
-  margin-top:60px;
-  margin-bottom:60px;
-}
+  /* large backgrounds */
 
-.col-sm-4.case-img > img{
-  width:100%;
-  margin-top:60px;
-}
+  div.container-fluid.spotted{
+    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/spot-bg-hero.png") no-repeat;
+    background-size: cover;
+    max-height:515px;
+    height:70vh;
+    overflow:hidden;
+    padding:0px;
+  }
 
-div.col-sm-4.case-img.case-2{
-  padding-left:5%;
-}
+  div.container-fluid.wasted{
+    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/wasted-hero-bg.png") no-repeat;
+    background-size: cover;
+    max-height:515px;
+    height:70vh;
+    overflow:hidden;
+    padding:0px;
+  }
 
-div.col-sm-4.case-img.case-1{
-  padding-right:5%;
-}
+  div.container-fluid.dockit{
+    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/dckit-hero-bg.png") no-repeat;
+    background-size: cover;
+    max-height:515px;
+    height:70vh;
+    overflow:hidden;
+    padding:0px;
+  }
 
-div.col-sm-4.header.case-2{
-  margin-left:5%;
-}
+  /********** mobile ************/
 
-.col-sm-4.header > h4{
-  margin-top:25%;
-  width:80%;
-}
+  h1.sm{ /* basic */
+    font-family:'Source Sans Pro:900', Arial, sans-serif;
+    font-weight:900;
+    font-size: 85px;
+    color:#191D2C;
+    padding: 0px;
+    margin: 0 0 -24px 5px;
+  }
 
-.col-sm-4.header > h5{
-  margin-top:20px;
-  color:#84235F;
-}
+  h2.text-left.case-header.sm{
+    margin-top:80px;
+    margin-left:20px;
+    font-size:52px;
+  }
 
-/* row 1 collage
-img.viet.collage{
-  width:91px;
-  height:91px;
-  margin-top:15%;
-  margin-left:60%;
-  margin-top: 25%;
-  margin-left: 110%;
-}
-img.spotted.collage{
-  width:232px;
-  height:204px;
+  /* case dividers mobile */
+  div.border.sm{
+    border: 3px solid white!important;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  /* case text mobile */
+  h3.text-left.case-text.sm{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+  }
+
+  /* background images mobile*/
+
+  div.container-fluid.d-md-none.spotted{
+    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/spotted-mobile.png") no-repeat;
+    background-size: cover;
+    max-height:515px;
+    overflow:hidden;
+    padding:0px;
+    height:70vh;
+  }
+
+  div.container-fluid.d-md-none.wasted{
+    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/wasted-mobile-bg.png") no-repeat;
+    background-size: cover;
+    max-height:515px;
+    overflow:hidden;
+    padding:0px;
+    height:70vh;
+  }
+
+  div.container-fluid.d-md-none.dockit{
+    background: url("file:///Users/morganzehnder/bloc/portfolio/images/portfolio/dckit-mobile-bg.png") no-repeat;
+    background-size: cover;
+    max-height:515px;
+    overflow:hidden;
+    padding:0px;
+    height:70vh;
+  }
+
+/****** contact header *******/
+
+div.container-fluid.contact{
   margin-top:120px;
-  margin-top: 27%;
-  margin-left: 150%;
 }
 
-
-
-/* footer */
+/********* footer ***********/
 
 .container-fluid.footer{
-  background-color:#27202E;
-  margin-top:60px;
-  min-height:320px;
-  padding:60px 0px;
+  background-color:#191D2C;
+  min-height:350px;
 }
-.col-sm-12 p, .col-sm-12 h2{
-  color:#FFFFFF;
+
+
+div.row > ul > li{
+  display:inline-block;
+  font-size:36px;
+  margin:0 20px 0 0;
+}
+
+.fa-envelope, .fa-github, .fa-linkedin{
+  color:#191D2C;
+  background-color:white;
+  padding:10px;
+  border-radius:50%;
+  font-size:22px;
+  }
+
+/* large screens */
+
+h2.text-left.footer, p.text-left.footer{
+  color:white;
+  margin-top: 60px;
+  margin-left: 240px;
+}
+
+div.row > ul{
+  list-style:none;
+  margin:30px 0 0 240px;
+  padding:0px;
+}
+
+/* large screens */
+
+h2.text-left.footer.sm, p.text-left.footer.sm{
+  color:white;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+div.row > ul.sm{
+  list-style:none;
+  margin-left:20px;
+  padding:0px;
 }
