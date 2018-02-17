@@ -1,0 +1,28 @@
+/* case hero */
+
+div.hero.container-fluid.spotted{
+  background-image:url("../images/portfolio/spotted-case-hero.png");
+}
+
+img.hero-logo{
+  width:60%;
+  height:auto;
+  margin-top:30px;
+}
+
+/* case logo */
+
+/* button */
+.btn{
+    /* Rectangle 4: */
+  background: #EECCD0;
+  box-shadow: 0 4px 4px 0 rgba(101,79,109,0.60);
+  border-radius: 10px;
+  /* Invision Prototype: */
+  font-family: SourceSansPro-Black;
+  font-size: 20px;
+  color: #191D2C;
+  letter-spacing: -0.14px;
+  padding: 20px 40px 20px 40px;
+  margin-top:30px;
+}

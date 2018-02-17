@@ -178,6 +178,48 @@ h2{ /* basic */
     height:70vh;
   }
 
+  /******** overlay spotted ********/
+
+  div.overlay {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  max-height:515px;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+div.overlay.spotted{
+    background-color: #FF8A50;
+}
+
+div.overlay.wasted{
+    background-color: #654F6D;
+}
+
+div.overlay.dockit{
+    background-color: #1D434C;
+}
+
+div.container-fluid.image.d-none.d-md-block:hover .overlay {
+  opacity: 1;
+}
+
+div.container-fluid.image.d-md-none:hover .overlay {
+  opacity: 1;
+}
+
+div.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 /****** contact header *******/
 
 div.container-fluid.contact{
