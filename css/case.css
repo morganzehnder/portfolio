@@ -2,15 +2,22 @@
 
 div.hero.container-fluid.spotted{
   background-image:url("../images/portfolio/spotted-case-hero.png");
+  width:100vw;
+  height:70vh;
+  overflow:hidden;
 }
 
-img.hero-logo{
+img.hero-logo.lg{
   width:60%;
   height:auto;
   margin-top:30px;
 }
 
-/* case logo */
+img.hero-logo.sm{
+  width:80%;
+  height:80%;
+  margin: 120px auto 60px auto;
+}
 
 /* button */
 .btn{
@@ -24,5 +31,117 @@ img.hero-logo{
   color: #191D2C;
   letter-spacing: -0.14px;
   padding: 20px 40px 20px 40px;
-  margin-top:30px;
+  margin:30px auto 0 auto;
+}
+
+/******* in short ********/
+
+/* header */
+
+h1.lg.case{
+  margin: 120px 0 -48px 225px;
+}
+
+h1.sm.case{
+  margin: 120px 0 -24px 5px;
+}
+
+
+/* summary */
+
+div.container-fluid.summary{
+  background-color: rgba(255,138,80,0.50);
+  padding:5px 0 5px 0;
+}
+
+div.row.summary{
+  margin:60px 0 60px 0;
+}
+
+img.summary.lg{
+  width:50%;
+  margin:0 0 0 215px;
+}
+
+img.summary.sm{
+  width:40%;
+  margin:0 0 20px 20px;
+}
+
+h4.lg.summary, p.lg.summary{
+  margin:10px 0 10px 100px;
+  width:70%;
+}
+
+h4.sm.summary, p.sm.summary{
+  margin:10px 0 10px 20px;
+  width:70%;
+}
+
+/********* specs ***********/
+
+div.container-fluid.specs{
+  background-color: #F5E3DA;
+}
+
+div.container-fluid.specs.lg{
+  padding: 60px 0 60px 215px;
+}
+
+div.container-fluid.specs.sm{
+  padding: 60px 0 60px 15px;
+}
+
+h4.lg.specs, ul.lg.specs{
+  margin:0 0 10px 0px;
+}
+
+ul.specs{
+  list-style: none;
+  padding:0;
+}
+
+div.border.specs{
+  border: 1px solid #191D2C!important;
+  width: 200px;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+/* user survey */
+div.container-fluid.survey{
+  background-color:#EECCD0;
+  padding: 60px 0 60px 20px;
+}
+
+div.survey-details.sm{
+  margin: 20px 0 0 20px;
+}
+
+h1.text-left.intro-text.lg.case.stacked{
+  line-height: 134px;
+  margin: 120px 0 -4px 225px;
+}
+
+h1.text-left.intro-text.sm.case.stacked{
+  line-height: 60px;
+  margin: 120px 0 -4px 5px;
+}
+
+img.header{ /* basic */
+  height: 55px;
+}
+
+img.header.survey{
+  margin: -15px 0 0 20px;
+}
+
+h3.lg.case{
+  color:#CA4051;
+  font-size:48px;
+}
+
+h3.lg.case.survey{
+  margin: -15px 40px 0px 20px;
 }

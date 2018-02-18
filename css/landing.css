@@ -43,7 +43,7 @@ h3.intro-text.text-left.lg{ /*tablet desktop */
 
 h3.intro-text.text-left.sm{ /* sm xs devices */
   margin:90px 0 0 20px;
-  font-size:34px;
+  font-size:24px;
 }
 
 /******* CASES ******/
@@ -130,7 +130,7 @@ h2{ /* basic */
   h2.text-left.case-header.sm{
     margin-top:80px;
     margin-left:20px;
-    font-size:52px;
+    font-size:48px;
   }
 
   /* case dividers mobile */
@@ -190,23 +190,23 @@ h2{ /* basic */
 }
 
 div.overlay.spotted{
-    background-color: #FF8A50;
+    background-color: #CA4051;
 }
 
 div.overlay.wasted{
-    background-color: #654F6D;
+    background-color: #CA4051;
 }
 
 div.overlay.dockit{
-    background-color: #1D434C;
+    background-color: #CA4051;
 }
 
 div.container-fluid.image.d-none.d-md-block:hover .overlay {
-  opacity: 1;
+  opacity: .8;
 }
 
 div.container-fluid.image.d-md-none:hover .overlay {
-  opacity: 1;
+  opacity: .8;
 }
 
 div.text {
@@ -218,6 +218,13 @@ div.text {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/***** active selector *******/
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 /****** contact header *******/
