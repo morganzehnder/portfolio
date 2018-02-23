@@ -97,11 +97,21 @@ h4.sm.summary, p.sm.summary{
 
 /********* specs ***********/
 
+div.container-fluid.specs.lg{
+  padding: 60px 0 60px 215px;
+  max-height:515px;
+  height:70vh;
+}
+
+div.container-fluid.specs.sm{
+  padding: 30px 0 30px 20px;
+  max-height:795px;
+  height:100vh;
+}
+
 div.container-fluid.specs{
   background-color:#8ED1B7;
   background-size: cover;
-  max-height:515px;
-  height:70vh;
   overflow:hidden;
   padding:0px;
 }
@@ -115,13 +125,7 @@ div.border.row.specs.dark{
   margin-bottom:30px;
 }
 
-div.container-fluid.specs.lg{
-  padding: 60px 0 60px 215px;
-}
 
-div.container-fluid.specs.sm{
-  padding: 60px 0 60px 15px;
-}
 
 h4.lg.specs, ul.lg.specs{
   margin:0 0 10px 0px;
@@ -136,11 +140,19 @@ ul.specs{
 /* user survey */
 div.container-fluid.survey{
   background-color:#F6F1F7;
+}
+
+div.container-fluid.survey.lg{
   padding: 60px 0 60px 65px
+}
+
+div.container-fluid.survey.sm{
+  padding: 60px 0 60px 20px
 }
 
 div.survey-details.sm{
   margin: 20px 0 0 20px;
+  width:80%;
 }
 
 h1.text-left.intro-text.lg.case.stacked{
@@ -173,24 +185,27 @@ h3.lg.case.survey{
   margin: -15px 40px 0px 20px;
 }
 
+h3.sm.case.survey{
+  margin: -15px 40px 0px 20px;
+}
+
 /**** comp analyis ****/
 
-div.container-fluid.comp.lg{
+div.container-fluid.comp{
   background-color:#444A52;
   padding: 60px 0 60px 260px;
 }
 
+div.container-fluid.comp.lg{
+  padding: 60px 0 60px 260px;
+}
+
 div.container-fluid.comp.sm{
-  background-color:#F1E4E5;
-  padding: 60px 0 60px 20px;
+  padding: 60px 0 60px 40px;
 }
 
 img.header.comp{
   margin: 0 20px 60px 10px;
-}
-
-h3.case.comp{
-  margin-bottom
 }
 
 img.comp-logo{
@@ -205,15 +220,12 @@ img.comp-icon{
   margin-bottom:15px;
 }
 
-
 div.border.row.comp.white{
   margin:15px 0 15px -15px!important;
   padding:0 0 0 0;
   border: 1px solid #FFFFFF!important;
   width: 200px;
 }
-
-
 
 p.comp{
   width:60%;
@@ -228,7 +240,14 @@ p.comp-intro{
 
 div.container-fluid.interviews{
   background-color:#FFFFFF;
-  padding:60px 0 60px 0;
+}
+
+div.container-fluid.interviews.lg{
+  padding:60px 40px 60px 40px;
+}
+
+div.container-fluid.interviews.sm{
+  padding:60px 40px 60px 40px;
 }
 
 h4.box{
@@ -246,8 +265,15 @@ div.row.box{
 
 
 /****** persona ******/
+
 img.persona{
   width:30%;
+}
+
+img.persona.sm{
+  width:60%;
+  height:100%;
+  margin:30px 0 30px 0;
 }
 
 ul.persona{
@@ -259,7 +285,7 @@ ul.persona > li{
 }
 
 div.container-fluid.persona{
-  padding:60px 0 60px 40px;
+  padding:60px 40px 60px 40px;
   background-color:#FFD4AE;
 }
 
@@ -277,9 +303,14 @@ h4.stories{
   padding: 0;
 }
 
-div.container-fluid.stories{
+div.container-fluid.stories.lg{
   background: url("../images/portfolio/flows-bg.png") no-repeat;
   padding:60px 60px 60px 60px;
+  background-color: #FFC697;
+}
+
+div.container-fluid.stories.sm{
+  padding:60px 40px 60px 40px;
   background-color: #FFC697;
 }
 
@@ -289,10 +320,16 @@ div.row.flows{
 
 /**** navigation *****/
 
-div.container-fluid.sitemap{
+div.container-fluid.sitemap.lg{
   padding:60px 60px 60px 60px;
   background-color:#C5BDEF;
 }
+
+div.container-fluid.sitemap.sm{
+  padding:60px 60px 60px 60px;
+  background-color:#C5BDEF;
+}
+
 
 img.sitemap{
   width: 80vw;
@@ -306,7 +343,7 @@ p.sitemap{
 
 /****** style ****/
 img.style{
-    margin-left: -40px;
+    margin-left: -20px;
   }
 
 .white{
@@ -317,9 +354,25 @@ p.style{
   width:50%;
 }
 
-div.container-fluid.style{
+h3.right{
+  margin-left:140px;
+}
+
+p.right{
+  width:70%;
+  margin-left:140px;
+}
+
+div.container-fluid.style.lg{
   background-color:#467B97;
   padding:0px 60px 0px 60px;
+}
+
+div.container-fluid.style.sm{
+  min-height: 140vh;
+  padding:0px 0px 0px 0px;
+  min-height:500px;
+  background: url("../images/portfolio/branding-sm-bg.png") no-repeat;
 }
 
 h3.style{
@@ -339,13 +392,13 @@ img.name{
 }
 
 img.name.truck{
-  width: 80%;
-  height: 70%;
+  width: 100%;
+  height: 75%;
 }
 
 img.name.locator{
-  width: 80%;
-  height: 75%;
+  width: 100%;
+  height: 80%;
 }
 
 li.name{
