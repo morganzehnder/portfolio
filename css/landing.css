@@ -65,6 +65,7 @@ h2{ /* basic */
     color:#191D2C;
     padding: 0px;
     margin: 0 0 -48px 225px;
+    letter-spacing: -20px;
   }
 
   h2.text-left.case-header.lg{
@@ -132,6 +133,7 @@ h2{ /* basic */
     color:#191D2C;
     padding: 0px;
     margin: 0 0 -24px 5px;
+    letter-spacing:-10px;
   }
 
   h2.text-left.case-header.sm{
@@ -158,8 +160,8 @@ h2{ /* basic */
 
   /* background images mobile*/
 
-  div.container-fluid.d-md-none.spotted{
-    background: url("../images/spotted-mobile.png") no-repeat; no-repeat;
+  div.container-fluid.d-md-none.spotted.landing{
+    background: url("../images/spotted-mobile.png") no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;

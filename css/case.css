@@ -2,14 +2,20 @@ p{
   margin:30px 0 30px 0;
 }
 
-
 /* case hero */
 
-div.hero.container-fluid.spotted{
+div.hero.container-fluid.spotted.case{
   background-color:#FFC73F;
   width:100vw;
-  height:70vh;
   overflow:hidden;
+}
+
+div.hero.container-fluid.spotted.lg.case{
+  height:70vh;
+}
+
+div.hero.container-fluid.spotted.sm.case{
+  height:500px;
 }
 
 img.hero-logo.lg{
@@ -92,7 +98,7 @@ h4.lg.summary, p.lg.summary{
 
 h4.sm.summary, p.sm.summary{
   margin:10px 0 10px 20px;
-  width:70%;
+  width:90%;
 }
 
 /********* specs ***********/
@@ -152,7 +158,7 @@ div.container-fluid.survey.sm{
 
 div.survey-details.sm{
   margin: 20px 0 0 20px;
-  width:80%;
+  width:90%;
 }
 
 h1.text-left.intro-text.lg.case.stacked{
@@ -163,6 +169,10 @@ h1.text-left.intro-text.lg.case.stacked{
 h1.text-left.intro-text.sm.case.stacked{
   line-height: 60px;
   margin: 120px 0 -4px 5px;
+}
+
+p.survey{
+  margin:0px 0 30px 0;
 }
 
 img.header{ /* basic */
@@ -228,56 +238,65 @@ div.border.row.comp.white{
 }
 
 p.comp{
-  width:60%;
+  width:90%;
   margin-bottom:60px;
 }
 
 p.comp-intro{
-  width:80%;
+  width:90%;
 }
 
 /******* user interviews *******/
 
-div.container-fluid.interviews{
-  background-color:#FFFFFF;
+div.container-fluid.interviews.lg{
+  background: url("../images/portfolio/interview-bg-2-a.png") no-repeat;
+  background-size:cover;
 }
+
+div.container-fluid.interviews.sm{
+  background: url("../images/portfolio/interview-bg-mobile.png") no-repeat;
+  background-size:cover;
+}
+
 
 div.container-fluid.interviews.lg{
   padding:60px 40px 60px 40px;
 }
 
 div.container-fluid.interviews.sm{
-  padding:60px 40px 60px 40px;
+  padding:260px 40px 260px 40px;
 }
 
 h4.box{
-  padding:40px;
+  padding:30px;
   border: 3px solid #191D2C!important;
 }
 
 p.interviews, h4.interviews{
-  width:80%;
+  width:100%;
 }
 
 div.row.box{
-  margin:30px 20px 30px -10px;
+  margin:30px 0px 30px 0px;
 }
 
 
 /****** persona ******/
 
 img.persona{
-  width:30%;
+  width:90%;
+  height:auto;
+  margin:30px 30px 30px 30px;
 }
 
 img.persona.sm{
-  width:60%;
-  height:100%;
-  margin:30px 0 30px 0;
+  width:90%;
+  height:90%;
+  margin:30px auto 30px auto;
 }
 
 ul.persona{
-  margin:30px 0 0 20px;
+  margin:30px 0 0 -20px;
 }
 
 ul.persona > li{
@@ -285,13 +304,116 @@ ul.persona > li{
 }
 
 div.container-fluid.persona{
-  padding:60px 40px 60px 40px;
-  background-color:#FFD4AE;
+  background-color:#FCF9C5;
+  padding:60px 60px 60px 60px;
 }
 
 h4.persona{
-  margin-top:30px;
+  margin: 30px 0 -20px 0;
 }
+
+p.persona.lg{
+  margin-left:-15px;
+  width:80%;
+}
+
+p.persona.sm{
+  margin-left:-15px;
+  width:100%;
+}
+
+
+/****** overlay persona *****/
+
+.img { /* creates the circular overlay, br and overflow especially */
+  border-radius: 100%;
+  display: flex;
+  flex: 0 0 100px;
+
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.image-overlays.col-sm-4{
+  height:300px;
+  width:300px;
+}
+
+.img.persona img { /* ensures overflow fills the height of the wrapper */
+  height: 100%;
+}
+
+
+.img__overlay { /* overlay itself, absolutely positioned element hidden by its opacity, except when hovered */
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+
+  transition: opacity 0.25s;
+  z-index: 1;
+
+  /* styling */
+  background-color: rgba(46,204,113,0.4);
+  background: linear-gradient(65deg, rgba(46,204,113,0.4), rgba(243,156,18,0.4));
+  color: #fafafa;
+  font-size: 24px;
+}
+
+.img__overlay:hover{/*** fade effect for the overlay */
+  opacity: 1;
+}
+
+/**** large devices ****/
+
+.img.one.lg{
+  height: 70%;
+  width: 69%;
+}
+
+.img.two.lg{
+  height: 71%;
+  width: 69%;
+}
+
+.img__overlay.one.lg{
+  left: 15%;
+  top: 11%;
+}
+
+.img__overlay.two.lg{
+  left: 15%;
+  top: 12%;
+}
+
+/****** small devices *****/
+
+.img.one.sm{
+  height: 63%;
+  width: 66%;
+}
+
+.img.two.sm{
+  height: 66%;
+  width: 67%;
+}
+
+.img__overlay.one.sm{
+  left: 20%;
+  top: 19%;
+}
+
+.img__overlay.two.sm{
+  left: 19%;
+  top: 15%;
+}
+
 
 /****** user stories and flows ******/
 div.col-sm-6.right{
@@ -305,8 +427,9 @@ h4.stories{
 
 div.container-fluid.stories.lg{
   background: url("../images/portfolio/flows-bg.png") no-repeat;
+  background-size:cover;
   padding:60px 60px 60px 60px;
-  background-color: #FFC697;
+  background-color: #7770E4;
 }
 
 div.container-fluid.stories.sm{
@@ -318,6 +441,8 @@ div.row.flows{
   margin-top:120px;
 }
 
+
+
 /**** navigation *****/
 
 div.container-fluid.sitemap.lg{
@@ -326,7 +451,7 @@ div.container-fluid.sitemap.lg{
 }
 
 div.container-fluid.sitemap.sm{
-  padding:60px 60px 60px 60px;
+  padding:60px 40px 60px 40px;
   background-color:#C5BDEF;
 }
 
@@ -338,7 +463,7 @@ img.sitemap{
 }
 
 p.sitemap{
-  width:80%;
+  width:100%;
 }
 
 /****** style ****/
@@ -352,6 +477,7 @@ img.style{
 
 p.style{
   width:50%;
+  margin-left:210px;
 }
 
 h3.right{
@@ -377,6 +503,7 @@ div.container-fluid.style.sm{
 
 h3.style{
   padding-top:60px;
+  margin-left:210px;
 }
 
 /********* name ***********/
@@ -393,12 +520,12 @@ img.name{
 
 img.name.truck{
   width: 100%;
-  height: 75%;
+  height: 70%;
 }
 
 img.name.locator{
   width: 100%;
-  height: 80%;
+  height: 76%;
 }
 
 li.name{
@@ -441,7 +568,11 @@ img.wires{
 }
 
 ul.lowfi{
-  margin: 0 0 60px 0;
+  margin: 0 0 60px 210px;
+}
+
+h3.lowfi{
+  margin-left: 210px;
 }
 
 /********* highfi *************/
@@ -452,21 +583,42 @@ div.container-fluid.highfi{
 }
 
 .carousel-img{
-  width:50%;
+  width:320px;
   height:auto;
+}
+
+div.carousel{
+  width:50%;
 }
 
 div.carousel.slick-initialized.slick-slider{
   margin-bottom:60px;
 }
 
+div.carousel.sm{
+  width:100%;
+}
+
+.carousel-img.sm{
+  width:200px;
+  height:auto;
+}
+
+
 /**** prototype *****/
 div.container-fluid.proto{
-  background: url("../images/spotted/proto-bg.png") no-repeat;
+  background-color:white;
   min-height:55vh;
   padding:60px 60px 60px 60px;
 }
 
+img.proto{
+  vertical-align: middle;
+  border-style: none;
+  width: 90%;
+  margin-left: 5%;
+}
+
 p.proto{
-  width:20%;
+  width:100%;
 }

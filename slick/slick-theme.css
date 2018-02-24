@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 30%;
+    top: 50%;
 
     display: block;
 
@@ -67,7 +67,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1;
 
     opacity: .75;
@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: 100px;
+    left: -30px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -97,8 +97,14 @@
 
 .slick-next
 {
-    right: 100px;
+    right: 0px;
 }
+
+.slick-next
+{
+    right: 0px;
+}
+
 [dir='rtl'] .slick-next
 {
     right: auto;
