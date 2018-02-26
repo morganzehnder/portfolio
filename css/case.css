@@ -557,9 +557,14 @@ img.final{
 }
 
 /***** lowfi *****/
-div.container-fluid.lowfi{
+div.container-fluid.lowfi.lg{
   background-color: #FFCCBC;
   padding:60px 60px 0px 60px;
+}
+
+div.container-fluid.lowfi.sm{
+  background: url("../images/portfolio/interview-bg-mobile.png") no-repeat;
+  background-size:cover;
 }
 
 img.wires{
@@ -567,12 +572,20 @@ img.wires{
   height:100%;
 }
 
-ul.lowfi{
+ul.lowfi.lg{
   margin: 0 0 60px 210px;
 }
 
-h3.lowfi{
+ul.lowfi.sm{
+  margin: 0 0 60px 0px;
+}
+
+h3.lowfi.lg{
   margin-left: 210px;
+}
+
+h3.lowfi.sm{
+  margin-left: 20px;
 }
 
 /********* highfi *************/
@@ -612,7 +625,12 @@ div.container-fluid.proto{
   padding:60px 60px 60px 60px;
 }
 
-img.proto{
+img.proto.sm{
+  margin: 30px auto 30px auto;
+  width:80%;
+}
+
+img.proto.lg{
   vertical-align: middle;
   border-style: none;
   width: 90%;
@@ -621,4 +639,25 @@ img.proto{
 
 p.proto{
   width:100%;
+}
+
+
+/******  ab testing *********/
+img.menu{
+  width:20%;
+  height:20%;
+}
+
+div.yellow{
+  background-color: #FFC73F;
+  box-shadow: 2px 14px 14px 0 rgba(197,184,184,0.50);
+  width:80%;
+}
+
+h3.testing{
+  margin-top:120px;
+}
+
+p.testing{
+  width:80%;
 }

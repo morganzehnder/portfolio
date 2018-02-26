@@ -576,10 +576,10 @@
 
   <div class="container-fluid">
     <div class="d-none d-md-block">
-      <h1 class="text-left intro-text lg case stacked">Information <br>Architecture</h1>
+      <h1 class="text-left intro-text lg case stacked">IA</h1>
     </div>
     <div class="d-md-none">
-      <h1 class="text-left intro-text sm case stacked">Information Architecture</h1>
+      <h1 class="text-left intro-text sm case stacked">IA</h1>
     </div>
   </div>
 
@@ -742,22 +742,44 @@
       <!-- lowfi ---->
 
       <div class="container-fluid lowfi">
-        <div class="row">
-          <h3 class="lg case dark lowfi">Lowfi Wireframes</h3>
+        <div class="row d-none d-md-block">
+          <div class="row">
+            <h3 class="lg case dark lowfi">Lowfi Wireframes</h3>
+          </div>
+          <div class="row">
+            <ul class="lowfi lg">
+              <li>Remove spaces between modal windows  to clean up appearance</li>
+              <li>Unclear to users what icons are at bottom, added confusion (assumed receipt was where they would go to view menu/order from truck)</li>
+              <li>Fixed cart button may clash with bottom nav</li>
+              <li>Remove select spot window - unnecessary</li>
+              <li>Utilize full width of window for images, text, etc.</li>
+              <li>Truck detail view - favorite icon not within reach of thumb</li>
+              <li>Put restaurant image before details (natural hierarchy)</li>
+            </ul>
+          </div>
+          <div class="row">
+            <img src="images/portfolio/wireframes.png" class="wires lg"/>
+          </div>
         </div>
-        <div class="row">
-          <ul class="lowfi">
-            <li>Remove spaces between modal windows  to clean up appearance</li>
-            <li>Unclear to users what icons are at bottom, added confusion (assumed receipt was where they would go to view menu/order from truck)</li>
-            <li>Fixed cart button may clash with bottom nav</li>
-            <li>Remove select spot window - unnecessary</li>
-            <li>Utilize full width of window for images, text, etc.</li>
-            <li>Truck detail view - favorite icon not within reach of thumb</li>
-            <li>Put restaurant image before details (natural hierarchy)</li>
-          </ul>
-        </div>
-        <div class="row">
-          <img src="images/portfolio/wireframes.png" class="wires"/>
+
+        <div class="row d-md-none">
+          <div class="row">
+            <h3 class="sm case dark lowfi">Lowfi Wireframes</h3>
+          </div>
+          <div class="row">
+            <ul class="lowfi sm">
+              <li>Remove spaces between modal windows  to clean up appearance</li>
+              <li>Unclear to users what icons are at bottom, added confusion (assumed receipt was where they would go to view menu/order from truck)</li>
+              <li>Fixed cart button may clash with bottom nav</li>
+              <li>Remove select spot window - unnecessary</li>
+              <li>Utilize full width of window for images, text, etc.</li>
+              <li>Truck detail view - favorite icon not within reach of thumb</li>
+              <li>Put restaurant image before details (natural hierarchy)</li>
+            </ul>
+          </div>
+          <div class="row">
+            <img src="images/portfolio/mobile-wireframes.png" class="wires sm"/>
+          </div>
         </div>
       </div>
 
@@ -857,22 +879,99 @@
     </div>
   </div>
 </div>
-        </div>
+  </div>
 
 
       <!--- invision prototype --->
       <div class="container-fluid proto">
         <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 d-none d-md-block">
           <h3 class="lg case dark">Prototype</h3>
           <p class="proto">Using Invision, I created a clickable prototype of my high-fidelity wireframes to conduct user testing.</p>
           <a href="https://invis.io/EAEVBGTX3" target="_blank" class="case btn lg left">Invision Prototype</a>
         </div>
-        <div class="col-sm-8">
-          <img src="images/portfolio/spot-prot-3.png" class="proto"/>
+        <div class="col-sm-8 d-none d-md-block">
+          <img src="images/portfolio/spot-prot-3.png" class="proto lg"/>
         </div>
       </div>
+        <div class="col-sm-12 d-md-none">
+          <h3 class="lg case dark">Prototype</h3>
+          <p class="proto">Using Invision, I created a clickable prototype of my high-fidelity wireframes to conduct user testing.</p>
+          <img src="images/portfolio/proto-invision-mobile.png" class="proto sm"/>
+          <a href="https://invis.io/EAEVBGTX3" target="_blank" class="case btn lg left">Invision Prototype</a>
+        </div>
       </div>
+
+      <!-- testing header -->
+
+      <div class="container-fluid">
+        <div class="d-none d-md-block">
+          <h1 class="text-left intro-text lg case testing">Testing</h1>
+        </div>
+        <div class="d-md-none">
+          <h1 class="text-left intro-text sm case testing">Testing</h1>
+        </div>
+      </div>
+
+      <!---- ab testing --->
+
+      <div class="container-fluid testing">
+        <div class="yellow mx-auto d-block">
+        <div class="row mx-auto d-block text-center">
+          <h3 class="lg case dark mx-auto d-block testing text-center">Peek User Testing</h3>
+          <p class="testing">Performed to test whether users prefer a dropdown menu with clear options or links listed as information within a single click.</p>
+        </div>
+        <div class="row mx-auto d-block text-center">
+          <p class="testing">Results: Users preferred the option with the pieces of information as links within a single click. However, after conducting usability tests, users were unsure that reviews and schedule were listed under the orange, linked text.</p>
+        </div>
+        </div>
+      </div>
+
+    <!---- ab testing --->
+
+    <div class="container-fluid testing">
+      <div class="yellow mx-auto d-block">
+      <div class="row mx-auto d-block text-center">
+        <h3 class="lg case dark mx-auto d-block testing text-center">A / B Test</h3>
+        <p class="testing">Performed to test whether users prefer a dropdown menu with clear options or links listed as information within a single click.</p>
+      </div>
+      <div class="row">
+        <img src="images/portfolio/map-pref.png" class="menu"/>
+        <img  src="images/portfolio/map-pref-1.png" class="menu"/>
+      </div>
+      <div class="row mx-auto d-block text-center">
+        <p class="testing">Results: Users preferred the option with the pieces of information as links within a single click. However, after conducting usability tests, users were unsure that reviews and schedule were listed under the orange, linked text.</p>
+      </div>
+      <div class="row mx-auto d-block text-center">
+        <p class="testing"><div class="row mx-auto d-block text-center">
+          <p class="testing">Takeaway: While testers preferred the look and simplicity of option two, when it came to performing actions such as reading reviews, viewing the schedule, and the menu, they need clear actions.</p>
+      </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid testing">
+      <div class="yellow mx-auto d-block">
+      <div class="row mx-auto d-block text-center">
+        <h3 class="lg case dark mx-auto d-block testing text-center">Click Test</h3>
+        <p class="testing">To test whether option two above worked for users, were performed a click test to see if users understood where to get directions to a spot.</p>
+      </div>
+      <div class="row mx-auto d-block">
+        <img src="images/portfolio/map-pref.png" class="menu"/>
+      </div>
+      <div class="row mx-auto d-block text-center">
+        <p class="testing">Results: 4/10 testers understood the linked address would direct them to directions.</p>
+      </div>
+      <div class="row mx-auto d-block text-center">
+        <p class="testing"><div class="row mx-auto d-block text-center">
+          <p class="testing">Takeaway: Users need a clearer indicator that a button or link is going to take them to the information they need.</p>
+      </div>
+      </div>
+      </div>
+    </div>
+
+
 
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
