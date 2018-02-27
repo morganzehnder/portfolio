@@ -94,7 +94,7 @@ h1.case.testing.lg{
 /* summary */
 
 div.container-fluid.summary{
-  background-color: #B6DCCC;
+  background-color: #EFD1DF;
   padding:5px 0 5px 0;
 }
 
@@ -137,7 +137,7 @@ div.container-fluid.specs.sm{
 }
 
 div.container-fluid.specs{
-  background-color:#8ED1B7;
+  background-color:#E9A7C6;
   background-size: cover;
   overflow:hidden;
   padding:0px;
@@ -166,7 +166,7 @@ ul.specs{
 
 /* user survey */
 div.container-fluid.survey{
-  background-color:#F6F1F7;
+  background-color:#FFD4AE;
 }
 
 div.container-fluid.survey.lg{
@@ -224,7 +224,7 @@ h3.sm.case.survey{
 /**** comp analyis ****/
 
 div.container-fluid.comp{
-  background-color:#191D2C;
+  background-color:#FFC697;
   padding: 60px 0 60px 260px;
 }
 
@@ -463,18 +463,32 @@ div.row.flows{
   margin-top:120px;
 }
 
+/**** checklist *****/
 
+div.container-fluid.checklist.lg{
+  padding:60px 60px 60px 60px;
+  background-color:#F6F7CE;
+}
+
+div.container-fluid.checklist.sm{
+  padding:60px 40px 60px 40px;
+  background-color:#F6F7CE;
+}
+
+p.checklist{
+  width:100%;
+}
 
 /**** navigation *****/
 
 div.container-fluid.sitemap.lg{
   padding:60px 60px 60px 60px;
-  background-color:#EFD1DF;
+  background-color:#EFF3B2;
 }
 
 div.container-fluid.sitemap.sm{
   padding:60px 40px 60px 40px;
-  background-color:#EFD1DF;
+  background-color:#EFF3B2;
 }
 
 
@@ -490,7 +504,7 @@ p.sitemap{
 
 /****** style ****/
 img.style{
-    margin-left: -20px;
+    margin: 60px 60px 60px -60px;
   }
 
 .white{
@@ -517,10 +531,8 @@ div.container-fluid.style.lg{
 }
 
 div.container-fluid.style.sm{
-  min-height: 140vh;
-  padding:0px 0px 0px 0px;
-  min-height:500px;
-  background: url("../images/portfolio/branding-sm-bg.png") no-repeat;
+  background-color:#B6DCCC;
+  padding:0px 0px 0px 40px;
 }
 
 h3.style{
@@ -622,12 +634,12 @@ div.container-fluid.highfi{
 }
 
 .carousel-img{
-  width:320px;
+  width:400px;
   height:auto;
 }
 
 div.carousel{
-  width:50%;
+  width:55%;
 }
 
 div.carousel.slick-initialized.slick-slider{
@@ -653,7 +665,7 @@ div.container-fluid.proto{
 
 img.proto.sm{
   margin: 30px auto 30px auto;
-  width:80%;
+  width:100%;
 }
 
 img.proto.lg{
