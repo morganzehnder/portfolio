@@ -97,7 +97,7 @@ h2{ /* basic */
   /* large backgrounds */
 
   div.container-fluid.spotted.landing{
-    background: url("../images/spot-bg-hero.png") no-repeat;
+    background: url("../images/portfolio/spot-bg-hero-2.png") no-repeat;
     background-size: cover;
     max-height:515px;
     height:70vh;
@@ -105,8 +105,8 @@ h2{ /* basic */
     padding:0px;
   }
 
-  div.container-fluid.wasted{
-    background: url("../images/wasted-hero-bg.png") no-repeat;
+  div.container-fluid.wasted.landing{
+    background: url("../images/portfolio/wasted-hero-bg-2.png") no-repeat;
     background-size: cover;
     max-height:515px;
     height:70vh;
@@ -114,8 +114,8 @@ h2{ /* basic */
     padding:0px;
   }
 
-  div.container-fluid.dockit{
-    background: url("../images/dckit-hero-bg.png") no-repeat;
+  div.container-fluid.dockit.landing{
+    background: url("../images/portfolio/dockit-hero-bg-2.png") no-repeat;
     background-size: cover;
     max-height:515px;
     height:70vh;
@@ -159,7 +159,7 @@ h2{ /* basic */
   /* background images mobile*/
 
   div.container-fluid.d-md-none.spotted.landing{
-    background: url("../images/spotted-mobile.png") no-repeat;
+    background: url("../images/portfolio/spotted-mobile-bg.png") no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;
@@ -168,7 +168,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.d-md-none.wasted{
-    background: url("../images/wasted-mobile-bg.png")  no-repeat;
+    background: url("../images/portfolio/wasted-mobile-bg.png")  no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;
@@ -177,7 +177,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.d-md-none.dockit{
-    background: url("../images/dckit-mobile-bg.png")  no-repeat;
+    background: url("../images/portfolio/dockit-mobile-bg.png")  no-repeat;
     background-size: cover;
     max-height:515px;
     overflow:hidden;
@@ -197,15 +197,15 @@ h2{ /* basic */
 }
 
 div.overlay.spotted{
-    background-color: #CA4051;
+    background-color: rgba(254,85,164,0.30);
 }
 
 div.overlay.wasted{
-    background-color: #CA4051;
+    background-color: rgba(254,85,164,0.30);
 }
 
 div.overlay.dockit{
-    background-color: #CA4051;
+    background-color: rgba(254,85,164,0.30);
 }
 
 div.container-fluid.image.d-none.d-md-block:hover .overlay {
