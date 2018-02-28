@@ -152,6 +152,10 @@ div.border.row.specs.dark{
   margin-bottom:30px;
 }
 
+img.sicon{
+  width:240px;
+  margin: 30px 0 30px 0;
+}
 
 
 h4.lg.specs, ul.lg.specs{
@@ -162,6 +166,7 @@ ul.specs{
   list-style: none;
   padding:0;
 }
+
 
 
 /* user survey */
@@ -682,7 +687,7 @@ p.proto{
 
 /******  ab testing *********/
 div.container-fluid.testing{
-  background-color:#191D2C;
+  background-color:#FFC73F;
   padding:60px 60px 60px 60px;
 }
 
@@ -694,7 +699,7 @@ img.menu{
 div.yellow{
   /* Rectangle 11: */
   background: #FFFFFF;
-  box-shadow: 0 6px 5px 0 #48494B;
+  box-shadow: 2px 14px 14px 0 rgba(197,184,184,0.50);
   width:80%;
   margin:120px auto 120px auto;
   padding:60px 60px 60px 60px;
@@ -722,6 +727,20 @@ img.test-two{
 
 /****** reflection ******/
 div.container-fluid.reflection{
-  background-color:#FFC73F;
+  background-color:#FFD47A;
   padding:60px 60px 60px 60px;
+}
+
+ul.row.reflection{
+  list-style: none;
+  margin:0;
+}
+
+ul.row.reflection > li > p, ul.row.reflection > li > h4 {
+  width:95%;
+}
+
+img.ricon{
+  width:30%;
+  margin:30px 0 30px 0;
 }
