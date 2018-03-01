@@ -178,6 +178,10 @@ div.container-fluid.survey.lg{
   padding: 60px 0 60px 65px
 }
 
+h4.survey{
+  color: #69ACCD!important;
+}
+
 div.container-fluid.survey.sm{
   padding: 60px 40px 60px 40px
 }
@@ -232,6 +236,11 @@ h3.sm.case.survey{
 }
 
 /**** comp analyis ****/
+
+h3.sm.case{
+  font-size:36px;
+  margin-left:0px!important;
+}
 
 div.container-fluid.comp{
   background-color:#FFC697;
@@ -335,9 +344,18 @@ ul.persona > li{
   font-size:20px;
 }
 
-div.container-fluid.persona{
+div.container-fluid.persona.lg{
   background-color:#8ECDD6;
-  padding:60px 60px 60px 60px;
+  padding:60px;
+}
+
+div.container-fluid.persona.sm{
+  background-color:#8ECDD6;
+  padding:40px;
+}
+
+h3.persona.sm{
+  margin-left:-10px!important;
 }
 
 h4.persona{
@@ -521,19 +539,29 @@ p.sitemap{
 }
 
 /****** style ****/
-img.style{
+img.style.lg{
     margin: 10px 0px auto -70px;
     width:120%;
   }
 
+img.style.sm{
+  width:80%;
+  height:80%;
+  margin: 30px auto 30px 10px;
+}
 
 .white{
   color:white;
 }
 
-p.style{
+p.style.lg{
   width:50%;
   margin-left:210px;
+}
+
+p.style.sm{
+  width:80%;
+  margin-left:20px;
 }
 
 h3.right{
@@ -552,13 +580,15 @@ div.container-fluid.style.lg{
 
 div.container-fluid.style.sm{
   background-color:#B6DCCC;
-  padding:0px 0px 0px 40px;
+  padding:40px 40px 40px 40px;
 }
 
-h3.style{
+h3.style.lg{
   padding-top:60px;
   margin-left:210px;
 }
+
+
 
 /********* name ***********/
 
@@ -594,12 +624,15 @@ ul.name{
 
 /******* storyframe ******/
 
-div.container-fluid.storyframe{
+div.container-fluid.storyframe.lg{
   background-color:#FFFFFF;
   padding:60px 60px 60px 60px;
 }
 
-
+div.container-fluid.storyframe.sm{
+  background-color:#FFFFFF;
+  padding:40px 40px 40px 40px;
+}
 
 /******* logo design ******/
 div.container-fluid.logo{
@@ -801,7 +834,8 @@ div.container-fluid.reflection{
 
 ul.row.reflection{
   list-style: none;
-  margin:0;
+  margin: 0;
+  padding: 0;
 }
 
 ul.row.reflection > li > p, ul.row.reflection > li > h4 {
