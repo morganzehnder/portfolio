@@ -5,7 +5,7 @@ p{
 /* case hero */
 
 div.hero.container-fluid.wasted.case{
-  background-color:#C5BAFF;
+  background-color:#7BB5D2;
   width:100vw;
   overflow:hidden;
 }
@@ -22,6 +22,7 @@ img.hero-logo.lg{
   width:60%;
   height:auto;
   margin-top:120px;
+  margin-bottom:30px;
 }
 
 img.hero-logo.sm{
@@ -39,14 +40,14 @@ img.hero-logo.sm{
   /* Invision Prototype: */
   font-family: SourceSansPro-Black;
   font-size: 20px;
-  color: #191D2C;
+  color: #404852;
   letter-spacing: -0.14px;
   padding: 15px 60px 15px 60px;
 }
 
 .btn.dark{
   color:white!important;
-  background:#191D2C!important;
+  background:#404852!important;
 }
 
 .btn.center{
@@ -145,7 +146,7 @@ div.container-fluid.specs{
 
 
 div.border.row.specs.dark{
-  border: 1px solid #191D2C !important;
+  border: 1px solid #404852 !important;
   width: 200px;
   margin-left: 0px;
   margin-top: 30px;
@@ -182,6 +183,11 @@ div.container-fluid.survey.sm{
   padding: 60px 0 60px 20px
 }
 
+div.survey-details.lg{
+  margin: -80px 0 0 200px;
+  width: 100%;
+}
+
 
 div.survey-details.sm{
   margin: 20px 0 0 20px;
@@ -215,7 +221,7 @@ h3.lg.case{
 }
 
 h3.dark{
-  color:#191D2C;
+  color:#404852;
 }
 
 h3.lg.case.survey{
@@ -257,10 +263,10 @@ img.comp-icon{
   margin-bottom:15px;
 }
 
-div.border.row.comp.white{
+div.border.row.comp.dark{
   margin:15px 0 15px -15px!important;
   padding:0 0 0 0;
-  border: 1px solid #FFFFFF!important;
+  border: 1px solid #404852!important;
   width: 200px;
 }
 
@@ -287,7 +293,7 @@ div.container-fluid.interviews.sm{
 
 
 div.container-fluid.interviews.lg{
-  padding:60px 40px 60px 40px;
+  padding:60px 60px 120px 60px;
 }
 
 div.container-fluid.interviews.sm{
@@ -296,7 +302,7 @@ div.container-fluid.interviews.sm{
 
 h4.box{
   padding:30px;
-  border: 3px solid #191D2C!important;
+  border: 3px solid #404852!important;
 }
 
 p.interviews, h4.interviews{
@@ -331,7 +337,7 @@ ul.persona > li{
 }
 
 div.container-fluid.persona{
-  background-color:#BCDBED;
+  background-color:#8ECDD6;
   padding:60px 60px 60px 60px;
 }
 
@@ -484,6 +490,14 @@ p.checklist{
   width:100%;
 }
 
+div.raised.col-sm-6{
+  background: #EFF3B2;
+  box-shadow: 2px 7px 7px 0 rgba(197,184,184,0.50);
+  padding:30px;
+  margin:60px 60px 60px 0px;
+  max-width:40%!important;
+}
+
 /**** navigation *****/
 
 div.container-fluid.sitemap.lg{
@@ -509,8 +523,10 @@ p.sitemap{
 
 /****** style ****/
 img.style{
-    margin: 60px 60px 60px -60px;
+    margin: 10px 0px auto -70px;
+    width:120%;
   }
+
 
 .white{
   color:white;
@@ -532,7 +548,7 @@ p.right{
 
 div.container-fluid.style.lg{
   background-color:#B6DCCC;
-  padding:0px 60px 0px 60px;
+  padding:0px 60px 60px 60px;
 }
 
 div.container-fluid.style.sm{
@@ -553,8 +569,9 @@ div.container-fluid.name{
   min-height: 70vh;
 }
 
-img.name{
-  margin: 60px 0 60px 0;
+img.nicon{
+  width:40%;
+  margin:30px auto 30px auto;
 }
 
 img.name.truck{

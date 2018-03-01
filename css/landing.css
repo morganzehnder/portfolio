@@ -21,7 +21,7 @@ a.nav-item.nav-link{
 }
 
 a{ /* basic */
-  color:#191D2C;
+  color:#404852;
   font-family:'Source Sans Pro', Arial, sans-serif;
 }
 
@@ -31,6 +31,10 @@ div.container-fluid.hero{ /* background */
   background-color: white;
   height: 80vh;
   padding:0px;
+}
+
+h3, h4, p{
+  color:#404852;
 }
 
 h3.intro-text{ /* general */
@@ -62,7 +66,7 @@ h2{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
     font-weight:900;
     font-size: 185px;
-    color:#191D2C;
+    color:#404852;
     padding: 0px;
     margin: 0 0 -48px 225px;
   }
@@ -129,7 +133,7 @@ h2{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
     font-weight:900;
     font-size: 85px;
-    color:#191D2C;
+    color:#404852;
     padding: 0px;
     margin: 0 0 -24px 5px;
   }
@@ -243,7 +247,7 @@ div.container-fluid.contact{
 /********* footer ***********/
 
 .container-fluid.footer{
-  background-color:#191D2C;
+  background-color:#404852;
   min-height:350px;
 }
 
@@ -255,7 +259,7 @@ ul.footer > li{
 }
 
 .fa-envelope, .fa-github, .fa-linkedin{
-  color:#191D2C;
+  color:#404852;
   background-color:white;
   padding:10px;
   border-radius:50%;

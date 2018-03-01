@@ -39,14 +39,14 @@ img.hero-logo.sm{
   /* Invision Prototype: */
   font-family: SourceSansPro-Black;
   font-size: 20px;
-  color: #191D2C;
+  color: #404852;
   letter-spacing: -0.14px;
   padding: 15px 60px 15px 60px;
 }
 
 .btn.dark{
   color:white!important;
-  background:#191D2C!important;
+  background:#404852!important;
 }
 
 .btn.center{
@@ -143,13 +143,11 @@ div.container-fluid.specs{
   padding:0px;
 }
 
-
-div.border.row.specs.dark{
-  border: 1px solid #191D2C !important;
+div.border.row.comp.dark{
+  margin:15px 0 15px -15px!important;
+  padding:0 0 0 0;
+  border: 1px solid #404852!important;
   width: 200px;
-  margin-left: 0px;
-  margin-top: 30px;
-  margin-bottom:30px;
 }
 
 img.sicon{
@@ -171,7 +169,7 @@ ul.specs{
 
 /* user survey */
 div.container-fluid.survey{
-  background-color:#F6F1F7;
+  background-color:#FFD4AE;
 }
 
 div.container-fluid.survey.lg{
@@ -197,6 +195,10 @@ h1.text-left.intro-text.sm.case.stacked{
   margin: 120px 0 -4px 5px;
 }
 
+h4.survey{
+  color: #69ACCD!important;
+}
+
 p.survey{
   margin:0px 0 30px 0;
 }
@@ -214,7 +216,7 @@ h3.lg.case{
 }
 
 h3.dark{
-  color:#191D2C;
+  color:#404852;
 }
 
 h3.lg.case.survey{
@@ -228,7 +230,7 @@ h3.sm.case.survey{
 /**** comp analyis ****/
 
 div.container-fluid.comp{
-  background-color:#191D2C;
+  background-color:#FFC697;
   padding: 60px 0 60px 260px;
 }
 
@@ -286,7 +288,7 @@ div.container-fluid.interviews.sm{
 
 
 div.container-fluid.interviews.lg{
-  padding:60px 40px 60px 40px;
+  padding:60px 60px 120px 60px;
 }
 
 div.container-fluid.interviews.sm{
@@ -295,7 +297,7 @@ div.container-fluid.interviews.sm{
 
 h4.box{
   padding:30px;
-  border: 3px solid #191D2C!important;
+  border: 3px solid #404852!important;
 }
 
 p.interviews, h4.interviews{
@@ -330,7 +332,7 @@ ul.persona > li{
 }
 
 div.container-fluid.persona{
-  background-color:#BCDBED;
+  background-color:#8ECDD6;
   padding:60px 60px 60px 60px;
 }
 
@@ -455,12 +457,12 @@ div.container-fluid.stories.lg{
   background: url("../images/portfolio/flows-bg.png") no-repeat;
   background-size:cover;
   padding:60px 60px 60px 60px;
-  background-color: #467B97;
+  background-color: #69ACCD;
 }
 
 div.container-fluid.stories.sm{
   padding:60px 40px 60px 40px;
-  background-color: #467B97;
+  background-color: #69ACCD;
 }
 
 div.row.flows{
@@ -494,7 +496,8 @@ p.sitemap{
 
 /****** style ****/
 img.style{
-    margin-left: -20px;
+    margin: 10px 0px auto -70px;
+    width:120%;
   }
 
 .white{
@@ -517,7 +520,7 @@ p.right{
 
 div.container-fluid.style.lg{
   background-color:#B6DCCC;
-  padding:0px 60px 0px 60px;
+  padding:0px 60px 60px 60px;
 }
 
 div.container-fluid.style.sm{
