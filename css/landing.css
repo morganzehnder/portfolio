@@ -69,6 +69,7 @@ h2{ /* basic */
     color:#404852;
     padding: 0px;
     margin: 0 0 -48px 225px;
+    letter-spacing:-15px;
   }
 
   h2.text-left.case-header.lg{
@@ -136,10 +137,11 @@ h2{ /* basic */
   h1.sm{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
     font-weight:900;
-    font-size: 85px;
+    font-size: 72px;
     color:#404852;
     padding: 0px;
     margin: 0 0 -24px 5px;
+    letter-spacing:-8px;
   }
 
   h2.text-left.case-header.sm{
@@ -169,7 +171,7 @@ h2{ /* basic */
   div.container-fluid.d-md-none.spotted.landing{
     background: url("../images/portfolio/spotted-mobile-bg.png") no-repeat;
     background-size: cover;
-    max-height:515px;
+    min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
@@ -178,7 +180,7 @@ h2{ /* basic */
   div.container-fluid.d-md-none.wasted{
     background: url("../images/portfolio/wasted-mobile-bg.png")  no-repeat;
     background-size: cover;
-    max-height:515px;
+    min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
@@ -187,7 +189,7 @@ h2{ /* basic */
   div.container-fluid.d-md-none.dockit{
     background: url("../images/portfolio/dockit-mobile-bg.png")  no-repeat;
     background-size: cover;
-    max-height:515px;
+    min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;

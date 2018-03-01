@@ -68,13 +68,20 @@ a.case.btn.float-right{
 
 h1.lg.case{
   margin: 120px 0 -48px 225px;
-  letter-spacing:-15px;
+}
+
+h1.lg.stacked{
+  line-height:-10px;
+}
+
+h1.sm.stacked{
+  line-height:-10px;
 }
 
 h1.sm.case{
   margin: 120px 0 -24px 5px;
-  letter-spacing:-8px;
 }
+
 
 h1.case.comp.lg{
   margin:120px 0 -48px 30px!important;

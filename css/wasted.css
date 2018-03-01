@@ -2,6 +2,7 @@ p{
   margin:30px 0 30px 0;
 }
 
+
 /* case hero */
 
 div.hero.container-fluid.wasted.case{
@@ -133,7 +134,7 @@ div.container-fluid.specs.lg{
 
 div.container-fluid.specs.sm{
   padding: 30px 0 30px 20px;
-  height:150vh;
+  min-height:1000px;
 }
 
 div.container-fluid.specs{
@@ -203,12 +204,8 @@ h1.text-left.intro-text.lg.case.stacked{
 }
 
 h1.text-left.intro-text.sm.case.stacked{
-  line-height: 60px;
-  margin: 120px 0 -4px 5px;
-}
-
-p.survey{
-  margin:0px 0 30px 0;
+  line-height: 50px;
+  margin: 120px 0 -1px 5px;
 }
 
 img.header{ /* basic */
@@ -470,6 +467,12 @@ div.col-sm-6.right{
   margin-left:50%;
 }
 
+ul.stories{
+    margin:30px 0 0 0px;
+    text-decoration:none!important;
+    padding:0px 0px 0px 10px;
+}
+
 h4.stories{
   margin: 15px 0 0 -10px;
   padding: 0;
@@ -554,6 +557,10 @@ img.style.sm{
   color:white;
 }
 
+h3.style{
+  padding-left:20px;
+}
+
 p.style.lg{
   width:50%;
   margin-left:210px;
@@ -599,28 +606,12 @@ div.container-fluid.name{
 }
 
 img.nicon{
-  width:30%;
+  width:50%;
   margin:30px auto 30px auto;
 }
 
-img.name.truck{
-  width: 100%;
-  height: 70%;
-}
 
-img.name.locator{
-  width: 100%;
-  height: 76%;
-}
 
-li.name{
-  list-style:none;
-  margin:30px 0 30px 0;
-}
-
-ul.name{
-  padding:0px;
-}
 
 /******* storyframe ******/
 
@@ -723,7 +714,14 @@ div.carousel.sm{
 div.container-fluid.proto{
   background-color:#C5BDEF;
   min-height:55vh;
-  padding:60px 60px 60px 60px;
+}
+
+div.container-fluid.proto.lg{
+  padding:60px;
+}
+
+div.container-fluid.proto.sm{
+  padding:40px;
 }
 
 img.proto.sm{
@@ -755,11 +753,18 @@ div.container-fluid.testing.sm{
 }
 
 div.border.row.blue{
-  border: 2px solid #69ACCD !important;
-  width: 300px;
+  border: 1px solid #69ACCD !important;
   margin-left: 0px;
   margin-top: 30px;
   margin-bottom:30px;
+}
+
+div.blue.lg{
+  width:300px;
+}
+
+div.blue.sm{
+  width:200px;
 }
 
 p.question{
@@ -843,6 +848,6 @@ ul.row.reflection > li > p, ul.row.reflection > li > h4 {
 }
 
 img.ricon{
-  width:30%;
+  width:45%;
   margin:30px 0 30px 0;
 }
