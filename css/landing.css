@@ -82,6 +82,10 @@ h2{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
   }
 
+  p.sm{
+    font-size:16px!important;
+  }
+
   /* case dividers */
   div.border.lg{
     border: 3px solid white!important;

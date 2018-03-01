@@ -133,8 +133,7 @@ div.container-fluid.specs.lg{
 
 div.container-fluid.specs.sm{
   padding: 30px 0 30px 20px;
-  max-height:795px;
-  height:100vh;
+  height:150vh;
 }
 
 div.container-fluid.specs{
@@ -180,7 +179,7 @@ div.container-fluid.survey.lg{
 }
 
 div.container-fluid.survey.sm{
-  padding: 60px 0 60px 20px
+  padding: 60px 40px 60px 40px
 }
 
 div.survey-details.lg{
@@ -570,7 +569,7 @@ div.container-fluid.name{
 }
 
 img.nicon{
-  width:40%;
+  width:30%;
   margin:30px auto 30px auto;
 }
 
@@ -592,6 +591,15 @@ li.name{
 ul.name{
   padding:0px;
 }
+
+/******* storyframe ******/
+
+div.container-fluid.storyframe{
+  background-color:#FFFFFF;
+  padding:60px 60px 60px 60px;
+}
+
+
 
 /******* logo design ******/
 div.container-fluid.logo{
@@ -702,10 +710,27 @@ p.proto{
 }
 
 
-/******  ab testing *********/
-div.container-fluid.testing{
+/******  testing large  *********/
+div.container-fluid.testing.lg{
   background-color:#FFC73F;
   padding:60px 60px 60px 60px;
+}
+
+div.container-fluid.testing.sm{
+  background-color:#FFC73F;
+  padding:20px 20px 20px 20px;
+}
+
+div.border.row.blue{
+  border: 2px solid #69ACCD !important;
+  width: 300px;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+p.question{
+  color: #69ACCD!important;
 }
 
 img.menu{
@@ -717,9 +742,18 @@ div.yellow{
   /* Rectangle 11: */
   background: #FFFFFF;
   box-shadow: 2px 14px 14px 0 rgba(197,184,184,0.50);
-  width:80%;
+}
+
+div.yellow.testing.lg{
+  width:90%;
   margin:120px auto 120px auto;
   padding:60px 60px 60px 60px;
+}
+
+div.yellow.sm.testing{
+  width:95%;
+  margin:60px 10px 60px 10px;
+  padding:30px 20px 30px 20px;
 }
 
 h3.testing{
@@ -730,16 +764,33 @@ p.testing{
   width:100%;
 }
 
-img.test{
+p.intro{
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+img.test.lg{
   margin-left:18%;
   width:30%;
   height:30%;
 }
 
-img.test-two{
+img.test-two.lg{
   margin-left:5%;
   width:30%;
   height:30%;
+}
+
+img.test.sm{
+  margin: 30px auto 30px auto;
+  width:90%;
+  height:90%;
+}
+
+img.test-two.sm{
+  margin: 30px auto 30px auto;
+  width:90%;
+  height:90%;
 }
 
 /****** reflection ******/
