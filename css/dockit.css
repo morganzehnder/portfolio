@@ -614,9 +614,9 @@ div.container-fluid.storyframe.sm{
 }
 
 /******* logo design ******/
-div.container-fluid.logo{
+div.container-fluid.logo.lg{
   background-color:#DDE3EC;
-  padding:60px 60px 60px 60px;
+  padding:60px;
 }
 
 img.logo{
@@ -631,6 +631,29 @@ img.final{
   height: 100%;
   margin-left:20px;
 }
+
+div.container-fluid.logo.sm{
+  background-color:#DDE3EC;
+  padding:40px;
+}
+
+
+/***** custom icons ******/
+img.cicons{
+  width:100%;
+  height:100%;
+}
+
+div.container-fluid.icons.lg{
+  background-color:#EFF3B2;
+  padding:60px;
+}
+
+div.container-fluid.icons.sm{
+  background-color:#EFF3B2;
+  padding:40px;
+}
+
 
 /***** lowfi *****/
 div.container-fluid.lowfi{
@@ -730,6 +753,7 @@ p.proto{
 
 
 /******  testing large  *********/
+
 div.container-fluid.testing.lg{
   background-color:#FFC73F;
   padding:60px 60px 60px 60px;
@@ -762,6 +786,10 @@ p.question{
 img.menu{
   width:30%;
   height:30%;
+}
+
+ul.results{
+  list-style:none;
 }
 
 div.yellow{

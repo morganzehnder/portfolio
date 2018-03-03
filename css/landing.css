@@ -13,7 +13,7 @@ a.navbar-brand > img{ /* personal logo */
   height:40px;
   width:auto;
   padding:0px;
-  margin-left:5px; /* gets 15px pad from container */
+  margin:20px auto auto 20px; /* gets 15px pad from container */
 }
 
 a.nav-item.nav-link{
