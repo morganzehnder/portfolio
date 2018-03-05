@@ -147,8 +147,7 @@ div.container-fluid.specs.lg{
 
 div.container-fluid.specs.sm{
   padding: 30px 0 30px 20px;
-  max-height:795px;
-  height:1000vh;
+  max-height:1155px;
 }
 
 div.container-fluid.specs{
@@ -195,6 +194,20 @@ div.container-fluid.survey.sm{
   padding: 60px 0 60px 20px
 }
 
+/* user survey */
+div.container-fluid.survey{
+  background-color:#FFD4AE;
+}
+
+div.container-fluid.survey.lg{
+  padding: 60px 0 60px 65px
+}
+
+
+div.container-fluid.survey.sm{
+  padding: 60px 40px 60px 40px
+}
+
 h4.survey{
   color: #69ACCD!important;
 }
@@ -238,7 +251,6 @@ h3.sm.case.survey{
 p.survey{
   margin-top: -5px !important;
 }
-
 
 /**** comp analyis ****/
 
