@@ -1,0 +1,22 @@
+img.persona{
+  width:80%;
+  margin:60px;
+  background-color:white;
+  padding-bottom:30px;
+}
+
+h3.persona{
+  margin:60px auto 30px auto;
+}
+
+div.container-fluid.persona.spotted{
+  background-color: #FFC73F;
+}
+
+div.container-fluid.persona.wasted{
+  background-color: #8ECDD6;
+}
+
+div.container-fluid.persona.dockit{
+  background-color: #EFF3B2;
+}

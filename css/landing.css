@@ -13,7 +13,7 @@ a.navbar-brand > img{ /* personal logo */
   height:40px;
   width:auto;
   padding:0px;
-  margin:20px auto auto 20px; /* gets 15px pad from container */
+  margin:20px 20px 20px 20px; /* gets 15px pad from container */
 }
 
 a.nav-item.nav-link{
@@ -36,6 +36,8 @@ div.container-fluid.hero{ /* background */
 h3, h4, p{
   color:#404852;
 }
+
+
 
 h3.intro-text{ /* general */
   font-family:'Source Sans Pro:900', Arial, sans-serif;
@@ -82,6 +84,12 @@ h2{ /* basic */
     font-size:20px;
     font-family:'Source Sans Pro:900', Arial, sans-serif;
   }
+
+  ul > li, ol > li{
+    font-size:20px;
+    font-family:'Source Sans Pro:900', Arial, sans-serif;
+  }
+
 
   p.sm{
     font-size:16px!important;

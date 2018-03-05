@@ -179,19 +179,19 @@ div.container-fluid.survey.lg{
   padding: 60px 0 60px 65px
 }
 
-h4.survey{
-  color: #69ACCD!important;
-}
 
 div.container-fluid.survey.sm{
   padding: 60px 40px 60px 40px
+}
+
+h4.survey{
+  color: #69ACCD!important;
 }
 
 div.survey-details.lg{
   margin: -80px 0 0 200px;
   width: 100%;
 }
-
 
 div.survey-details.sm{
   margin: 20px 0 0 20px;
@@ -208,14 +208,6 @@ h1.text-left.intro-text.sm.case.stacked{
   margin: 120px 0 -1px 5px;
 }
 
-img.header{ /* basic */
-  height: 55px;
-}
-
-img.header.survey{
-  margin: -15px 0 0 20px;
-}
-
 h3.lg.case{
   font-size:48px;
 }
@@ -225,13 +217,16 @@ h3.dark{
 }
 
 h3.lg.case.survey{
-  margin: -15px 40px 0px 20px;
+  margin: -15px 40px 0px 0px;
 }
 
 h3.sm.case.survey{
   margin: -15px 40px 0px 20px;
 }
 
+p.survey{
+  margin-top: -5px !important;
+}
 /**** comp analyis ****/
 
 h3.sm.case{

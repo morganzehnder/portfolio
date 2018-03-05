@@ -18,6 +18,11 @@ div.hero.container-fluid.spotted.sm.case{
   height:500px;
 }
 
+div.col-sm-4.nvbr{
+  padding:0px;
+  margin:0px;
+}
+
 img.hero-logo.lg{
   width:60%;
   height:auto;
@@ -187,6 +192,15 @@ div.container-fluid.survey.sm{
   padding: 60px 0 60px 20px
 }
 
+h4.survey{
+  color: #69ACCD!important;
+}
+
+div.survey-details.lg{
+  margin: -80px 0 0 200px;
+  width: 100%;
+}
+
 div.survey-details.sm{
   margin: 20px 0 0 20px;
   width:90%;
@@ -198,27 +212,9 @@ h1.text-left.intro-text.lg.case.stacked{
 }
 
 h1.text-left.intro-text.sm.case.stacked{
-  line-height: 60px;
-  margin: 120px 0 -4px 5px;
+  line-height: 50px;
+  margin: 120px 0 -1px 5px;
 }
-
-h4.survey{
-  color: #69ACCD!important;
-}
-
-p.survey{
-  margin:0px 0 30px 0;
-}
-
-img.header{ /* basic */
-  height: 55px;
-}
-
-img.header.survey{
-  margin: -15px 0 0 20px;
-}
-
-
 
 h3.lg.case{
   font-size:48px;
@@ -229,11 +225,15 @@ h3.dark{
 }
 
 h3.lg.case.survey{
-  margin: -15px 40px 0px 20px;
+  margin: -15px 40px 0px 0px;
 }
 
 h3.sm.case.survey{
   margin: -15px 40px 0px 20px;
+}
+
+p.survey{
+  margin-top: -5px !important;
 }
 
 /**** comp analyis ****/
