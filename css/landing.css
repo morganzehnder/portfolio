@@ -18,6 +18,7 @@ a.navbar-brand > img{ /* personal logo */
 
 a.nav-item.nav-link{
   font-size:16px;
+  color:#FFD47A;
 }
 
 a{ /* basic */
@@ -44,8 +45,12 @@ h3.intro-text{ /* general */
   font-weight:900;
 }
 
-h3.intro-text.text-left.lg{ /*tablet desktop */
-  margin:180px 0 0 240px;
+h3.intro-text.landing{
+  color:#FFD47A;
+}
+
+h3.intro-text.text-left.lg{ /* tablet desktop */
+  margin:180px 0 0 180px;
   font-size:48px;
 }
 
@@ -68,15 +73,18 @@ h2{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
     font-weight:900;
     font-size: 185px;
-    color:#404852;
     padding: 0px;
-    margin: 0 0 -48px 225px;
+    margin: 0 0 -48px 165px;
     letter-spacing:-15px;
+  }
+
+  h1.sunshine{
+    color:#FFD47A;
   }
 
   h2.text-left.case-header.lg{
     margin-top:80px;
-    margin-left:240px;
+    padding-left:180px;
     font-size:72px;
   }
 
@@ -99,14 +107,14 @@ h2{ /* basic */
   div.border.lg{
     border: 3px solid white!important;
     width: 100px;
-    margin-left: 240px;
+    margin-left: 180px;
     margin-top: 60px;
   }
 
   /* case text */
   h3.text-left.case-text.lg{
-    width: 400px;
-    margin-left: 240px;
+    width: 600px;
+    padding-left: 180px;
     margin-top: 60px;
     color: white;
   }
@@ -114,17 +122,31 @@ h2{ /* basic */
   /* large backgrounds */
 
   div.container-fluid.spotted.landing{
-    background: url("../images/portfolio/spot-bg-hero-2.png") no-repeat;
-    background-size: cover;
+    background-color:#FFD47A;
     max-height:515px;
     height:70vh;
     overflow:hidden;
     padding:0px;
   }
 
+  img.cell{
+    width:90%;
+    padding-top:45px;
+    padding-bottom:45px;
+    margin-right:0px!important;
+    padding-right:0px!important;
+  }
+
+  img.desktop{
+    width:97%;
+    padding-top:45px;
+    padding-bottom:45px;
+    margin-right:0px!important;
+    padding-right:0px!important;
+  }
+
   div.container-fluid.wasted.landing{
-    background: url("../images/portfolio/wasted-hero-bg-2.png") no-repeat;
-    background-size: cover;
+    background-color:#8ECDD6;
     max-height:515px;
     height:70vh;
     overflow:hidden;
@@ -132,8 +154,7 @@ h2{ /* basic */
   }
 
   div.container-fluid.dockit.landing{
-    background: url("../images/portfolio/dockit-hero-bg-2.png") no-repeat;
-    background-size: cover;
+    background-color:#94DDBF;
     max-height:515px;
     height:70vh;
     overflow:hidden;
@@ -146,7 +167,6 @@ h2{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
     font-weight:900;
     font-size: 72px;
-    color:#404852;
     padding: 0px;
     margin: 0 0 -24px 5px;
     letter-spacing:-8px;
@@ -168,7 +188,7 @@ h2{ /* basic */
 
   /* case text mobile */
   h3.text-left.case-text.sm{
-    width: 200px;
+    width: 90%;
     margin-left: 20px;
     margin-top: 20px;
     color: white;
@@ -177,26 +197,24 @@ h2{ /* basic */
   /* background images mobile*/
 
   div.container-fluid.d-md-none.spotted.landing{
-    background: url("../images/portfolio/spotted-mobile-bg.png") no-repeat;
-    background-size: cover;
+    background-color:#FFD47A;
     min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
   }
 
-  div.container-fluid.d-md-none.wasted{
-    background: url("../images/portfolio/wasted-mobile-bg.png")  no-repeat;
-    background-size: cover;
+  div.container-fluid.d-md-none.wasted.landing{
+    background-color:#8ECDD6;
+    max-height:515px;
     min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
   }
 
-  div.container-fluid.d-md-none.dockit{
-    background: url("../images/portfolio/dockit-mobile-bg.png")  no-repeat;
-    background-size: cover;
+  div.container-fluid.d-md-none.dockit.landing{
+    background-color:#94DDBF;
     min-height:515px;
     overflow:hidden;
     padding:0px;
@@ -223,7 +241,7 @@ div.overlay.wasted{
 }
 
 div.overlay.dockit{
-    background-color: rgba(254,85,164,0.30);
+  background: rgba(232,242,85,0.30);
 }
 
 div.container-fluid.image.d-none.d-md-block:hover .overlay {
@@ -260,6 +278,10 @@ div.container-fluid.contact{
 
 /********* footer ***********/
 
+h1.slate{
+  color:#404852;
+}
+
 .container-fluid.footer{
   background-color:#404852;
   min-height:350px;
@@ -285,12 +307,12 @@ ul.footer > li{
 h2.text-left.footer, p.text-left.footer{
   color:white;
   margin-top: 60px;
-  margin-left: 240px;
+  margin-left: 180px;
 }
 
 ul.footer{
   list-style:none;
-  margin:30px 0 0 240px;
+  margin:30px 0 0 180px;
   padding:0px;
 }
 
