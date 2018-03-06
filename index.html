@@ -22,19 +22,18 @@
 
   <header>
       <div class="hero container-fluid">
-        <nav class="navbar navbar-expand-sm bg-faded">
+        <nav class="navbar navbar-expand-sm  bg-faded">
+          <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-sq.png" alt="personal logo"/></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav index ml-auto text-right">
-              <a href="spotted.html" class="nav-item nav-link">WORK<span class="sr-only">(current)</span></a>
-              <a href="about.html" class="nav-item nav-link">ABOUT</a>
-              <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/mz-resume-portfolio.pdf" target="_blank" class="nav-item nav-link">RESUME</a>
-              <a href="contact.html" class="nav-item nav-link">CONTACT</a>
-            </div>
+          <ul class="navbar-nav ml-auto mt-2 mt-md-0 index">
+              <li><a href="#work-landing" class="nav-item nav-link">WORK<span class="sr-only">(current)</span></a></li>
+              <li><a href="about.html" class="nav-item nav-link">ABOUT</a></li>
+              <li><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/mz-resume-portfolio.pdf" target="_blank" class="nav-item nav-link">RESUME</a></li>
+              <li><a href="#contact-landing" class="nav-item nav-link">CONTACT</a></li>
+            </ul>
         </div>
       </nav>
       <div class="d-none d-md-block">
@@ -49,10 +48,10 @@
 
     <div class="container-fluid">
       <div class="d-none d-md-block">
-        <h1 class="text-left sunshine lg">WORK</h1>
+        <h1 class="text-left sunshine lg" id="work-landing">WORK</h1>
       </div>
       <div class="d-md-none">
-        <h1 class="text-left sunshine sm">WORK</h1>
+        <h1 class="text-left sunshine sm" id="work-landing">WORK</h1>
       </div>
     </div>
 
@@ -150,10 +149,10 @@
     <!--contact header -->
     <div class="container-fluid contact">
       <div class="d-none d-md-block">
-        <h1 class="text-left slate lg">CONTACT</h1>
+        <h1 class="text-left slate lg" id="contact-landing">CONTACT</h1>
       </div>
       <div class="d-md-none">
-        <h1 class="text-left slate sm">CONTACT</h1>
+        <h1 class="text-left slate sm" id="contact-landing">CONTACT</h1>
       </div>
     </div>
 

@@ -21,6 +21,14 @@ a.nav-item.nav-link{
   color:#FFD47A;
 }
 
+a.nav-item.nav-link:hover{
+  color:#69ACCD;
+}
+
+.navbar-toggler-icon{
+  color:#FFD47A;
+}
+
 a{ /* basic */
   color:#404852;
   font-family:'Source Sans Pro', Arial, sans-serif;
@@ -72,7 +80,7 @@ h2{ /* basic */
   h1.lg{ /* basic */
     font-family:'Source Sans Pro:900', Arial, sans-serif;
     font-weight:900;
-    font-size: 185px;
+    font-size: 165px;
     padding: 0px;
     margin: 0 0 -48px 165px;
     letter-spacing:-15px;
