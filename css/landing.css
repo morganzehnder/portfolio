@@ -25,9 +25,12 @@ a.nav-item.nav-link:hover{
   color:#69ACCD;
 }
 
-.navbar-toggler-icon{
-  color:#FFD47A;
+ul.navbar-nav{ /* to match brand padding */
+  padding-top: .3125rem!important;
+  padding-bottom: .3125rem!important;
+  margin-right: 1rem!important;
 }
+
 
 a{ /* basic */
   color:#404852;
@@ -82,12 +85,12 @@ h2{ /* basic */
     font-weight:900;
     font-size: 165px;
     padding: 0px;
-    margin: 0 0 -48px 165px;
+    margin: 0 0 -42px 165px;
     letter-spacing:-15px;
   }
 
-  h1.sunshine{
-    color:#FFD47A;
+h1.marigold, p.marigold, a.marigold{
+    color:#FFD47A!important;
   }
 
   h2.text-left.case-header.lg{
