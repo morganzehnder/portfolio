@@ -545,30 +545,30 @@ div.container-fluid.persona.green{
 
 /**** large devices ****/
 
-.img.one.lg{
-  height: 70%;
-  width: 69%;
+.img__overlay.one.lg {
+    left: 9%;
+    top: 18%;
+}
+
+.img.one.lg {
+    height: 64%;
+    width: 67%;
 }
 
 .img.two.lg{
-  height: 71%;
-  width: 69%;
-}
-
-.img__overlay.one.lg{
-  left: 15%;
-  top: 11%;
+  height: 64%;
+  width: 67%;
 }
 
 .img__overlay.two.lg{
-  left: 15%;
-  top: 12%;
+  left: 9%;
+  top: 18%;
 }
 
 /****** small devices *****/
 
 .img.one.sm{
-  height: 63%;
+  height: 61%;
   width: 66%;
 }
 
@@ -578,13 +578,13 @@ div.container-fluid.persona.green{
 }
 
 .img__overlay.one.sm{
-  left: 20%;
-  top: 19%;
+  left: 10%;
+  top: 23%;
 }
 
 .img__overlay.two.sm{
-  left: 19%;
-  top: 15%;
+  left: 9%;
+  top: 19%;
 }
 
 
@@ -607,13 +607,13 @@ h4.stories{
 
 div.container-fluid.stories.lg.spotted-c{
   background: url("../images/portfolio/flows-bg.png") no-repeat;
-  background-color: #467B97; /* spotted */
+  background-color: #69ACCD; /* spotted */
   background-size:cover;
   overflow:hidden;
 }
 
 div.container-fluid.stories.sm.spotted-c{
-  background-color: #467B97; /* spotted */
+  background-color: #69ACCD; /* spotted */
 }
 
 div.container-fluid.stories.lg.wasted-c{
@@ -744,7 +744,7 @@ div.container-fluid.style.lg{
 }
 
 div.container-fluid.style.sm{
-  padding:20px;
+  padding:60px;
   overflow:hidden;
 }
 
@@ -881,9 +881,8 @@ img.logo.lg{
 }
 
 img.logo.sm{
-  width: 100vw;
-  margin-top:40px;
-  margin-bottom:40px;
+  width: 90vw;
+  margin:40px auto 40px auto;
 }
 
 

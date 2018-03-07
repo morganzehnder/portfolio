@@ -4,9 +4,14 @@
   width: 100vw;
   height:60px;
   background: white;
-  position: static;
+  position: relative;
   padding:0px;
   margin:0px;
+  z-index:1;
+}
+
+ul.navbar-nav{
+  background:#FFFFFF;
 }
 
 a.navbar-brand > img{ /* personal logo */
@@ -18,12 +23,14 @@ a.navbar-brand > img{ /* personal logo */
 
 a.nav-item.nav-link{
   font-size:16px;
+  margin-left:20px;
   color:#FFD47A;
 }
 
 a.nav-item.nav-link:hover{
   color:#69ACCD;
 }
+
 
 ul.navbar-nav{ /* to match brand padding */
   padding-top: .3125rem!important;
@@ -38,6 +45,11 @@ a{ /* basic */
 }
 
 /****** intro *********/
+
+.hero-text{ /* for navbar purposes */
+  z-index:0;
+}
+
 
 div.container-fluid.hero{ /* background */
   background-color: white;
