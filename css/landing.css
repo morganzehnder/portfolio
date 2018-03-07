@@ -1,3 +1,9 @@
+/**** basics ****/
+
+body{
+overflow-x:hidden;
+}
+
 /********** navbar *********/
 
 .navbar{
@@ -68,7 +74,7 @@ h3.intro-text{ /* general */
   font-weight:900;
 }
 
-h3.intro-text.landing{
+h3.intro-text.yellow{
   color:#FFD47A;
 }
 
@@ -226,6 +232,7 @@ h1.marigold, p.marigold, a.marigold{
     padding:0px;
     height:70vh;
   }
+
 
   div.container-fluid.d-md-none.wasted.landing{
     background-color:#8ECDD6;

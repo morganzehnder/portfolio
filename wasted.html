@@ -26,7 +26,27 @@
 <body>
 
 <header>
-  <div class="hero container-fluid wasted case">
+  <div class="hero container-fluid wasted case d-none d-md-block lg">
+      <nav class="navbar bg-faded">
+        <div class="col-sm-4">
+          <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-final.png" alt="personal logo"/></a>
+        </div>
+        <div class="navbar-nav index mx-auto d-block text-center col-sm-4">
+          <a href="index.html#work-landing" class="nav-item nav-link">X ALL WORK</a>
+        </div>
+          <div class="navbar-nav index ml-auto text-right col-sm-4">
+            <a href="dockit.html" class="nav-item nav-link">NEXT CASE<span class="sr-only">(current)</span></a>
+          </div>
+      </nav>
+    <div class="hero-text">
+        <img class="hero-logo wasted mx-auto d-block  lg" src="images/portfolio/wasted-logo-white.png"/>
+        <img class="hero-img mx-auto d-block  lg" src="images/wasted/desktop-mobile-stock-wasted.png"/>
+        <div class="row text-center">
+          <a href="https://invis.io/EAEVBGTX3" target="_blank" class="case btn lg center sky">Invision Prototype</a>
+        </div>
+    </div>
+  </div>
+  <div class="hero container-fluid wasted case d-md-none sm">
       <nav class="navbar navbar-expand-sm  bg-faded">
         <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,23 +58,11 @@
             <li><a href="index.html#work-landing" class="nav-item nav-link">ALL WORK<span class="sr-only">(current)</span></a></li>
             <li><a href="about.html" class="nav-item nav-link">ABOUT</a></li>
             <li><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/mz-resume-portfolio.pdf" target="_blank" class="nav-item nav-link">RESUME</a></li>
-            <li><a href="#contact-landing" class="nav-item nav-link">CONTACT</a></li>
+            <li><a href="#contact" class="nav-item nav-link">CONTACT</a></li>
           </ul>
       </div>
     </nav>
     <div class="hero-text">
-    <div class="d-none d-md-block">
-      <div class="row">
-        <img class="hero-logo wasted mx-auto d-block  lg" src="images/portfolio/wasted-logo-white.png"/>
-      </div>
-      <div class="row">
-        <img class="hero-img mx-auto d-block  lg" src="images/wasted/desktop-mobile-stock-wasted.png"/>
-      </div>
-      <div class="row text-center">
-        <a href="https://invis.io/EAEVBGTX3" target="_blank" class="case btn lg center sky">Invision Prototype</a>
-      </div>
-    </div>
-    <div class="d-md-none">
       <div class="row">
         <img class="hero-logo wasted mx-auto d-block  sm" src="images/portfolio/wasted-logo-white.png"/>
       </div>
@@ -66,7 +74,7 @@
       </div>
     </div>
   </div>
-  </div>
+
 
   <!-- short header -->
 
@@ -1308,10 +1316,10 @@
         <!--contact header -->
         <div class="container-fluid wasted contact">
           <div class="d-none d-md-block">
-            <h1 class="text-left slate lg case">CONTACT</h1>
+            <h1 class="text-left slate lg case" id="contact">CONTACT</h1>
           </div>
           <div class="d-md-none">
-            <h1 class="text-left slate sm case">CONTACT</h1>
+            <h1 class="text-left slate sm case" id="contact">CONTACT</h1>
           </div>
         </div>
 

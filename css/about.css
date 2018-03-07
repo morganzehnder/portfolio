@@ -1,0 +1,32 @@
+a.nav-item.nav-link{
+  font-size:16px;
+  margin-left:20px;
+  color:#8ED1B7;
+}
+
+a.nav-item.nav-link:hover{
+  color:#69ACCD;
+}
+
+h1.seafoam, p.seafoam, a.seafoam, h3.intro-text{ /* light green */
+  color:#B6DCCC;
+}
+
+/******** about me ********/
+div.container-fluid.seafoam.about{
+  background-color:#B6DCCC;
+}
+
+div.container-fluid.about.lg{
+  padding:60px 180px 60px 180px;
+}
+
+div.container-fluid.about.sm{
+  padding:40px;
+}
+
+span.surprising{
+  font-family: 'Capriola', sans-serif!important;
+  color:#EFF3B2!important;
+
+}

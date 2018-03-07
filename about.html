@@ -12,50 +12,52 @@
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
 
   <!--CSS links-->
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" href="css/about.css">
 
 </head>
 <body>
 
   <header>
-      <div class="hero container-fluid">
-        <nav class="navbar navbar-expand-sm bg-faded">
-            <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-sq.png" alt="personal logo"/></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="hero container-fluid">
+      <nav class="navbar navbar-expand-sm  bg-faded">
+        <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav index ml-auto text-right">
-              <a href="spotted.html" class="nav-item nav-link">WORK<span class="sr-only">(current)</span></a>
-              <a href="about.html" class="nav-item nav-link">ABOUT</a>
-              <a href="resume.html" class="nav-item nav-link">RESUME</a>
-              <a href="contact.html" class="nav-item nav-link">CONTACT</a>
-            </div>
-        </div>
-      </nav>
+          <a href="index.html" class="navbar-brand"><img src="images/dockit/mz-logo-sq.png" alt="personal logo"/></a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto mt-2 mt-md-0 index">
+            <li><a href="index.html#work-landing" class="nav-item nav-link about">WORK<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html" class="nav-item nav-link about">ABOUT</a></li>
+            <li><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/mz-resume-portfolio.pdf" target="_blank" class="nav-item nav-link about">RESUME</a></li>
+            <li><a href="#contact" class="nav-item nav-link about">CONTACT</a></li>
+          </ul>
+      </div>
+    </nav>
+    <div class="hero-text">
       <div class="d-none d-md-block">
-        <h3 class="text-left intro-text lg">To sell something familiar</br>make it surprising;
-        </br>To sell something surprising</br>make it familiar.</h3>
+        <h3 class="text-left intro-text seafoam lg">To sell something familiar</br><span class="surprising">make it surprising;</span>
+        </br></br><span class="surprising">To sell something surprising</span></br>make it familiar.</h3>
       </div>
       <div class="d-md-none">
-        <h3 class="text-left intro-text sm">To sell something familiar</br>make it surprising;
-        </br>To sell something surprising</br>make it familiar.</h3>
+        <h3 class="text-left intro-text seafoam sm">To sell something familiar</br><span class="surprising">make it surprising;</span>
+        </br></br><span class="surprising">To sell something surprising</span></br>make it familiar.</h3>
       </div>
-    </div>
-
+  </div>
+  </div>
 
     <!-- work header -->
 
     <div class="container-fluid">
       <div class="d-none d-md-block">
-        <h1 class="text-left intro-text lg">Why UX?</h1>
+        <h1 class="text-left lg seafoam">WHY UX?</h1>
       </div>
       <div class="d-md-none">
-        <h1 class="text-left intro-text sm">Why UX?</h1>
+        <h1 class="text-left sm seafoam">WHY UX?</h1>
       </div>
     </div>
 
@@ -64,19 +66,21 @@
 
 
   <!-- Why UX Design? -->
-      <div class="container-fluid">
-        <div class="row section-text">
-          <p class="col-sm-12 section mx-auto d-block">With a background in economics and account management, my path to design was not a direct one. A lifelong passion for interior design and architecture, combined with later formed interests in art and graphic design, led me to seek my own form of creative expression.<br><br>As an account manager in the tech industry, I spent my time assisting clients using an SaaS recruitment platform. Seeing their struggles firsthand and working with the product team to make improvements, I peeked into the dynamic world of UX Design and decided to align my creative interests and my career.</p>
-        </div>
-      </div>
+
+  <div class="container-fluid seafoam d-none d-md-block lg about">
+    <p class="col-sm-12 section mx-auto d-block">With a background in economics and account management, my path to design was not a direct one. A lifelong passion for interior design and architecture, combined with later formed interests in art and graphic design, led me to seek my own form of creative expression.<br><br>As an account manager in the tech industry, I spent my time assisting clients using an SaaS recruitment platform. Seeing their struggles firsthand and working with the product team to make improvements, I peeked into the dynamic world of UX Design and decided to align my creative interests and my career.</p>
+  </div>
+  <div class="container-fluid seafoam d-md-none sm about">
+    <p class="col-sm-12 section mx-auto d-block">With a background in economics and account management, my path to design was not a direct one. A lifelong passion for interior design and architecture, combined with later formed interests in art and graphic design, led me to seek my own form of creative expression.<br><br>As an account manager in the tech industry, I spent my time assisting clients using an SaaS recruitment platform. Seeing their struggles firsthand and working with the product team to make improvements, I peeked into the dynamic world of UX Design and decided to align my creative interests and my career.</p>
+  </div>
 
       <!--contact header -->
       <div class="container-fluid contact">
         <div class="d-none d-md-block">
-          <h1 class="text-left intro-text lg">Contact</h1>
+          <h1 class="text-left slate lg" id="contact">CONTACT</h1>
         </div>
         <div class="d-md-none">
-          <h1 class="text-left intro-text sm">Contact</h1>
+          <h1 class="text-left slate sm" id="contact">CONTACT</h1>
         </div>
       </div>
 
