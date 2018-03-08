@@ -1,3 +1,10 @@
+a.navbar-brand > img{ /* personal logo */
+  height:40px;
+  width:auto;
+  padding:0px;
+  margin:20px 20px 20px 20px; /* gets 15px pad from container */
+}
+
 a.nav-item.nav-link{
   font-size:16px;
   margin-left:20px;

@@ -20,7 +20,7 @@ ul.navbar-nav{
   background:#FFFFFF;
 }
 
-a.navbar-brand > img{ /* personal logo */
+a.navbar-brand.landing > img{ /* personal logo */
   height:40px;
   width:auto;
   padding:0px;
@@ -65,6 +65,11 @@ div.container-fluid.hero{ /* background */
 
 h3, h4, p{
   color:#404852;
+}
+
+h4{
+  font-family:'Source Sans Pro:900', Arial, sans-serif;
+  font-size: 24px;
 }
 
 

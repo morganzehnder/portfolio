@@ -1,5 +1,12 @@
 /* basics */
 
+a.navbar-brand > img{ /* personal logo */
+  height:40px;
+  width:auto;
+  padding:0px;
+  margin:20px 20px 20px 0px; /* gets 15px pad from container */
+}
+
 /********** headers ***********/
 
 h1.lg.case{
@@ -18,7 +25,8 @@ h1.lg.case.stacked{
 }
 
 h1.sm.case.stacked{
-  line-height:100px;
+  line-height:52px;
+  margin: 120px 0 -2px 5px;
 }
 
 p{
@@ -129,7 +137,7 @@ div.hero.container-fluid.wasted.case{
 }
 
 div.hero.container-fluid.wasted.lg.case{
-  min-height:1060px;
+  min-height:1000px;
 }
 
 div.hero.container-fluid.wasted.sm.case{
@@ -157,7 +165,7 @@ div.hero.container-fluid.spotted.case{
 }
 
 div.hero.container-fluid.spotted.lg.case{
-  min-height:1060px;
+  min-height:1000px;
 }
 
 div.hero.container-fluid.spotted.sm.case{
@@ -198,7 +206,7 @@ img.hero-logo.dockit.sm{
 }
 
 div.hero.container-fluid.dockit.lg.case{
-  min-height:1060px;
+  min-height:1000px;
 }
 
 div.hero.container-fluid.dockit.sm.case{
@@ -212,7 +220,7 @@ div.hero.container-fluid.dockit.sm.case{
   box-shadow: 0 4px 4px 0 rgba(101,79,109,0.60);
   border-radius: 10px;
   /* Invision Prototype: */
-  font-family: SourceSansPro-Black;
+  font-family:'Source Sans Pro', Arial, sans-serif;
   font-size: 20px;
   letter-spacing: -0.14px;
   padding: 15px 60px 15px 60px;
@@ -414,17 +422,15 @@ p.comp-intro{
 /******* user interviews *******/
 
 h3.interviews{
-  margin-left:30px;
+  margin-left:20px;
 }
 
-div.container-fluid.interviews.lg{
-  background: url("../images/portfolio/interview-bg-2-a.png") no-repeat;
-  background-size:cover;
+div.container-fluid.interviews{
+  background: white;
 }
 
-div.container-fluid.interviews.sm{
-  background: url("../images/portfolio/interview-bg-mobile.png") no-repeat;
-  background-size:cover;
+img.interview{
+  width:100%;
 }
 
 div.container-fluid.interviews.lg{
@@ -432,12 +438,12 @@ div.container-fluid.interviews.lg{
 }
 
 div.container-fluid.interviews.sm{
-  padding:260px 40px 260px 40px;
+  padding:40px;
 }
 
 p.interviews, h4.interviews{
   width:90%;
-  margin: 20px 30px 20px 30px;
+  margin: 20px 20px 20px 20px;
 }
 
 
@@ -1065,25 +1071,35 @@ p.proto{
   width:100%;
 }
 
+p.task{
+  width:60%;
+}
+
+p.task.sm{
+  width:80%;
+}
+
 /*** testing spotted ****/
 img.testing-spotted{
   width:90%;
+  margin:45px;
 }
 
 img.testing-spotted-two{
   width:50%;
+  margin:45px;
 }
 
 
 
 /******  testing large  *********/
 div.container-fluid.testing.lg{
-  background-color:#FFC73F;
+  background-color:#69ACCD;
   padding:60px;
 }
 
 div.container-fluid.testing.sm{
-  background-color:#FFC73F;
+  background-color:#69ACCD;
   padding:20px;
 }
 
@@ -1094,16 +1110,28 @@ div.border.row.blue{
   margin-bottom:30px;
 }
 
-div.blue.lg{
+div.border.row.sunshine{
+  border: 2px solid #FFC73F !important;
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+div.border.row.lg{
   width:300px;
 }
 
-div.blue.xlg{
+div.border.row.xlg{
   width:95%;
 }
 
 div.blue.sm{
   width:200px;
+}
+
+ul.testing{
+  list-style:none;
+  padding:0!important;
 }
 
 p.question{
