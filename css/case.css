@@ -52,11 +52,11 @@ h1.rose, p.rose, a.rose, span.rose{ /* light pink */
   color:#EFD1DF;
 }
 
-h1.sea, p.sea, a.sea{ /* darker blue */
+h1.sea, p.sea, a.sea, ul.sea, h4.sea{ /* darker blue */
   color:#69ACCD;
 }
 
-h1.sky, p.sky, a.sky{ /* lighter blue */
+h1.sky, p.sky, a.sky, ul.sky{ /* lighter blue */
   color:#8ECDD6;
 }
 
@@ -413,6 +413,10 @@ p.comp-intro{
 
 /******* user interviews *******/
 
+h3.interviews{
+  margin-left:30px;
+}
+
 div.container-fluid.interviews.lg{
   background: url("../images/portfolio/interview-bg-2-a.png") no-repeat;
   background-size:cover;
@@ -432,12 +436,10 @@ div.container-fluid.interviews.sm{
 }
 
 p.interviews, h4.interviews{
-  width:100%;
+  width:90%;
+  margin: 20px 30px 20px 30px;
 }
 
-div.row.box{
-  margin:30px 0px 30px 0px;
-}
 
 
 /****** persona ******/
@@ -496,6 +498,29 @@ div.container-fluid.persona.green{
   background-color:#B6DCCC;
 }
 
+/* persona details */
+ul.persona-details{
+  list-style:none;
+  padding:0;
+  width:80%;
+}
+
+li.bold{
+  font-family:'Source Sans Pro:900', Arial, sans-serif;
+  font-weight:900;
+}
+
+li.quote{
+  margin-top:10px;
+  font-style: italic;
+  font-size:16px;
+}
+
+li.details{
+  font-size:16px!important;
+  margin:15px inherit 15px inherit!important;
+}
+
 /****** overlay persona *****/
 
 .img { /* creates the circular overlay, br and overflow especially */
@@ -546,23 +571,23 @@ div.container-fluid.persona.green{
 /**** large devices ****/
 
 .img__overlay.one.lg {
-    left: 9%;
-    top: 18%;
+    left: 14%;
+    top: 13%;
 }
 
 .img.one.lg {
-    height: 64%;
-    width: 67%;
+  height: 46%;
+  width: 67%;
 }
 
 .img.two.lg{
-  height: 64%;
+  height: 46%;
   width: 67%;
 }
 
 .img__overlay.two.lg{
-  left: 9%;
-  top: 18%;
+  left: 14%;
+  top: 14%;
 }
 
 /****** small devices *****/
@@ -1040,6 +1065,16 @@ p.proto{
   width:100%;
 }
 
+/*** testing spotted ****/
+img.testing-spotted{
+  width:90%;
+}
+
+img.testing-spotted-two{
+  width:50%;
+}
+
+
 
 /******  testing large  *********/
 div.container-fluid.testing.lg{
@@ -1061,6 +1096,10 @@ div.border.row.blue{
 
 div.blue.lg{
   width:300px;
+}
+
+div.blue.xlg{
+  width:95%;
 }
 
 div.blue.sm{
