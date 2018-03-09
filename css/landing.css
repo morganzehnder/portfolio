@@ -33,6 +33,10 @@ a.nav-item.nav-link{
   color:#FFD47A;
 }
 
+a.nav-item.nav-link.sky{
+  color:#8ECDD6;
+}
+
 a.nav-item.nav-link:hover{
   color:#69ACCD;
 }
@@ -42,6 +46,7 @@ ul.navbar-nav{ /* to match brand padding */
   padding-top: .3125rem!important;
   padding-bottom: .3125rem!important;
   margin-right: 1rem!important;
+  -webkit-animation-delay: 2s;
 }
 
 
@@ -77,6 +82,7 @@ h4{
 h3.intro-text{ /* general */
   font-family:'Source Sans Pro:900', Arial, sans-serif;
   font-weight:900;
+  -webkit-animation-delay: 1s;
 }
 
 h3.intro-text.yellow{
@@ -110,6 +116,7 @@ h2{ /* basic */
     padding: 0px;
     margin: 0 0 -42px 165px;
     letter-spacing:-15px;
+    -webkit-animation-delay: 1s;
   }
 
 h1.marigold, p.marigold, a.marigold{

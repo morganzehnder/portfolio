@@ -29,6 +29,12 @@ h1.sm.case.stacked{
   margin: 120px 0 -2px 5px;
 }
 
+h1.sm.case.stacked.overflow{
+  font-size:60px!important;
+  line-height:43px;
+  margin: 120px 0 -2px 0px;
+}
+
 p{
   margin:30px 0 30px 0;
 }
@@ -60,7 +66,7 @@ h1.rose, p.rose, a.rose, span.rose{ /* light pink */
   color:#EFD1DF;
 }
 
-h1.sea, p.sea, a.sea, ul.sea, h4.sea{ /* darker blue */
+h1.sea, p.sea, a.sea, ul.sea, h4.sea, h3.sea{ /* darker blue */
   color:#69ACCD;
 }
 
@@ -339,6 +345,11 @@ ul.specs{
 
 /********* user survey ********/
 
+/* wasted only */
+p.intro-survey{
+  margin-top:0px!important;
+}
+
 div.container-fluid.survey{
   background-color:#FFD4AE;
 }
@@ -366,6 +377,11 @@ div.survey-details.sm{
 
 p.survey{
   margin-top: -5px !important;
+}
+
+/* conclusions */
+div.container-fluid.conclusions{
+  padding:60px 180px 60px 180px;
 }
 
 /*********** comp analyis ***********/
@@ -411,7 +427,7 @@ div.border.row.comp.dark{
 }
 
 p.comp{
-  width:90%;
+  width:80%;
   margin-bottom:60px;
 }
 
@@ -648,14 +664,14 @@ div.container-fluid.stories.sm.spotted-c{
 }
 
 div.container-fluid.stories.lg.wasted-c{
-  background: url("../images/portfolio/flows-bg.png") no-repeat;
-  background-color: #467B97; /* wasted */
+  background: url("../images/portfolio/flows-bg-wasted.png") no-repeat;
+  background-color: #69ACCD; /* wasted */
   background-size:cover;
   overflow:hidden;
 }
 
 div.container-fluid.stories.sm.wasted-c{
-  background-color: #467B97; /* wasted */
+  background-color: #69ACCD; /* wasted */
 }
 
 div.container-fluid.stories.lg.dockit-c{
@@ -693,6 +709,10 @@ div.container-fluid.checklist.sm{
 
 div.container-fluid.checklist{
   background-color:#F6F7CE;
+}
+
+div.border.row.margin-top{
+  margin-top:60px!important;
 }
 
 p.checklist{
@@ -892,6 +912,11 @@ div.container-fluid.storyframe.sm{
   padding:40px 40px 40px 40px;
 }
 
+p.storyframe.sm{
+  font-style:italic;
+  width:80%;
+}
+
 /******* logo design ******/
 
 div.container-fluid.logo.lg{
@@ -939,9 +964,37 @@ div.container-fluid.lowfi{
   padding:60px 60px 0px 60px;
 }
 
+div.container-fluid.lowfi.sm{
+  background-color: #FFCCBC;
+  padding:40px;
+}
+
+ul.lowfi.sea{
+  padding:10px;
+  list-style:none;
+
+}
+
+ul.lowfi > li{
+  margin-top:20px;
+}
+
+ul.lowfi.sea.sm{
+  list-style:none;
+}
+
+ul.lowfi.sm > li{
+  margin-top:20px;
+}
+
+div.col-sm-4.sm{
+  padding:0px;
+}
+
 img.wires{
   width:100%;
   height:100%;
+  margin-top:60px;
 }
 
 h4.lowfi{
@@ -1123,6 +1176,9 @@ div.border.row.lg{
 
 div.border.row.xlg{
   width:95%;
+}
+div.border.row.xxlg{
+  width:100%;
 }
 
 div.blue.sm{
