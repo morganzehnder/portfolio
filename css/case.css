@@ -1,10 +1,16 @@
 /* basics */
 
+
 a.navbar-brand > img{ /* personal logo */
   height:40px;
   width:auto;
   padding:0px;
   margin:20px 20px 20px 0px; /* gets 15px pad from container */
+}
+
+/* padding for nav items */
+.col-sm-4.nav{
+  padding:20px;
 }
 
 p{
