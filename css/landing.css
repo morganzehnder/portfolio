@@ -77,14 +77,17 @@ h3, h4, p{
 }
 
 h4{
-  font-family:'Source Sans Pro:900', Arial, sans-serif;
-  font-size: 24px;
+  font-family:'Source Sans Pro', Arial, sans-serif;
+  font-size: 28px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:3px;
 }
 
 
 
 h3.intro-text{ /* general */
-  font-family:'Source Sans Pro:900', Arial, sans-serif;
+  font-family:'Source Sans Pro', Arial, sans-serif;
   font-weight:900;
   -webkit-animation-delay: 1s;
 }
@@ -133,20 +136,6 @@ h1.marigold, p.marigold, a.marigold{
     font-size:72px;
   }
 
-  p{
-    font-size:20px;
-    font-family:'Source Sans Pro:900', Arial, sans-serif;
-  }
-
-  ul > li, ol > li{
-    font-size:20px;
-    font-family:'Source Sans Pro:900', Arial, sans-serif;
-  }
-
-
-  p.sm{
-    font-size:16px!important;
-  }
 
   /* case dividers */
   div.border.lg{
@@ -157,9 +146,10 @@ h1.marigold, p.marigold, a.marigold{
   }
 
   /* case text */
-  h3.text-left.case-text.lg{
+  h3.text-left.case-text.lg{ /* cases description */
+    font-family:'Source Sans Pro', Arial, sans-serif;
     width: 600px;
-    padding-left: 180px;
+    padding-left:180px;
     margin-top: 60px;
     color: white;
   }
@@ -209,7 +199,7 @@ h1.marigold, p.marigold, a.marigold{
   /********** mobile ************/
 
   h1.sm{ /* basic */
-    font-family:'Source Sans Pro:900', Arial, sans-serif;
+    font-family:'Source Sans Pro', Arial, sans-serif;
     font-weight:900;
     font-size: 72px;
     padding: 0px;
@@ -233,6 +223,7 @@ h1.marigold, p.marigold, a.marigold{
 
   /* case text mobile */
   h3.text-left.case-text.sm{
+    font-family:'Source Sans Pro', Arial, sans-serif;
     width: 90%;
     margin-left: 20px;
     margin-top: 20px;

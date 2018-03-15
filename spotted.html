@@ -15,6 +15,7 @@
 
   <!--CSS links-->
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/landing.css">
   <link rel="stylesheet" href="css/case.css">
 
@@ -90,8 +91,7 @@
 
   <!-- the short version -->
 
-  <div class="container-fluid spotted summary">
-    <div class="d-none d-md-block">
+  <div class="container-fluid spotted summary lg d-none d-md-block">
       <div class="row summary">
         <div class="col-sm-3"><img src="images/portfolio/summary-2.png" class="summary lg"/></div>
         <div class="col-sm-9">
@@ -113,39 +113,44 @@
           <p class="lg summary">Design a reliable application that allows users to search, filter, review and order from food trucks in their area.</p>
         </div>
       </div>
-    </div>
-    <div class="d-md-none">
-      <div class="row summary">
-        <div class="col-sm-3"><img src="images/portfolio/summary-2.png" class="summary sm"/></div>
-        <div class="col-sm-9">
-          <h4 class="sm summary">Summary</h4>
-          <p class="sm summary">People eat out (restaurant, delivery, or pick-up) several times each week. Easy discovery and quick ordering processes determine which application user’s use to discover and order. No reliable application currently exists to discover, review, and order from a truck. Spotted is an application that provides users with the necessary information and tools to do just that.</p>
-        </div>
-      </div>
-      <div class="row summary">
-        <div class="col-sm-3"><img src="images/portfolio/problem-2.png" class="summary sm"/></div>
-        <div class="col-sm-9">
-          <h4 class="sm summary">Problem</h4>
-          <p class="sm summary">There is no reliable food truck application that provides users with the information and tools they require to select a truck as opposed to a restaurant nearby.</p>
-        </div>
-      </div>
-      <div class="row summary">
-        <div class="col-sm-3"><img src="images/portfolio/solution-2.png" class="summary sm"/></div>
-        <div class="col-sm-9">
-          <h4 class="sm summary">Solution</h4>
-          <p class="sm summary">Design a reliable application that allows users to search, filter, review and order from food trucks in their area.</p>
-        </div>
-      </div>
-    </div>
   </div>
+  <div class="container-fluid spotted summary d-md-none sm">
+      <div class="row summary">
+        <div class="col-sm-3">
+          <img src="images/portfolio/summary-2.png" class="summary sm"/>
+        </div>
+        <div class="col-sm-9">
+          <h4 class="sm">Summary</h4>
+          <p class="sm">People eat out (restaurant, delivery, or pick-up) several times each week. Easy discovery and quick ordering processes determine which application user’s use to discover and order. No reliable application currently exists to discover, review, and order from a truck. Spotted is an application that provides users with the necessary information and tools to do just that.</p>
+        </div>
+      </div>
+      <div class="row summary">
+        <div class="col-sm-3">
+          <img src="images/portfolio/problem-2.png" class="summary sm"/>
+        </div>
+        <div class="col-sm-9">
+          <h4 class="sm">Problem</h4>
+          <p class="sm">There is no reliable food truck application that provides users with the information and tools they require to select a truck as opposed to a restaurant nearby.</p>
+        </div>
+      </div>
+      <div class="row summary">
+        <div class="col-sm-3">
+          <img src="images/portfolio/solution-2.png" class="summary sm"/>
+        </div>
+        <div class="col-sm-9">
+          <h4 class="sm">Solution</h4>
+          <p class="sm">Design a reliable application that allows users to search, filter, review and order from food trucks in their area.</p>
+        </div>
+      </div>
+    </div>
 
   <!-- short cont. -->
   <div class="d-none d-md-block">
     <div class="container-fluid spotted specs lg">
       <div class="row">
         <div class="col-sm-4">
+          <img src="images/portfolio/roles.png" class="lg sicon"/>
           <h4 class="lg specs">Roles</h4>
-          <img src="images/wasted/roles.png" class="sicon"/>
             <ul class="lg specs">
               <li>UX Design</li>
               <li>Visual Design</li>
@@ -153,8 +158,9 @@
             </ul>
         </div>
         <div class="col-sm-4">
+          <img src="images/portfolio/deliverables.png" class="lg sicon"/>
           <h4 class="lg specs">Deliverables</h4>
-            <img src="images/wasted/deliverables.png" class="sicon"/>
+
             <ul class="lg specs">
               <li>User Survey</li>
               <li>User Interviews</li>
@@ -169,8 +175,8 @@
             </ul>
         </div>
         <div class="col-sm-4">
+          <img src="images/portfolio/tools.png" class="lg sicon"/>
           <h4 class="lg specs">Tools</h4>
-              <img src="images/wasted/tools.png" class="sicon"/>
             <ul class="lg specs">
               <li>Balsamiq</li>
               <li>Sketch</li>
@@ -192,7 +198,7 @@
     <div class="d-md-none">
       <div class="container-fluid spotted specs sm">
         <div class="col-sm-4">
-          <img src="images/wasted/roles.png" class="sicon"/>
+            <img src="images/portfolio/roles.png" class="sm sicon"/>
           <h4 class="sm specs">Roles</h4>
             <ul class="sm specs">
               <li>UX Design</li>
@@ -201,7 +207,7 @@
             </ul>
         </div>
         <div class="col-sm-4">
-            <img src="images/wasted/deliverables.png" class="sicon"/>
+              <img src="images/portfolio/deliverables.png" class="sm sicon"/>
           <h4 class="sm specs">Deliverables</h4>
             <ul class="sm specs">
               <li>User Survey</li>
@@ -217,7 +223,7 @@
             </ul>
         </div>
         <div class="col-sm-4">
-          <img src="images/wasted/tools.png" class="sicon"/>
+          <img src="images/portfolio/tools.png" class="sm sicon"/>
           <h4 class="sm specs">Tools</h4>
             <ul class="sm specs">
               <li>Balsamiq</li>
@@ -246,89 +252,75 @@
   <!--user survey -->
 
   <div class="container-fluid survey lg d-none d-md-block">
-    <div class="row">
           <h3 class="lg case dark">Survey</h3>
-    </div>
-          <div class="row"><h4 class="survey">70% of users use Yelp</h4></div>
-          <div class="row"><p class="survey">to discover restaurants, along with Google, Grubhub, Ubereats, Doordash and Postmates</p></div>
-          <div class="row"><h4 class="survey">Convenience, ease, speed</h4></div>
-          <div class="row"><p class="survey">were mentioned most in why users prefer their current discovery, delivery, and ordering method</p></div>
-          <div class="row"><h4 class="survey">Proximity, food-type, & reviews</h4></div>
-          <div class="row"><p class="survey">are most important to users when deciding on a place to eat at</p></div>
-          <div class="row"><h4 class="survey">UberEats is used most for delivery</h4></div>
-          <div class="row"><p class="survey">because of the consistent delivery fees and speed</p></div>
-          <div class="row"><h4 class="survey">47% don’t know where food trucks are</h4></div>
-          <div class="row"><p class="survey">so they don’t eat at them</p></div>
-          <div class="row text-center">
-            <a href="https://docs.google.com/forms/d/11ZmYOfwNL05s4V9I65jn-ONIgTJfPwbjuJm3pqJ979Q/viewanalytics" target="_blank" class="case btn left dark skin">Full Survey</a>
-          </div>
+          <h4 class="survey">70% of users use Yelp</h4>
+          <p class="lg">to discover restaurants, along with Google, Grubhub, Ubereats, Doordash and Postmates</p>
+          <h4 class="survey">Convenience, ease, speed</h4>
+          <p class="lg">were mentioned most in why users prefer their current discovery, delivery, and ordering method</p>
+          <h4 class="survey">Proximity, food-type, & reviews</h4>
+          <p class="lg">are most important to users when deciding on a place to eat at</p>
+          <h4 class="survey">UberEats is used most for delivery</h4>
+          <p class="lg">because of the consistent delivery fees and speed</p>
+          <h4 class="survey">47% don’t know where food trucks are</h4>
+          <p class="lg">so they don’t eat at them</p>
+          <a href="https://docs.google.com/forms/d/11ZmYOfwNL05s4V9I65jn-ONIgTJfPwbjuJm3pqJ979Q/viewanalytics" target="_blank" class="case btn left dark skin">Full Survey</a>
         </div>
 
   <div class="container-fluid survey sm d-md-none">
-    <div class="row">
-      <h3 class="sm case dark survey">Survey</h3>
-      <div class="survey-details sm">
-        <div class="col-sm-8">
-          <div class="row"><h4 class="survey">70% of users use Yelp</h4></div>
-          <div class="row"><p class="survey sm">to discover restaurants, along with Google, Grubhub, Ubereats, Doordash and Postmates</p></div>
-          <div class="row"><h4 class="survey">Convenience, ease, speed</h4></div>
-          <div class="row"><p class="survey sm">were mentioned most in why users prefer their current discovery, delivery, and ordering method</p></div>
-          <div class="row"><h4 class="survey">Proximity, food-type, & reviews</h4></div>
-          <div class="row"><p class="survey sm">are most important to users when deciding on a place to eat at</p></div>
-          <div class="row"><h4 class="survey">UberEats is used most for delivery</h4></div>
-          <div class="row"><p class="survey sm">because of the consistent delivery fees and speed</p></div>
-          <div class="row"><h4 class="survey">47% don’t know where food trucks are</h4></div>
-          <div class="row"><p class="survey sm">so they don’t eat at them</p></div>
-          <div class="row text-center">
-            <a href="https://docs.google.com/forms/d/11ZmYOfwNL05s4V9I65jn-ONIgTJfPwbjuJm3pqJ979Q/viewanalytics" target="_blank" class="case btn left dark skin">Full Survey</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h3 class="sm case dark">Survey</h3>
+    <h4 class="sm survey">70% of users use Yelp</h4>
+    <p class="sm">to discover restaurants, along with Google, Grubhub, Ubereats, Doordash and Postmates</p>
+    <h4 class="sm survey">Convenience, ease, speed</h4>
+    <p class="sm">were mentioned most in why users prefer their current discovery, delivery, and ordering method</p>
+    <h4 class="sm survey">Proximity, food-type, & reviews</h4>
+    <p class="sm">are most important to users when deciding on a place to eat at</p>
+    <h4 class="sm survey">UberEats is used most for delivery</h4>
+    <p class="sm">because of the consistent delivery fees and speed</p>
+    <h4 class="sm survey">47% don’t know where food trucks are</h4>
+    <p class="sm">so they don’t eat at them</p>
+    <a href="https://docs.google.com/forms/d/11ZmYOfwNL05s4V9I65jn-ONIgTJfPwbjuJm3pqJ979Q/viewanalytics" target="_blank" class="case btn left dark skin">Full Survey</a>
   </div>
 
 
 <!--- comp analysis -->
 <div class="container-fluid lg comp d-none d-md-block">
-  <div class="row">
     <h3 class="lg case dark comp">Competitive Analysis</h3>
-  </div>
-  <div class="row">
-    <p class="comp-intro dark">My research participants hadn't used a food truck application, ever. I wanted to analyze at least one, Eat Street, a national food truck locator designed by Food Network. It was the app most frequently mentioned online. </br></br>I also analyzed two indirect competitors, UberEats and Yelp. Yelp was the most used for discovery and UberEats for delivery. Focusing on a developed market related to the food truck industry allowed me to identify the qualities and features most important to users during the discovery and ordering processes.</p>
-  </div>
+    <p class="lg">My research participants hadn't used a food truck application, ever. I wanted to analyze at least one, Eat Street, a national food truck locator designed by Food Network. It was the app most frequently mentioned online. </br></br>I also analyzed two indirect competitors, UberEats and Yelp. Yelp was the most used for discovery and UberEats for delivery. Focusing on a developed market related to the food truck industry allowed me to identify the qualities and features most important to users during the discovery and ordering processes.</p>
   <div class="row">
     <div class="col-sm-4">
       <div class="row"><img src="images/portfolio/yelp.png" class="comp-logo"/></div>
-      <div class="row"><img src="images/portfolio/pro.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Robust discovery tool, several filters to find exactly what you are looking for</p>
-      <p class="comp dark">Large database of reviews with highlights and ability to search</p>
-    </br>
-      <div class="row"><img src="images/portfolio/con.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Lots of visual load with the plethora of tools they offer</p>
-      <p class="comp dark">Inconsistent menus and images across platform, user based</p>
+        <div class="pro-con">
+        <h4 class="lg comp">PRO</h4>
+        <p class="lg comp">Robust discovery tool, several filters to find exactly what you are looking for</p>
+        <p class="lg comp">Large database of reviews with highlights and ability to search</p>
+      </div>
+        <div class="pro-con">
+          <h4 class="lg comp">CON</h4>
+          <p class="lg comp">Lots of visual load with the plethora of tools they offer</p>
+          <p class="lg comp">Inconsistent menus and images across platform, user based</p>
+        </div>
     </div>
-
     <div class="col-sm-4">
       <div class="row"><img src="images/portfolio/uber.png" class="comp-logo"/></div>
-      <div class="row"><img src="images/portfolio/pro.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Gives users the speed and ease they want, they pull user payment info and locations from ride app</p>
-    </br></br></br></br></br></br>
-      <div class="row"><img src="images/portfolio/con.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Little focus on discovery and reviews</p>
+      <div class="pro-con">
+        <h4 class="lg comp">PRO</h4>
+        <p class="lg comp">Gives users the speed and ease they want, they pull user payment info and locations from ride app</p>
+      </div>
+      <div class="pro-con">
+        <h4 class="lg comp">CON</h4>
+        <p class="lg comp">Little focus on discovery and reviews</p>
+      </div>
     </div>
     <div class="col-sm-4">
       <div class="row"><img src="images/portfolio/eat-st.png" class="comp-logo"/></div>
-      <div class="row"><img src="images/portfolio/pro.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Shows weekly schedule for food trucks, users can plan ahead</p>
-    </br></br></br></br></br></br></br>
-      <div class="row"><img src="images/portfolio/con.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Simple, doesn't offer users the ability to view a menu or see reviews</p>
+        <div class="pro-con">
+          <h4 class="lg comp">PRO</h4>
+          <p class="lg comp">Shows weekly schedule for food trucks, users can plan ahead</p>
+        </div>
+          <div class="pro-con">
+            <h4 class="lg comp">CON</h4>
+            <p class="lg comp">Simple, doesn't offer users the ability to view a menu or see reviews</p>
+          </div>
     </div>
   </div>
   <div class="row text-center">
@@ -337,44 +329,31 @@
 </div>
 
 <div class="container-fluid sm comp d-md-none">
-  <div class="row">
-    <h3 class="sm case dark comp">Competitive Analysis</h3>
-  </div>
-  <div class="row">
-  <p class="comp-intro dark">My research participants hadn't used a food truck application, ever. I wanted to analyze at least one, Eat Street, a national food truck locator designed by Food Network. It was the app most frequently mentioned online. </br></br>I also analyzed two indirect competitors, UberEats and Yelp. Yelp was the most used for discovery and UberEats for delivery. Focusing on a developed market related to the food truck industry allowed me to identify the qualities and features most important to users during the discovery and ordering processes.</p>
-  </div>
+    <h3 class="sm dark">Competitive Analysis</h3>
+    <p class="sm">My research participants hadn't used a food truck application, ever. I wanted to analyze at least one, Eat Street, a national food truck locator designed by Food Network. It was the app most frequently mentioned online. </br></br>I also analyzed two indirect competitors, UberEats and Yelp. Yelp was the most used for discovery and UberEats for delivery. Focusing on a developed market related to the food truck industry allowed me to identify the qualities and features most important to users during the discovery and ordering processes.</p>
   <div class="row">
     <div class="col-sm-4">
       <div class="row"><img src="images/portfolio/yelp.png" class="comp-logo"/></div>
-      <div class="row"><img src="images/portfolio/pro.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Robust discovery tool, several filters to find exactly what you are looking for</p>
-      <p class="comp dark">Large database of reviews with highlights and ability to search</p>
-      <div class="row"><img src="images/portfolio/con.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Lots of visual load with the plethora of tools they offer</p>
-      <p class="comp dark">Inconsistent menus and images across platform, user based</p>
+        <h4 class="sm comp">PRO</h4>
+        <p class="sm comp">Robust discovery tool, several filters to find exactly what you are looking for</p>
+        <p class="sm comp">Large database of reviews with highlights and ability to search</p>
+          <h4 class="sm comp">CON</h4>
+          <p class="sm comp">Lots of visual load with the plethora of tools they offer</p>
+          <p class="sm comp">Inconsistent menus and images across platform, user based</p>
     </div>
     <div class="col-sm-4">
       <div class="row"><img src="images/portfolio/uber.png" class="comp-logo"/></div>
-      <div class="row"><img src="images/portfolio/pro.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Gives users the speed and ease they want, they pull user payment info and locations from ride app</p>
-      <p class="comp dark">Maintain layout throughout for menu</p>
-      <p class="comp dark">Image of food when browsing restaurants</p>
-      <div class="row"><img src="images/portfolio/con.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Little focus on discovery and reviews, only include # of reviews and star rating</p>
+        <h4 class="sm comp">PRO</h4>
+        <p class="sm comp">Gives users the speed and ease they want, they pull user payment info and locations from ride app</p>
+        <h4 class="sm comp">CON</h4>
+        <p class="sm comp">Little focus on discovery and reviews</p>
     </div>
     <div class="col-sm-4">
       <div class="row"><img src="images/portfolio/eat-st.png" class="comp-logo"/></div>
-      <div class="row"><img src="images/portfolio/pro.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Shows weekly schedule for food trucks, users can plan ahead</p>
-      <p class="comp dark">Simple interface, minimal visual load</p>
-      <div class="row"><img src="images/portfolio/con.png" class="comp-icon"/></div>
-      <div class="border row comp lg dark"></div>
-      <p class="comp dark">Simple, doesn't offer users the ability to view a menu or see reviews</p>
+          <h4 class="sm comp">PRO</h4>
+          <p class="sm comp">Shows weekly schedule for food trucks, users can plan ahead</p>
+            <h4 class="sm comp">CON</h4>
+            <p class="sm comp">Simple, doesn't offer users the ability to view a menu or see reviews</p>
     </div>
   </div>
   <div class="row text-center">
@@ -382,290 +361,198 @@
   </div>
 </div>
 
+
+
 <!-- interviews -->
 
-<div class="container-fluid lg d-none d-md-block interviews">
+<div class="container-fluid lg interviews d-none d-md-block">
   <div class="row">
     <div class="col-sm-6"><img src="images/portfolio/interview-bg-2-a.png" class="interview"/></div>
       <div class="col-sm-6">
-        <div class="row">
-          <h3 class="lg case interviews dark">User Interviews</h3>
-        </div>
-        <div class="row">
-          <p class="interviews">My user survey provided insights on user's general habits surrounding discovering and ordering from restaurants, as well as eating out.</br></br>During my interviews I dug into what discovery tools are specifically helpful to users on YELP and what past experiences user's have had at food trucks. With this insight, I will carry over the most useful features to better the food truck experience.</p>
-        </div>
+          <h3 class="lg">User Interviews</h3>
+          <p class="lg">My user survey provided insights on user's general habits surrounding discovering and ordering from restaurants, as well as eating out.</br></br>During my interviews I dug into what discovery tools are specifically helpful to users on YELP and what past experiences user's have had at food trucks. With this insight, I will carry over the most useful features to better the food truck experience.</p>
         <div class="border row blue xlg"></div>
-        <div class="row">
-          <h4 class="sm sea">Problem Statement:</br></br>What needs to change for users to select a food truck?</h4>
-        </div>
-        <div class="border row blue xlg"></div>
-        <div class="row">
-          <h4 class="interviews sea">Rephrasing:
-          </br></br>What information do users need to even consider a food truck?
-          </br></br>What extras do users need to select a truck as opposed to a restaurant nearby?
-          </br></br>What do users like about the food truck experience?
-          </br></br>Does the experience of eating at a food truck alone increase it's chance of selection?</h4>
-        </div>
-        <div class="row text-center">
-          <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-Script.pdf" target="_blank" class="case btn white left dark">Interview Script</a>
-        </div>
-        <div class="row text-center">
-          <a href="https://docs.google.com/forms/d/1zQSWMKjFxLS9dQRK6PfTt2sqvIdUDoz5IknKzsQu-3s/viewanalytics" target="_blank" class="case btn white left dark">Interview Results</a>
-        </div>
+          <h4 class="lg sea">Questions to Consider</h4>
+          <ul class="lg sea">
+            <li>What needs to change for users to select a food truck?</li>
+            <li>What information do users need to even consider a food truck?</li>
+            <li>What extras do users need to select a truck as opposed to a restaurant nearby?</li>
+            <li>What do users like about the food truck experience?</li>
+            <li>Does the experience of eating at a food truck alone increase it's chance of selection?</li>
+          </ul>
+          <div class="border row blue xlg"></div>
+          <div class="row"><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-Script.pdf" target="_blank" class="case btn white left dark fixed">Interview Script</a></div>
+          <div class="row"><a href="https://docs.google.com/forms/d/1zQSWMKjFxLS9dQRK6PfTt2sqvIdUDoz5IknKzsQu-3s/viewanalytics" target="_blank" class="case btn white left dark fixed">Interview Results</a></div>
       </div>
     </div>
   </div>
-
-  <div class="container-fluid sm d-md-none interviews">
-    <div class="row">
-      <div class="col-sm-6"><img src="images/portfolio/interview-bg-mobile.png" class="interview"/></div>
-        <div class="col-sm-6">
-          <div class="row">
-            <h3 class="sm case dark">User Interviews</h3>
-          </div>
-          <div class="row">
-            <p class="sm">My user survey provided insights on user's general habits surrounding discovering and ordering from restaurants, as well as eating out.</br></br>During my interviews I dug into what discovery tools are specifically helpful to users on YELP and what past experiences user's have had at food trucks. With this insight, I will carry over the most useful features to better the food truck experience.</p>
-          </div>
-          <div class="border row blue lg"></div>
-          <div class="row">
-            <h4 class="sm sea">Problem Statement:</br></br>What needs to change for users to select a food truck?</h4>
-          </div>
-          <div class="border row blue lg"></div>
-          <div class="row">
-            <h4 class="sm sea">Rephrasing:
-            </br></br>What information do users need to even consider a food truck?
-            </br></br>What extras do users need to select a truck as opposed to a restaurant nearby?
-            </br></br>What do users like about the food truck experience?
-            </br></br>Does the experience of eating at a food truck alone increase it's chance of selection?</h4>
-          </div>
-          <div class="row text-center">
-            <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-Script.pdf" target="_blank" class="case btn white left dark">Interview Script</a>
-          </div>
-          <div class="row text-center">
-            <a href="https://docs.google.com/forms/d/1zQSWMKjFxLS9dQRK6PfTt2sqvIdUDoz5IknKzsQu-3s/viewanalytics" target="_blank" class="case btn white left dark">Interview Results</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
   <!-- personas -->
 
   <div class="container-fluid persona blue-c lg d-none d-md-block">
-        <div class="row">
-          <h3 class="lg case persona dark">Personas</h3>
-        </div>
-          <h4 class="persona">Our Ideal User</h4>
-          <ul class="persona">
-            <li>Utilizes apps' special and basic features when deciding on places to eat</li>
-            <li>Is selective when discovering new restaurants</li>
-            <li>Enjoys going out to eat as a social event</li>
-          </ul>
+    <h3 class="lg">Personas</h3>
+    <h4 class="lg">Our Ideal User</h4>
+    <ul class="lg">
+      <li>Utilizes apps' special and basic features when deciding on places to eat</li>
+      <li>Is selective when discovering new restaurants</li>
+      <li>Enjoys going out to eat as a social event</li>
+    </ul>
       <div class="row">
-      <div class="images-overlays col-sm-4">
+      <div class="col-sm-4">
         <a href="spottedpersonas.html" target="_blank">
-          <div class="img__overlay one lg img">View Persona</div>
-          <img src="images/portfolio/alex-img.png" class="persona mx-auto d-block"/>
+          <img src="images/portfolio/alex-img.png" class="persona mx-auto d-block animated pulse" id="persona"/>
         </a>
-          <ul class="persona-details text-center mx-auto d-block">
-            <li>Alex</li>
-            <li class=" details">24 | Female | Los Angeles, CA</li>
-            <li class="quote">"I eat plant-based so filtering by food type is a must!"</li>
-          </ul>
+        <div class="persona-details mx-auto d-block text-center">
+          <h3 class="sm persona">Alex</h3>
+          <h4 class="sm persona">24 | Female | Los Angeles</h4>
+          <p class="sm">"I eat plant-based so filtering by food type is a must!"</p>
+        </div>
+        </div>
+      <div class="col-sm-4">
+        <a href="spottedpersonas.html" target="_blank">
+          <img src="images/portfolio/paul-img.png" class="persona mx-auto d-block animated pulse" id="persona"/>
+        </a>
+        <div class="persona-details mx-auto d-block text-center">
+          <h3 class="sm persona">Paul</h3>
+          <h4 class="sm persona">30 | Male | Denver</h4>
+          <p class="sm">"Reviews can be unreliable, I need the practical information - menu, hours, location."</p>
+        </div>
       </div>
-      <div class="images-overlays col-sm-4">
+      <div class="col-sm-4">
         <a href="spottedpersonas.html" target="_blank">
-          <div class="img__overlay two lg img">View Persona</div>
-          <img src="images/portfolio/paul-img.png" class="persona mx-auto d-block"/>
+          <img src="images/portfolio/jess-img.png" class="persona mx-auto d-block animated pulse" id="persona"/>
         </a>
-        <ul class="persona-details text-center mx-auto d-block">
-          <li>Paul</li>
-          <li class=" details">30 | Male | Dever, CO</li>
-          <li class="quote">"Reviews can be unreliable, I need the practical information - menu, hours, location."</li>
-        </ul>
-      </div>
-      <div class="images-overlays col-sm-4">
-        <a href="spottedpersonas.html" target="_blank">
-          <div class="img__overlay two lg img">View Persona</div>
-          <img src="images/portfolio/jess-img.png" class="persona mx-auto d-block"/>
-        </a>
-        <ul class="persona-details text-center mx-auto d-block">
-          <li>Jess</li>
-          <li class=" details">27 | Female | Los Angeles, CA</li>
-          <li class="quote">"When convenient I enjoy the experience, but I need zero wait time."</li>
-        </ul>
+        <div class="persona-details mx-auto d-block text-center">
+          <h3 class="sm persona">Jess</h3>
+          <h4 class="sm persona">27 | Female | Los Angeles</h4>
+          <p class="sm">"When convenient I enjoy the experience, but I need zero wait time."</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid blue-c persona sm d-md-none">
+  <!-- personas -->
+
+  <div class="container-fluid persona blue-c sm d-md-none">
+    <h3 class="sm case dark">Personas</h3>
+    <h4 class="sm">Our Ideal User</h4>
+    <ul class="sm">
+      <li>Utilizes apps' special and basic features when deciding on places to eat</li>
+      <li>Is selective when discovering new restaurants</li>
+      <li>Enjoys going out to eat as a social event</li>
+    </ul>
+      <div class="row">
       <div class="col-sm-4">
-        <div class="row">
-          <h3 class="sm case persona dark">Personas</h3>
+        <a href="spottedpersonas.html" target="_blank">
+          <img src="images/portfolio/alex-img.png" class="persona mx-auto d-block animated pulse" id="persona"/>
+        </a>
+        <div class="persona-details mx-auto d-block text-center">
+          <h3 class="sm persona">Alex</h3>
+          <h4 class="sm persona">24 | Female | L.A.</h4>
+          <p class="sm">"I eat plant-based so filtering by food type is a must!"</p>
         </div>
-        <div class="row">
-          <p class="persona sm">To further understand the needs of my users and finalize product requirements, I conducted three user interviews with men and women of various ages who had eaten at a food truck.</p>
         </div>
-        <div class="row">
-          <h4 class="persona">Our Ideal User</h4>
-        </div>
-        <div class="row">
-          <ul class="persona sm">
-            <li>Utilizes phone applications to review and order from restaurants</li>
-            <li>Is open to trying new types of cuisine</li>
-            <li>Enjoys going out to eat as a social event</li>
-          </ul>
+      <div class="col-sm-4">
+        <a href="spottedpersonas.html" target="_blank">
+          <img src="images/portfolio/paul-img.png" class="persona mx-auto d-block animated pulse" id="persona"/>
+        </a>
+        <div class="persona-details mx-auto d-block text-center">
+          <h3 class="sm persona">Paul</h3>
+          <h4 class="sm persona">30 | Male | Denver</h4>
+          <p class="sm">"Reviews can be unreliable, I need the practical information - menu, hours, location."</p>
         </div>
       </div>
-      <div class="row">
-        <div class="images-overlays col-sm-4">
-          <a href="spottedpersonas.html" target="_blank">
-            <div class="img__overlay one sm img">View Persona</div>
-            <img src="images/portfolio/alex-img.png" class="persona mx-auto d-block"/>
-          </a>
-          <ul class="persona-details text-center mx-auto d-block">
-            <li class="bold">Alex</li>
-            <li class="details">24 | Female | Los Angeles, CA</li>
-            <li class="quote">"I eat plant-based so filtering by food type is a must!"</li>
-          </ul>
+      <div class="col-sm-4">
+        <a href="spottedpersonas.html" target="_blank">
+          <img src="images/portfolio/jess-img.png" class="persona mx-auto d-block animated pulse" id="persona"/>
+        </a>
+        <div class="persona-details mx-auto d-block text-center">
+          <h3 class="sm persona">Jess</h3>
+          <h4 class="sm persona">27 | Female | L.A.</h4>
+          <p class="sm">"When convenient I enjoy the experience, but I need zero wait time."</p>
         </div>
-        <div class="images-overlays col-sm-4">
-          <a href="spottedpersonas.html" target="_blank">
-            <div class="img__overlay two sm img">View Persona</div>
-            <img src="images/portfolio/paul-img.png" class="persona mx-auto d-block"/>
-          </a>
-          <ul class="persona-details text-center mx-auto d-block">
-            <li class="bold">Paul</li>
-            <li class="details">30 | Male | Dever, CO</li>
-            <li class="quote">"Reviews can be unreliable, I need the practical information - menu, hours, location."</li>
-          </ul>
-        </div>
-        <div class="images-overlays col-sm-4">
-          <a href="spottedpersonas.html" target="_blank">
-            <div class="img__overlay two sm img">View Persona</div>
-            <img src="images/portfolio/jess-img.png" class="persona mx-auto d-block"/>
-          </a>
-          <ul class="persona-details text-center mx-auto d-block">
-            <li class="bold">Jess</li>
-            <li class="details">27 | Female | Los Angeles, CA</li>
-            <li class="quote">"When convenient I enjoy the experience, but I need zero wait time."</li>
-          </ul>
-        </div>
+      </div>
     </div>
   </div>
+
+
 
   <!-- user stories/flows -->
   <div class="container-fluid spotted-c stories lg d-none d-md-block">
-    <div class="row">
     <div class="col-sm-6 right">
-      <div class="row">
-        <h3 class="lg case comp white">User Stories</h3>
-      </div>
-      <h4 class="stories white">User's main goals</h4>
-      <ul class="persona white">
-        <li>I want to view trucks near me</li>
-        <li>I want to be able to filter by proximity, food-type, and price range</li>
-        <li>I want directions to a truck</li>
-        <li>I want to view a trucks menu</li>
-        <li>I want to view a trucks star rating & number of reviews</li>
-        <li>I want to read a trucks' reviews</li>
-        <li>I want to place an order for pickup</li>
-        <li>I want to make specifications to my order</li>
-        <li>I want to be able to contact the restaurant directly</li>
-        <li>I want to view the wait time</li>
-      </ul>
-      <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case sea btn left">Full List</a>
-      </div>
+      <div>
+        <h3 class="lg white">User Stories</h3>
+        <h4 class="lg white">User's main goals</h4>
+        <ul class="lg white">
+          <li>I want to view trucks near me</li>
+          <li>I want to be able to filter by proximity, food-type, and price range</li>
+          <li>I want directions to a truck</li>
+          <li>I want to view a trucks menu</li>
+          <li>I want to view a trucks star rating & number of reviews</li>
+          <li>I want to read a trucks' reviews</li>
+          <li>I want to place an order for pickup</li>
+          <li>I want to make specifications to my order</li>
+          <li>I want to be able to contact the restaurant directly</li>
+          <li>I want to view the wait time</li>
+        </ul>
+      <div class="row"><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case sea btn left">Full List</a></div>
     </div>
-    </div>
-    <div class="row flows">
-    <div class="col-sm-6 right">
-      <div class="row">
-        <h3 class="lg case comp white">User Flows</h3>
+      <div class="flows">
+          <h3 class="lg white">User Flows</h3>
+          <p class="lg white">Like an e-commerce site, users make purchases on Spotted. Limiting the number of steps and fields from discovery - checkout is essential. To simplify tasks and get users from point A to point B with the fewest number of clicks I generated user flows prior to developing my visual designs.</p>
+          <div class="row"><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/spotted-user-flows.pdf" target="_blank" class="case sea btn left"> Select User Flows</a></div>
       </div>
-      <p class="white">Like an e-commerce site, users make purchases on Spotted. Limiting the number of steps and fields from discovery - checkout is essential. To simplify tasks and get users from point A to point B with the fewest number of clicks I generated user flows prior to developing my visual designs.</p>
-      <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/spotted-user-flows.pdf" target="_blank" class="case sea btn left"> Select User Flows</a>
-      </div>
-    </div>
     </div>
   </div>
+
   <div class="container-fluid spotted-c stories sm d-md-none">
-    <div class="row">
     <div class="col-sm-6">
-      <div class="row">
-        <h3 class="sm case comp white">User Stories</h3>
-      </div>
-      <h4 class="stories white">User's main goals</h4>
-      <ul class="stories white">
-        <li>I want to view trucks near me</li>
-        <li>I want to be able to filter by proximity, food-type, and price range</li>
-        <li>I want to place an order via an app</li>
-        <li>I want to view wait time</li>
-        <li>I want to view the menu</li>
-        <li>I want to make specifications to my order</li>
-        <li>I want to be able to contact the restaurant directly if there is an issue</li>
-      </ul>
-      <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case sea btn left">Full List</a>
-      </div>
+      <div>
+        <h3 class="sm white">User Stories</h3>
+        <h4 class="sm white">User's main goals</h4>
+        <ul class="sm white">
+          <li>I want to view trucks near me</li>
+          <li>I want to be able to filter by proximity, food-type, and price range</li>
+          <li>I want directions to a truck</li>
+          <li>I want to view a trucks menu</li>
+          <li>I want to view a trucks star rating & number of reviews</li>
+          <li>I want to read a trucks' reviews</li>
+          <li>I want to place an order for pickup</li>
+          <li>I want to make specifications to my order</li>
+          <li>I want to be able to contact the restaurant directly</li>
+          <li>I want to view the wait time</li>
+        </ul>
+      <div class="row"><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case sea btn left">Full List</a></div>
     </div>
-    </div>
-    <div class="row flows">
-    <div class="col-sm-6">
-      <div class="row">
-        <h3 class="sm case comp white">User Flows</h3>
-      </div>
-      <p class="sm white">Like an e-commerce site, users make purchases on Spotted. Limiting the number of steps and fields from discovery - checkout is essential. To simplify tasks and get users from point A to point B with the fewest number of clicks I generated user flows prior to developing my visual designs.</p>
-      <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/spotted-user-flows.pdf" target="_blank" class="case sea btn left">Select User Flows</a>
+      <div class="flows">
+          <h3 class="sm white">User Flows</h3>
+          <p class="sm white">Like an e-commerce site, users make purchases on Spotted. Limiting the number of steps and fields from discovery - checkout is essential. To simplify tasks and get users from point A to point B with the fewest number of clicks I generated user flows prior to developing my visual designs.</p>
+          <div class="row"><a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/spotted-user-flows.pdf" target="_blank" class="case sea btn left"> Select User Flows</a></div>
       </div>
     </div>
-    </div>
-  </div>
-
-
-  <!-- IA Header -->
-
-  <div class="d-none d-md-block">
-    <h1 class="text-left  lg case stacked"><span class="orchid">INFORMATION</span></br><span class="rose">ARCHITECTURE</h1></span>
-  </div>
-  <div class="d-md-none">
-    <h1 class="text-left overflow sm case stacked"><span class="orchid">INFORMATION</span></br><span class="rose">ARCHITECTURE</h1></span>
   </div>
 
 
   <!--navigation -->
 
   <div class="container-fluid spotted-c sitemap lg d-none d-md-block">
-    <div class="row">
-      <h3 class="lg case dark">Navigation</h3>
-    </div>
-    <div class="row">
-      <p class="sitemap">All the minor details and actions associated with the discovery and ordering processes required extra attention. Lack of basic, but necessary information is a major pain point for users on food apps. From my user stories, I carefully categorized all of the information required for my application.
+    <h3 class="lg dark">Navigation</h3>
+    <p class="lg">All the minor details and actions associated with the discovery and ordering processes required extra attention. Lack of basic, but necessary information is a major pain point for users on food apps. From my user stories, I carefully categorized all of the information required for my application.
       </br></br>Wanting a simple, cohesive and intuitive navigation, I broke all my user stories down into actions, then categories, and finally pages. My four menu categories: Trucks, Orders, Notifications, and Account.</p>
-    </div>
-    <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case dark rose btn">View Steps</a>
-    </div>
     <div class="row">
-      <img src="images/spotted/sitemap.png" class="sitemap mx-auto d-block"/>
+        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case dark rose btn left fixed">View Steps</a>
     </div>
+    <img src="images/spotted/sitemap.png" class="sitemap mx-auto d-block"/>
   </div>
   <div class="container-fluid spotted-c sitemap sm d-md-none">
-    <div class="row">
-      <h3 class="lg case dark">Navigation</h3>
-    </div>
-    <div class="row">
-      <p class="sitemap">All the minor details and actions associated with the discovery and ordering processes required extra attention. Lack of basic, but necessary information is a major pain point for users on food apps. From my user stories, I carefully categorized all of the information required for my application.
+      <h3 class="sm dark">Navigation</h3>
+      <p class="sm">All the minor details and actions associated with the discovery and ordering processes required extra attention. Lack of basic, but necessary information is a major pain point for users on food apps. From my user stories, I carefully categorized all of the information required for my application.
       </br></br>Wanting a simple, cohesive and intuitive navigation, I broke all my user stories down into actions, then categories, and finally pages. My four menu categories: Trucks, Orders, Notifications, and Account.</p>
+    <div class="row">
+        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/sitemap.pdf" target="_blank" class="case dark btn rose fixed left">View Sitemap</a>
     </div>
-    <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/sitemap.pdf" target="_blank" class="case dark btn rose left">View Sitemap</a>
-    </div>
-    <div class="row text-center">
-        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case dark btn rose left">View Steps</a>
+    <div class="row">
+        <a href="file:///Users/morganzehnder/bloc/portfolio/pdfs/Spotted-User-Stories.pdf" target="_blank" class="case dark btn rose fixed left">View Steps</a>
     </div>
   </div>
 
@@ -685,13 +572,9 @@
   <!-- style -->
   <div class="container-fluid spotted-c style lg d-none d-md-block">
     <div class="row">
-        <div class="col-sm-4">
-          <div class="row">
-            <h3 class="lg case dark style">Style</h3>
-          </div>
-          <div class="row">
-            <p class="dark style lg"> Futura is a clean, modern, distinguishable font, used for main headers to establish hierarchy and stand out. Roboto was used for subheaders and body text as the Android standard.</br></br>The color palette was fine tuned using Android’s color tool for accessibility. Red and orange were selected as a jumping off point to engage without overpowering, associate with hunger, and highlight images of food. </p>
-          </div>
+        <div class="col-sm-4 style">
+            <h3 class="lg">Style</h3>
+            <p class="lg"> Futura is a clean, modern, distinguishable font, used for main headers to establish hierarchy and stand out. Roboto was used for subheaders and body text as the Android standard.</br></br>The color palette was fine tuned using Android’s color tool for accessibility. Red and orange were selected as a jumping off point to engage without overpowering, associate with hunger, and highlight images of food. </p>
         </div>
         <div class="col-sm-8">
           <img src="images/portfolio/spotted-style.png" class="style lg"/>
@@ -700,56 +583,53 @@
     </div>
     <div class="container-fluid spotted-c style sm d-md-none">
       <div class="row">
-            <div class="row">
-              <h3 class="sm case dark style">Style</h3>
-            </div>
-            <div class="row">
-              <p class="dark style sm">Futura is a clean, modern, distinguishable font, used for main headers to establish hierarchy and stand out. Roboto was used for subheaders and body text as the Android standard.</br></br>The color palette was fine tuned using Android’s color tool for accessibility. Red and orange were selected as a jumping off point to engage without overpowering, associate with hunger, and highlight images of food. </p>
-            </div>
+          <div class="col-sm-4">
+              <h3 class="lg">Style</h3>
+              <p class="lg"> Futura is a clean, modern, distinguishable font, used for main headers to establish hierarchy and stand out. Roboto was used for subheaders and body text as the Android standard.</br></br>The color palette was fine tuned using Android’s color tool for accessibility. Red and orange were selected as a jumping off point to engage without overpowering, associate with hunger, and highlight images of food. </p>
           </div>
-          <div class="row">
+          <div class="col-sm-8">
             <img src="images/spotted/spotted-mobile-style.png" class="style sm"/>
           </div>
+        </div>
       </div>
-
 
 
     <!-- name -->
     <div class="container-fluid spotted-c name lg d-none d-md-block">
       <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-8">
         <img src="images/portfolio/spotted-name-truck.png" class="name-spotted d-block"/>
         <img src="images/portfolio/locator.png" class="name-spotted d-block"/>
       </div>
-      <div class="col-sm-6">
-          <h3 class="lg case name">Name</h3>
-          <div class="row"><h4 class="name">Spots</h4></div>
-          <div class="row"><p class="name">Locations on a map.</p></div>
-          <div class="row"><h4 class="name">Your "spots"</h4></div>
-          <div class="row"><p class="name">Where users visit frequently: home, work, & food trucks</p></div>
-          <div class="row"><h4 class="name">“Spotted”</h4></div>
-          <div class="row"><p class="name">Discovery. Our app is used to “spot”  new food trucks.</p></div>
-          <div class="row"><h4 class="name">"Is your city spotted?"</h4></div>
-          <div class="row"><p class="name">Food trucks are a hot trend right now. More urban/hip cities are "spotted" with a diverse food scene.</p></div>
-          <div class="row"><h4 class="name">“There is a chinese "spot" nearby"</h4></div>
-          <div class="row"><p class="name">Users tend to revisit the same spots and often have a spot for each food type or category.</p></div>
+      <div class="col-sm-4 name">
+          <h3 class="lg">Name</h3>
+          <div class="row"><h4 class="lg">Spots</h4></div>
+          <div class="row"><p class="lg">Locations on a map.</p></div></br>
+          <div class="row"><h4 class="lg">Your "spots"</h4></div>
+          <div class="row"><p class="lg">Where users visit frequently: home, work, & food trucks</p></div></br>
+          <div class="row"><h4 class="lg">“Spotted”</h4></div>
+          <div class="row"><p class="lg">Discovery. Our app is used to “spot”  new food trucks.</p></div></br>
+          <div class="row"><h4 class="lg">"Is your city spotted?"</h4></div>
+          <div class="row"><p class="lg">Food trucks are a hot trend right now. More urban/hip cities are "spotted" with a diverse food scene.</p></div></br>
+          <div class="row"><h4 class="lg">“There is a chinese "spot" nearby"</h4></div>
+          <div class="row"><p class="lg">Users tend to revisit the same spots and often have a spot for each food type or category.</p></div></br>
       </div>
     </div>
   </div>
   <div class="container-fluid spotted-c name sm d-md-none">
     <div class="row">
       <div class="col-sm-6">
-          <h3 class="lg case name">Name</h3>
-          <div class="row"><h4 class="name">Spots</h4></div>
-          <div class="row"><p class="name sm">Locations on a map.</p></div>
-          <div class="row"><h4 class="name sm">Your "spots"</h4></div>
-          <div class="row"><p class="name sm">Where users visit frequently: home, work, & food trucks</p></div>
-          <div class="row"><h4 class="name">“Spotted”</h4></div>
-          <div class="row"><p class="name sm">Discovery. Our app is used to “spot”  new food trucks.</p></div>
-          <div class="row"><h4 class="name">"Is your city spotted?"</h4></div>
-          <div class="row"><p class="name sm">Food trucks are a hot trend right now. More urban/hip cities are "spotted" with a diverse food scene.</p></div>
-          <div class="row"><h4 class="name">“There is a chinese "spot" nearby"</h4></div>
-          <div class="row"><p class="name sm">Users tend to revisit the same spots and often have a spot for each food type or category.</p></div>
+          <h3 class="sm">Name</h3>
+          <div class="row"><h4 class="sm">Spots</h4></div>
+          <div class="row"><p class="sm">Locations on a map.</p></div></br>
+          <div class="row"><h4 class="sm">Your "spots"</h4></div>
+          <div class="row"><p class="sm">Where users visit frequently: home, work, & food trucks</p></div></br>
+          <div class="row"><h4 class="sm">“Spotted”</h4></div>
+          <div class="row"><p class="sm">Discovery. Our app is used to “spot”  new food trucks.</p></div></br>
+          <div class="row"><h4 class="sm">"Is your city spotted?"</h4></div>
+          <div class="row"><p class="sm">Food trucks are a hot trend right now. More urban/hip cities are "spotted" with a diverse food scene.</p></div></br>
+          <div class="row"><h4 class="sm">“There is a chinese "spot" nearby"</h4></div>
+          <div class="row"><p class="sm">Users tend to revisit the same spots and often have a spot for each food type or category.</p></div>
       </div>
     <div class="col-sm-6">
       <img src="images/portfolio/spotted-name-truck.png" class="name-spotted sm d-block"/>
@@ -763,16 +643,12 @@
       <!--logo design -->
 
       <div class="container-fluid logo lg d-none d-md-block">
-          <h3 class="lg case dark">Logo Design</h3>
-          <p>I conducted a preference test with all 3 of these options to see what general direction and overall logo design users preferred. </br></br>Options #1 and #2 were selected an equal number of times in a preference test. I decided to take what testers liked of each design (lettering and simplicity + truck) and forge it into one design. After discussing with my design mentor, I decided to keep the spots on the logo as well to clearly hint that the letters are meant to be a play on roads.</p>
-        <div class="row">
+          <h3 class="lg">Logo Design</h3>
+          <p class="lg">I conducted a preference test with all 3 of these options to see what general direction and overall logo design users preferred. </br></br>Options #1 and #2 were selected an equal number of times in a preference test. I decided to take what testers liked of each design (lettering and simplicity + truck) and forge it into one design. After discussing with my design mentor, I decided to keep the spots on the logo as well to clearly hint that the letters are meant to be a play on roads.</p>
           <img src="images/spotted/logo-sketches-lg.png" class="logo lg mx-auto d-block"/>
-        </div>
       </div>
       <div class="container-fluid logo sm d-md-none">
-        <div class="row">
-          <h3 class="sm case dark">Logo Design</h3>
-        </div>
+          <h3 class="sm">Logo Design</h3>
           <p class="sm">I conducted a preference test with all 3 of these options to see what general direction and overall logo design users preferred. </br></br>Options #1 and #2 were selected an equal number of times in a preference test. I decided to take what testers liked of each design (lettering and simplicity + truck) and forge it into one design. After discussing with my design mentor, I decided to keep the spots on the logo as well to clearly hint that the letters are meant to be a play on roads.</p>
           <img src="images/spotted/logo-sketches-lg.png" class="logo sm mx-auto d-block"/>
       </div>
@@ -790,11 +666,8 @@
 
       <!-- lowfi ---->
 
-      <div class="container-fluid lowfi">
-        <div class="row d-none d-md-block">
-          <div class="row">
-            <h3 class="lg case dark lowfi">Lowfi Wireframes</h3>
-          </div>
+      <div class="container-fluid lowfi lg d-none d-md-block">
+          <h3 class="lg case dark lowfi">Lowfi Wireframes</h3>
           <h4 class="lowfi">Feedback from testers & fellow designers:</h4>
           <div class="row">
             <ul class="lowfi lg">
@@ -807,15 +680,11 @@
               <li>Put restaurant image before details (natural hierarchy)</li>
             </ul>
           </div>
-          <div class="row">
             <img src="images/portfolio/wireframes.png" class="wires lg"/>
-          </div>
-        </div>
+      </div>
 
-        <div class="row d-md-none">
-          <div class="row">
-            <h3 class="sm case dark lowfi">Lowfi Wireframes</h3>
-          </div>
+      <div class="container-fluid lowfi sm d-md-none">
+        <h3 class="sm case dark lowfi">Lowfi Wireframes</h3>
           <div class="row">
             <ul class="lowfi sm">
               <li>Remove spaces between modal windows  to clean up appearance</li>
@@ -827,123 +696,33 @@
               <li>Put restaurant image before details (natural hierarchy)</li>
             </ul>
           </div>
-          <div class="row">
             <img src="images/portfolio/mobile-wireframes.png" class="wires sm"/>
-          </div>
         </div>
       </div>
 
       <!-- highfi ------>
 
       <div class="container-fluid lg highfi d-none d-md-block">
-        <div class="row">
-          <h3 class="lg case dark">Highfi Mockups</h3>
-        </div>
-        <div class="d-none d-md-block">
-        <div class="col-sm-12">
-          <div class="row"><h4 class="high-fi text-center mx-auto d-block">PAINLESS </br> ONBOARDING FLOW</h4></div>
-          <div class="row">
-            <div class="carousel spotted-c mx-auto d-block">
-              <div><img src="images/spotted/loading.png" class="carousel-img spotted-c"></div>
-              <div><img src="images/spotted/verify.png" class="carousel-img spotted-c"></div>
-              <div><img src="images/spotted/confirm-number.png" class="carousel-img spotted-c"></div>
-              <div><img src="images/spotted/complete.png" class="carousel-img spotted-c"></div>
-              <div><img src="images/spotted/spots.png" class="carousel-img spotted-c"></div>
-              <div><img src="images/spotted/finding.png" class="carousel-img spotted-c"></div>
-              <div><img src="images/spotted/map-view.png" class="carousel-img spotted-c"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12">
-          <div class="row"><h4 class="high-fi text-center mx-auto d-block">LIST VIEW </br> WITH A PREVIEW</h4></div>
-          <div class="row">
-          <div class="carousel spotted-c mx-auto d-block">
-            <div><img src="images/portfolio/list-lowfi.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/list-wireframe-2.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/list-view-c.png" class="carousel-img spotted-c"></div>
-          </div>
-        </div>
-      </div>
-        <div class="col-sm-12">
-          <div class="row"><h4 class="high-fi text-center mx-auto d-block">BUILT IN </br> FOOD TYPE FILTER</h4></div>
-          <div class="row">
-          <div class="carousel spotted-c mx-auto d-block">
-            <div><img src="images/portfolio/spots-c.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/map-zoom-c.png" class="carousel-img spotted-c"></div>
-          </div>
-        </div>
-      </div>
-        <div class="col-sm-12">
-          <div class="row"><h4 class="high-fi text-center mx-auto d-block">ORDER FLOW</h4></div>
-          <div class="row">
-          <div class="carousel spotted-c mx-auto d-block">
-            <div><img src="images/spotted/map-select-out.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/menu-zero-c.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/add-item-c.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/menu-added-c.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/cart-checkout-c.png" class="carousel-img spotted-c"></div>
-            <div><img src="images/portfolio/order-summary-c.png" class="carousel-img spotted-c"></div>
-          </div>
-        </div>
-      </div>
+        <h3 class="lg">Highfi Mockups</h3>
+        <h4 class="lg mockups">New User - Painless Onboarding Flow</h4>
+        <img src="images/portfolio/spotted-onboarding-flow.png" class="mockups lg"/>
+        <h4 class="lg mockups">New & Returning - Order Flow</h4>
+        <img src="images/portfolio/spotted-order-flow.png" class="mockups lg"/>
     </div>
+    <div class="container-fluid sm highfi d-md-none">
+      <h3 class="sm mockups">Highfi Mockups</h3>
+      <h4 class="sm">New User - Painless Onboarding Flow</h4>
+      <img src="images/portfolio/spotted-onboarding-flow-mobile.png" class="mockups sm"/>
+      <h4 class="sm mockups">New & Returning - Order Flow</h4>
+      <img src="images/portfolio/spotted-order-flow-mobile.png" class="mockups sm"/>
   </div>
-  <div class="container-fluid sm highfi d-md-none">
-    <div class="row">
-      <h3 class="lg case dark">Highfi Mockups</h3>
-    </div>
-    <div class="col-sm-12">
-      <div class="row"><h4 class="high-fi text-center mx-auto d-block">PAINLESS </br> ONBOARDING FLOW</h4></div>
-      <div class="row">
-        <div class="carousel spotted-c sm mx-auto d-block">
-          <div><img src="images/portfolio/loading-c.png" class="carousel-img spotted-c sm"></div>
-          <div><img src="images/portfolio/confirm-c.png" class="carousel-img spotted-c sm"></div>
-          <div><img src="images/portfolio/verification-c.png" class="carousel-img spotted-c sm"></div>
-          <div><img src="images/portfolio/complete-c.png" class="carousel-img spotted-c sm"></div>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <div class="row"><h4 class="high-fi text-center mx-auto d-block">LIST VIEW </br> WITH A PREVIEW</h4></div>
-      <div class="row">
-      <div class="carousel spotted-c sm mx-auto d-block">
-        <div><img src="images/portfolio/list-lowfi.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/list-wireframe-2.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/list-view-c.png" class="carousel-img spotted-c sm"></div>
-      </div>
-    </div>
-  </div>
-    <div class="col-sm-12">
-      <div class="row"><h4 class="high-fi text-center mx-auto d-block">BUILT IN </br> FOOD TYPE FILTER</h4></div>
-      <div class="row">
-      <div class="carousel spotted-c sm mx-auto d-block">
-        <div><img src="images/portfolio/spots-list-2.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/map-zoom-2.png" class="carousel-img spotted-c sm"></div>
-      </div>
-    </div>
-  </div>
-    <div class="col-sm-12">
-      <div class="row"><h4 class="high-fi text-center mx-auto d-block">ORDER FLOW</h4></div>
-      <div class="row">
-      <div class="carousel spotted-c sm mx-auto d-block">
-        <div><img src="images/spotted/map-select-out.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/menu-case-study.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/add-item-2.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/menu-added-case-study.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/cart-checkout-2.png" class="carousel-img spotted-c sm"></div>
-        <div><img src="images/portfolio/order-summary-2.png" class="carousel-img spotted-c sm"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
 
       <!--- invision prototype --->
       <div class="container-fluid spotted proto lg d-none d-md-block">
         <div class="row">
         <div class="col-sm-4 d-none d-md-block">
-          <h3 class="lg case dark">Prototype</h3>
-          <p class="proto">Using Invision, I created a clickable prototype of my high-fidelity wireframes to conduct user testing.</p>
+          <h3 class="lg">Prototype</h3>
+          <p class="proto lg">Using Invision, I created a clickable prototype of my high-fidelity wireframes to conduct user testing.</p>
           <a href="https://invis.io/HNG6SX9AW3Y" target="_blank" class="case btn lg left lavender">Invision Prototype</a>
         </div>
         <div class="col-sm-8 d-none d-md-block">
@@ -952,7 +731,7 @@
       </div>
     </div>
     <div class="container-fluid spotted proto sm d-md-none">
-          <h3 class="sm case dark">Prototype</h3>
+          <h3 class="sm">Prototype</h3>
           <p class="proto sm">Using Invision, I created a clickable prototype of my high-fidelity wireframes to conduct user testing.</p>
           <img src="images/spotted/proto-invision-mobile.png" class="proto sm"/>
           <a href="https://invis.io/HNG6SX9AW3Y" target="_blank" class="case btn lg left lavender">Invision Prototype</a>
@@ -973,47 +752,45 @@
 
       <div class="container-fluid testing d-none d-md-block lg">
         <div class="lg yellow testing mx-auto d-block">
-        <div class="row mx-auto d-block text-center">
-          <h3 class="lg case dark mx-auto d-block testing text-center">Usability Testing</h3>
-        </div>
+          <h3 class="lg mx-auto d-block text-center">Usability Testing</h3>
 
-        <div class="border row blue xlg"></div>
-          <p class="text-center task sea mx-auto d-block">Verify your account and enter the app. What is your first impression? Locate the nearest mexican spot and read reviews.</p>
-        <div class="border row blue xlg"></div>
-        <h3 class="text-center mx-auto d-block">Issue 1</h3>
-        <p class="text-center mx-auto d-block">Testers had a hard time locating the Mexican Spot.</br>Spot images were too hard to decipher and users were unsure what spot was associated with what food time.</p>
-        <h3 class="text-center mx-auto d-block">Fixes</h3>
-        <ul class="testing">
-            <li class="text-center mx-auto d-block">Simplified Icons</li>
-            <li class="text-center mx-auto d-block">"Spots" Key after Verification</li>
-            <li class="text-center mx-auto d-block">Zoom on Map</li>
-        </ul>
-      <img class="testing-spotted mx-auto d-block" src="images/spotted/testing-1.png"/>
+          <div class="border row blue xlg"></div>
+            <p class="task lg sea">Verify your account and enter the app. What is your first impression? Locate the nearest mexican spot and read reviews.</p>
+          <div class="border row blue xlg"></div>
+          <h4 class="lg">Issue 1</h4>
+          <p class="lg">Testers had a hard time locating the Mexican Spot.</br>Spot images were too hard to decipher and users were unsure what spot was associated with what food time.</p>
+          <h4 class="lg">Fixes</h4>
+          <ul class="testing lg">
+              <li>Simplified Icons</li>
+              <li>"Spots" Key after Verification</li>
+              <li>Zoom on Map</li>
+          </ul>
+          <img class="testing-spotted mx-auto d-block" src="images/spotted/testing-1.png"/>
 
-      <h3 class="text-center mx-auto d-block">Issue 2</h3>
-      <p class="text-center mx-auto d-block">First tester struggled locating reviews.</p>
-      <h3 class="text-center mx-auto d-block">Fixes</h3>
-      <ul>
-          <li class="text-center mx-auto d-block">Second iteration of options, clear buttons for each key piece of information.</li>
-      </ul>
-    <img class="testing-spotted-two mx-auto d-block" src="images/spotted/reviews-link.png"/>
+          <h4 class="lg">Issue 2</h4>
+          <p class="lg">First tester struggled locating reviews.</p>
+          <h4 class="lg">Fixes</h4>
+          <ul class="testing lg">
+              <li>Second iteration of options, clear buttons for each key piece of information.</li>
+          </ul>
+          <img class="testing-spotted-two mx-auto d-block" src="images/spotted/reviews-link.png"/>
+
+      <div class="border row blue xlg"></div>
+        <p class="sea lg task ">Place an order for Hot Tots from Tah Co Truck.
+      <div class="border row blue xlg"></div>
+      <h4 class="lg">Issue 1</h4>
+      <p class="lg">Most testers easily completed this task, however, a few testers were unsure as to whether or not they could add items to their cart directly from the menu. </p>
+      <h4 class="lg">Fixes</h4>
+      <p class="lg">Originally I was unable to fix the "View Cart" button to the bottom of the screen in my prototype (even though this was always my intention in the design). Once this was corrected in my prototype testers were assured they could order directly from the menu tab. </p>
+      <img class="testing-spotted-two mx-auto d-block" src="images/spotted/fixed-cart.png"/>
 
     <div class="border row blue xlg"></div>
-      <p class="text-center sea mx-auto d-block task">Place an order for Hot Tots from Tah Co Truck.
+      <p class="sea lg task">What, if anything, did you like or dislike about the app? Would you trust this app to store your payment information? Why or why not?
     <div class="border row blue xlg"></div>
-    <h3 class="text-center mx-auto d-block">Issue 1</h3>
-    <p class="text-center mx-auto d-block">Most testers easily completed this task, however, a few testers were unsure as to whether or not they could add items to their cart directly from the menu. </p>
-    <h3 class="text-center mx-auto d-block">Fixes</h3>
-    <p class="text-center mx-auto d-block">Originally I was unable to fix the "View Cart" button to the bottom of the screen in my prototype (even though this was always my intention in the design). Once this was corrected in my prototype testers were assured they could order directly from the menu tab. </p>
-    <img class="testing-spotted-two mx-auto d-block" src="images/spotted/fixed-cart.png"/>
-
-  <div class="border row blue xlg"></div>
-    <p class="text-center sea mx-auto d-block task">What, if anything, did you like or dislike about the app? Would you trust this app to store your payment information? Why or why not?
-  <div class="border row blue xlg"></div>
-  <h3 class="text-center mx-auto d-block">Overall</h3>
-  <p class="text-center mx-auto d-block">Testers liked the application and thought it had all of the functions they would want. Most had an easy time navigating the early iterations and of those that didn't, I took their feedback and made the improvements above. The later iterations were very successful and users easily completed the actions asked of them.</br></br>
-  I made a point of asking if users would trust the site to store payment information because I know speed and ease are essential to users and not having to enter payment information for each order is essential. The professional look of the site along with the security icon at checkout assured all but 1 tester that the site was safe to store payment inforamtion. The 1 tester that didn't trust the app to store payment information only didn't because she required an actual link to the security site.</p>
-</div>
+    <h4 class="lg">Overall</h4>
+    <p class="lg">Testers liked the application and thought it had all of the functions they would want. Most had an easy time navigating the early iterations and of those that didn't, I took their feedback and made the improvements above. The later iterations were very successful and users easily completed the actions asked of them.</br></br>
+    I made a point of asking if users would trust the site to store payment information because I know speed and ease are essential to users and not having to enter payment information for each order is essential. The professional look of the site along with the security icon at checkout assured all but 1 tester that the site was safe to store payment inforamtion. The 1 tester that didn't trust the app to store payment information only didn't because she required an actual link to the security site.</p>
+  </div>
 
 
 
@@ -1021,43 +798,31 @@
     <!-- ab testing --->
 
       <div class="lg yellow testing mx-auto d-block">
-      <div class="row mx-auto d-block text-center">
-        <h3 class="lg case dark mx-auto d-block testing text-center">A / B Test</h3>
-        <p class="testing">Performed to test whether users prefer a dropdown menu with clear options or links listed as information within a single click.</p>
-      </div>
+        <h3 class="lg mx-auto d-block text-center">A / B Test</h3>
+        <p class="lg">Performed to test whether users prefer a dropdown menu with clear options or links listed as information within a single click.</p>
       <div class="row">
         <img src="images/portfolio/map-pref.png" class="test lg"/>
         <img  src="images/portfolio/map-pref-1.png" class="test-two lg"/>
       </div>
-      <div class="row mx-auto d-block text-center">
         <h4>Results</h4>
-        <p class="testing">Users preferred the option with the pieces of information as links within a single click. However, after conducting usability tests, users were unsure that reviews and schedule were listed under the orange, linked text.</p>
-      </div>
-      <div class="row mx-auto d-block text-center">
-          <h4>Takeaway</h4>
-          <p class="testing">While testers preferred the look and simplicity of option two, when it came to performing actions such as reading reviews, viewing the schedule, and the menu, they need clear actions.</p>
-      </div>
+        <p class="lg">Users preferred the option with the pieces of information as links within a single click. However, after conducting usability tests, users were unsure that reviews and schedule were listed under the orange, linked text.</p>
+        <h4>Takeaway</h4>
+        <p class="lg">While testers preferred the look and simplicity of option two, when it came to performing actions such as reading reviews, viewing the schedule, and the menu, they need clear actions.</p>
       </div>
 
       <!--- Click Test --->
 
 
         <div class="lg yellow testing mx-auto d-block">
-        <div class="row mx-auto d-block text-center">
-          <h3 class="lg case dark mx-auto d-block testing text-center">Click Test</h3>
-          <p class="testing">To test whether option two above worked for users, were performed a click test to see if users understood where to get directions to a spot.</p>
-        </div>
+          <h3 class="lg mx-auto d-block text-center">Click Test</h3>
+          <p class="lg">To test whether option two above worked for users, were performed a click test to see if users understood where to get directions to a spot.</p>
         <div class="row mx-auto d-block">
           <img src="images/portfolio/map-pref.png" class="menu mx-auto d-block"/>
         </div>
-        <div class="row mx-auto d-block text-center">
           <h4>Results</h4>
-          <p class="testing">4/10 testers understood the linked address would direct them to directions.</p>
-        </div>
-        <div class="row mx-auto d-block text-center">
-            <h4>Takeaway</h4>
-            <p class="testing">Users need a clearer indicator that a button or link is going to take them to the information they need.</p>
-        </div>
+          <p class="lg">4/10 testers understood the linked address would direct them to directions.</p>
+          <h4>Takeaway</h4>
+          <p class="lg">Users need a clearer indicator that a button or link is going to take them to the information they need.</p>
         </div>
       </div>
 
@@ -1066,45 +831,42 @@
 
       <div class="container-fluid d-md-none testing sm">
         <div class="sm yellow testing mx-auto d-block">
-          <div class="row mx-auto d-block text-center">
-            <h3 class="sm case dark mx-auto d-block testing text-center">Usability Testing</h3>
-          </div>
-
+          <h3 class="sm mx-auto d-block testing text-center">Usability Testing</h3>
           <div class="border row blue lg"></div>
-            <p class="sm text-center task sea mx-auto d-block">Verify your account and enter the app. What is your first impression? Locate the nearest mexican spot and read reviews.</p>
+            <p class="sm task sea">Verify your account and enter the app. What is your first impression? Locate the nearest mexican spot and read reviews.</p>
           <div class="border row blue lg"></div>
-          <h3 class="sm text-left">Issue 1</h3>
-          <p class="sm text-left">Testers had a hard time locating the Mexican Spot.</br>Spot images were too hard to decipher and users were unsure what spot was associated with what food time.</p>
-          <h3 class="sm text-left">Fixes</h3>
-          <ul class="testing">
-              <li class="text-left">Simplified Icons</li>
-              <li class="text-left">"Spots" Key after Verification</li>
-              <li class="text-left">Zoom on Map</li>
+          <h4 class="sm">Issue 1</h3>
+          <p class="sm">Testers had a hard time locating the Mexican Spot.</br>Spot images were too hard to decipher and users were unsure what spot was associated with what food time.</p>
+          <h4 class="sm">Fixes</h3>
+          <ul class="testing sm">
+              <li>Simplified Icons</li>
+              <li>"Spots" Key after Verification</li>
+              <li>Zoom on Map</li>
           </ul>
         <img class="testing-spotted mx-auto d-block" src="images/spotted/testing-1-mobile.png"/>
 
-        <h3 class="sm text-left">Issue 2</h3>
-        <p class="sm text-left">First tester struggled locating reviews.</p>
-        <h3 class="sm text-left">Fixes</h3>
+        <h4 class="sm">Issue 2</h3>
+        <p class="sm">First tester struggled locating reviews.</p>
+        <h4 class="sm">Fixes</h3>
         <ul class="testing">
-            <li class="text-left">Second iteration of options, clear buttons for each key piece of information.</li>
+            <li>Second iteration of options, clear buttons for each key piece of information.</li>
         </ul>
         <img class="testing-spotted mx-auto d-block" src="images/spotted/reviews-link-mobile.png"/>
 
         <div class="border row blue lg"></div>
-        <p class="sm sea task text-center mx-auto d-block">Place an order for Hot Tots from Tah Co Truck.
+        <p class="sm sea task">Place an order for Hot Tots from Tah Co Truck.
         <div class="border row blue lg"></div>
-        <h3 class="sm text-left">Issue 1</h3>
-        <p class="sm text-left">Most testers easily completed this task, however, a few testers were unsure as to whether or not they could add items to their cart directly from the menu. </p>
-        <h3 class="sm text-left">Fixes</h3>
-        <p class="sm text-left">Originally I was unable to fix the "View Cart" button to the bottom of the screen in my prototype (even though this was always my intention in the design). Once this was corrected in my prototype testers were assured they could order directly from the menu tab. </p>
+        <h4 class="sm">Issue 1</h3>
+        <p class="sm">Most testers easily completed this task, however, a few testers were unsure as to whether or not they could add items to their cart directly from the menu. </p>
+        <h4 class="sm">Fixes</h3>
+        <p class="sm">Originally I was unable to fix the "View Cart" button to the bottom of the screen in my prototype (even though this was always my intention in the design). Once this was corrected in my prototype testers were assured they could order directly from the menu tab. </p>
         <img class="testing-spotted mx-auto d-block" src="images/spotted/fixed-cart-mobile.png"/>
 
         <div class="border row blue lg"></div>
-        <p class="sm text-center sea mx-auto d-block task">What, if anything, did you like or dislike about the app? Would you trust this app to store your payment information? Why or why not?
+        <p class="sm sea task">What, if anything, did you like or dislike about the app? Would you trust this app to store your payment information? Why or why not?
         <div class="border row blue lg"></div>
-        <h3 class="sm text-left">Overall</h3>
-        <p class="sm text-left mx-auto d-block">Testers liked the application and thought it had all of the functions they would want. Most had an easy time navigating the early iterations and of those that didn't, I took their feedback and made the improvements above. The later iterations were very successful and users easily completed the actions asked of them.</br></br>
+        <h4 class="sm">Overall</h3>
+        <p class="sm">Testers liked the application and thought it had all of the functions they would want. Most had an easy time navigating the early iterations and of those that didn't, I took their feedback and made the improvements above. The later iterations were very successful and users easily completed the actions asked of them.</br></br>
         I made a point of asking if users would trust the site to store payment information because I know speed and ease are essential to users and not having to enter payment information for each order is essential. The professional look of the site along with the security icon at checkout assured all but 1 tester that the site was safe to store payment inforamtion. The 1 tester that didn't trust the app to store payment information only didn't because she required an actual link to the security site.</p>
       </div>
 
@@ -1113,46 +875,34 @@
     <!-- ab testing small --->
 
     <div class="sm yellow testing mx-auto d-block">
-    <div class="row mx-auto d-block">
-      <h3 class="lg case dark mx-auto d-block testing text-center">A / B Test</h3>
-      <p class="col-sm-12 sm">When browsing e-commerce sites, users often use the browser back button to navigate from a detail page back to a category page. Always hestitant to return from the product detail page to the category page via the back button because they're unsure of whether or not the site will keep their scroll location. Sometimes there is an option to return via breadcrumbs on the product detail page, but that often doesn't maintain your scroll position either. </br></br>Users don't seem to like either option. I performed a preference test to see if users preferred a "Continue Browsing" button right next to the "Add" button on the product detail page.
+      <h3 class="sm mx-auto d-block testing text-center">A / B Test</h3>
+      <p class="sm">When browsing e-commerce sites, users often use the browser back button to navigate from a detail page back to a category page. Always hestitant to return from the product detail page to the category page via the back button because they're unsure of whether or not the site will keep their scroll location. Sometimes there is an option to return via breadcrumbs on the product detail page, but that often doesn't maintain your scroll position either. </br></br>Users don't seem to like either option. I performed a preference test to see if users preferred a "Continue Browsing" button right next to the "Add" button on the product detail page.
       </p>
-    </div>
 
       <div class="row"><h4 class="sm mx-auto d-block">A</h4></div>
       <div class="row"><img src="images/portfolio/map-pref.png" class="test sm"/></div>
       <div class="row"><h4 class="sm mx-auto d-block">B</h4></div>
       <div class="row"><img  src="images/portfolio/map-pref-1.png" class="test-two sm"/></div>
-
-    <div class="row mx-auto d-block">
       <h4 class="sm">Results</h4>
       <p class="testing sm">The test showed that 11/13 times users would select "Continue Browsing" (option 2 above) button as opposed to the breadcrumbs.</p>
-    </div>
-    <div class="row mx-auto d-block">
         <h4 class="sm">Takeaway</h4>
         <p class="testing sm">When given a quick, clear option to return to browsing, users will opt for that option.</p>
-    </div>
     </div>
 
     <!--- Click Test --->
 
 
       <div class="sm yellow testing mx-auto d-block">
-      <div class="row mx-auto d-block text-center">
-        <h3 class="sm case dark mx-auto d-block testing text-center">Click Test</h3>
-        <p class="testing">To test whether option two above worked for users, were performed a click test to see if users understood where to get directions to a spot.</p>
-      </div>
+        <h3 class="sm mx-auto d-block testing text-center">Click Test</h3>
+        <p class="sm">To test whether option two above worked for users, were performed a click test to see if users understood where to get directions to a spot.</p>
+
       <div class="row mx-auto d-block">
         <img src="images/portfolio/map-pref.png" class="sm test mx-auto d-block"/>
       </div>
-      <div class="row mx-auto d-block text-left">
-        <h4>Results</h4>
-        <p class="testing">4/10 testers understood the linked address would direct them to directions.</p>
-      </div>
-      <div class="row mx-auto d-block text-left">
-          <h4>Takeaway</h4>
-          <p class="testing">Users need a clearer indicator that a button or link is going to take them to the information they need.</p>
-      </div>
+        <h4 class="sm">Results</h4>
+        <p class="sm">4/10 testers understood the linked address would direct them to directions.</p>
+        <h4 class="sm">Takeaway</h4>
+        <p class="sm">Users need a clearer indicator that a button or link is going to take them to the information they need.</p>
       </div>
     </div>
 
@@ -1232,7 +982,7 @@
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+   <script src="script.js"></script>
    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
    <script type="text/javascript" src="slick/slick.min.js"></script>
 
