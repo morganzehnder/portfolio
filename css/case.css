@@ -108,7 +108,7 @@ h1.rose, p.rose, a.rose, span.rose{ /* light pink */
   color:#EFD1DF;
 }
 
-h1.sea, p.sea, a.sea, ul.sea, h4.sea, h3.sea{ /* darker blue */
+h1.sea, p.sea, a.sea, ul.sea, h4.sea, h3.sea, ol.sea{ /* darker blue */
   color:#69ACCD;
 }
 
@@ -427,6 +427,10 @@ div.container-fluid.conclusions.sm{
   padding:40px;
 }
 
+ol.findings{
+  padding-left:20px;
+}
+
 /*********** comp analyis ***********/
 
 div.container-fluid.comp{
@@ -550,10 +554,7 @@ div.col-sm-6.right{
 }
 
 div.container-fluid.stories.lg.spotted-c{
-  background: url("../images/portfolio/flows-bg.png") no-repeat;
   background-color: #69ACCD; /* spotted */
-  background-size:cover;
-  overflow:hidden;
 }
 
 div.container-fluid.stories.sm.spotted-c{
@@ -561,10 +562,7 @@ div.container-fluid.stories.sm.spotted-c{
 }
 
 div.container-fluid.stories.lg.wasted-c{
-  background: url("../images/portfolio/flows-bg-wasted.png") no-repeat;
   background-color: #69ACCD; /* wasted */
-  background-size:cover;
-  overflow:hidden;
 }
 
 div.container-fluid.stories.sm.wasted-c{
@@ -573,8 +571,6 @@ div.container-fluid.stories.sm.wasted-c{
 
 div.container-fluid.stories.lg.dockit-c{
   background-color: #8ED1B7; /* dockit */
-  background-size:cover;
-  overflow:hidden;
 }
 
 div.container-fluid.stories.sm.dockit-c{
@@ -591,6 +587,10 @@ div.container-fluid.stories.sm{
 
 div.flows{
   margin-top:120px;
+}
+
+img.flows{
+  width:90%;
 }
 
 div.col-sm-6{
