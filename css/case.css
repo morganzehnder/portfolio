@@ -412,10 +412,15 @@ h4.survey{
   margin-bottom:0px;
 }
 
+h4.survey.d{
+  letter-spacing:1px;
+  font-weight:600;
+}
+
 /* conclusions */
 
 div.container-fluid.conclusions.lg{
-  padding:120px 60px 120px 60px;
+  padding:60px 180px 60px 180px;
 }
 
 div.container-fluid.conclusions.sm{
@@ -631,6 +636,10 @@ div.container-fluid.sitemap.dockit-c{
 img.sitemap{
   width: 100%;
   margin:120px 0 60px 0;
+}
+
+img.sitemap.dockit{
+  width:60%;
 }
 
 /************ style / branding  ***********/
@@ -893,12 +902,25 @@ h3.lowfi.sm{
 
 /**** feedback row ****/
 div.container-fluid.feedback.lg{
-  padding:120px 180px 120px 180px;
+  padding:60px 180px 60px 180px;
 }
 
 div.container-fluid.feedback.sm{
   padding:40px;
 }
+
+ul.feed{
+  padding:0;
+  list-style:none;
+  width:90%;
+}
+
+ul.feed > li{
+  margin-top:30px;
+}
+
+
+
 
 /********* highfi ************ wasted */
 /* high fi carousel */
@@ -1059,12 +1081,16 @@ div.yellow.sm.testing{
 }
 
 img.test.lg{
+  margin-top:30px;
+  margin-bottom:30px;
   margin-left:18%;
   width:30%;
   height:30%;
 }
 
 img.test-two.lg{
+  margin-top:30px;
+  margin-bottom:30px;
   margin-left:5%;
   width:30%;
   height:30%;
