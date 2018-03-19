@@ -47,8 +47,8 @@ h1.lg.case{
 }
 
 h1.sm.case{
-  margin: 120px 0 -24px 5px;
-  letter-spacing:-8px;
+  margin: 120px 0 -18px 5px;
+  letter-spacing:-6px;
 }
 
 h1.lg.case.stacked{
@@ -57,14 +57,14 @@ h1.lg.case.stacked{
 }
 
 h1.sm.case.stacked{
-  line-height:52px;
-  margin: 120px 0 -2px 5px;
+  line-height:48px;
+  margin: 120px 0 0px 5px;
 }
 
 h1.sm.case.stacked.overflow{
-  font-size:60px!important;
+  font-size:64px!important;
   line-height:43px;
-  margin: 120px 0 -2px 0px;
+  margin: 120px 0 0px 20px;
 }
 
 
@@ -85,6 +85,10 @@ h3.sm{
 
 h3.dark{
   color:#404852;
+}
+
+h4.sm{
+  font-size: 24px;
 }
 
 
@@ -330,6 +334,10 @@ div.container-fluid.summary.dockit{ /* dockit */
 div.row.summary{
   margin-top:45px;
   margin-bottom:45px;
+}
+
+div.col-sm-9, div.col-sm-3{
+  padding:0;
 }
 
 img.summary.lg{
@@ -868,8 +876,9 @@ ul.lowfi.sea.sm{
 }
 
 ul.lowfi.sm > li{
-  margin-top:20px;
+  margin-top:10px;
 }
+
 
 div.col-sm-4.sm{
   padding:0px;
@@ -890,15 +899,13 @@ ul.lowfi.lg{
 
 ul.lowfi.sm{
   margin: 0 0 60px 0px;
+  padding-left:20px;
 }
 
 h3.lowfi.lg{
   margin-left: 150px;
 }
 
-h3.lowfi.sm{
-  margin-left: 20px;
-}
 
 /**** feedback row ****/
 div.container-fluid.feedback.lg{
