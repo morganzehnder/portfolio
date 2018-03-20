@@ -1,5 +1,8 @@
 /* basics */
 
+.navbar{
+  position:fixed;
+}
 
 a.navbar-brand > img{ /* personal logo */
   height:40px;
@@ -199,14 +202,14 @@ div.hero.container-fluid.wasted.sm.case{
 img.hero-logo.lg.wasted{
   width:35%;
   height:auto;
-  margin-top:70px;
+  margin-top:110px;
   margin-bottom:70px;
 }
 
 img.hero-logo.sm.wasted{
   width:50%;
   height:50%;
-  margin: 30px auto 30px auto;
+  margin: 110px auto 30px auto;
 }
 
 /* spotted case hero */
@@ -227,14 +230,14 @@ div.hero.container-fluid.spotted.sm.case{
 img.hero-logo.lg.spotted{
   width:30%;
   height:auto;
-  margin-top:60px;
+  margin-top:100px;
   margin-bottom:60px;
 }
 
 img.hero-logo.sm.spotted{
   width:50%;
   height:50%;
-  margin: 30px auto 30px auto;
+  margin: 110px auto 30px auto;
 }
 
 /* dockit case hero */
@@ -247,14 +250,14 @@ div.hero.container-fluid.dockit.case{
 img.hero-logo.dockit.lg{
   width:20%;
   height:auto;
-  margin-top:60px;
+  margin-top:100px;
   margin-bottom:60px;
 }
 
 img.hero-logo.dockit.sm{
   width:60%;
   height:60%;
-  margin: 30px auto 30px auto;
+  margin: 110px auto 30px auto;
 }
 
 div.hero.container-fluid.dockit.lg.case{
@@ -1045,7 +1048,7 @@ div.border.row.lg{
 }
 
 div.border.row.xlg{
-  width:95%;
+  width:100%;
 }
 div.border.row.xxlg{
   width:100%;
