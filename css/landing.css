@@ -167,11 +167,17 @@ h1.marigold, p.marigold, a.marigold{
   }
 
   img.cell{
-    width:90%;
-    padding-top:45px;
-    padding-bottom:45px;
-    margin-right:0px!important;
-    padding-right:0px!important;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 45px;
+    margin-right: 0px!important;
+    padding-right: 0px!important;
+  }
+
+  img.mobile{
+    width: 100%;
+    margin-top:20px;
+    padding-left:20px;
   }
 
   img.desktop{
