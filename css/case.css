@@ -50,7 +50,7 @@ h1.lg.case{
 }
 
 h1.sm.case{
-  margin: 120px 0 -18px 5px;
+  margin: 120px 0 -18px 20px;
   letter-spacing:-6px;
 }
 
@@ -61,7 +61,7 @@ h1.lg.case.stacked{
 
 h1.sm.case.stacked{
   line-height:48px;
-  margin: 120px 0 0px 5px;
+  margin: 120px 0 0px 20px;
 }
 
 h1.sm.case.stacked.overflow{
