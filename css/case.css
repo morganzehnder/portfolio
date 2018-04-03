@@ -539,7 +539,7 @@ div.container-fluid.persona.blue-c{
 }
 
 div.container-fluid.persona.green{
-  background-color:#EFF3B2;
+  background-color:#FFD47A;
 }
 
 /* persona details */
@@ -636,7 +636,7 @@ div.container-fluid.sitemap.sm{
 }
 
 div.container-fluid.sitemap.wasted-c{
-  background-color:#E2E97B;
+  background-color:#EAEFA1;
 }
 
 div.container-fluid.sitemap.spotted-c{
@@ -851,12 +851,12 @@ img.cicons{
 }
 
 div.container-fluid.icons.lg{
-  background-color:#EFF3B2;
+  background-color:#404852;
   padding:60px 180px 60px 180px;
 }
 
 div.container-fluid.icons.sm{
-  background-color:#EFF3B2;
+  background-color:#404852;
   padding:40px;
 }
 
