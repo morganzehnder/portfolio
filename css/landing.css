@@ -242,7 +242,7 @@ h1.marigold, p.marigold, a.marigold{
 
   div.container-fluid.d-md-none.spotted.landing{
     background-color:#FFD47A;
-    min-height:545px;
+    min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
@@ -251,8 +251,8 @@ h1.marigold, p.marigold, a.marigold{
 
   div.container-fluid.d-md-none.wasted.landing{
     background-color:#8ECDD6;
-    max-height:545px;
-    min-height:545px;
+    max-height:515px;
+    min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
@@ -260,7 +260,7 @@ h1.marigold, p.marigold, a.marigold{
 
   div.container-fluid.d-md-none.dockit.landing{
     background-color:#94DDBF;
-    min-height:545px;
+    min-height:515px;
     overflow:hidden;
     padding:0px;
     height:70vh;
