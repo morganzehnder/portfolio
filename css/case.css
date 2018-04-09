@@ -359,7 +359,7 @@ img.summary.sm{
 /********* specs ***********/
 
 div.container-fluid.specs.lg{
-  padding: 45px 180px 45px 180px;
+  padding: 45px 0px 45px 180px;
 }
 
 div.container-fluid.specs.sm{
@@ -604,7 +604,7 @@ div.flows{
 }
 
 img.flows{
-  width:90%;
+  width:80%;
 }
 
 div.col-sm-6{
