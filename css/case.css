@@ -668,9 +668,8 @@ img.style.sm{
   margin: 30px auto 30px auto;
 }
 
-div.style{
-  padding-top:60px;
-  padding-right:60px;
+div.style.lg{
+  padding:
 }
 
 .white{
@@ -679,7 +678,7 @@ div.style{
 
 
 div.container-fluid.style.lg{
-  padding:0px 60px 60px 170px;
+  padding:60px 180px 60px 180px;
   overflow:hidden;
 }
 
@@ -700,8 +699,57 @@ div.col-sm-8{
   padding:0;
 }
 
+img.dash{ /* color section */
+  width:90%;
+  margin-top:30px;
+}
 
+.hex.container{
+  width:90px;
+  height:90px;
+  display: inline-block;
+  border: solid 4px white;
+  margin:3px;
+}
 
+p.hex{
+  margin: 30px auto auto 2px;
+}
+
+p.color{ /* body text for color section */
+  width:80%;
+  margin-right:20px;
+}
+
+/* hex colors dockit */
+
+.hex.dark-green{
+  background-color:#6BE0B1;
+}
+
+.hex.light-green{
+  background-color:#A8EDD1;
+}
+
+.hex.red{
+  background-color:#FB8978;
+}
+
+.hex.teal{
+  background-color:#1D434C;
+}
+
+.hex.org{
+  background-color:#FFB35D;
+}
+
+.hex.dark-gray{
+  background-color:#282828;
+}
+
+.hex.light-gray{
+  background-color:#F4F4F4;
+}
 /********* name ********** Wasted only */
 
 div.container-fluid.name.wasted-c{
