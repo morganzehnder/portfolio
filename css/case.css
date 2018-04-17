@@ -743,8 +743,8 @@ p.color{ /* body text for color section */
   background-color:#FFB35D;
 }
 
-.hex.dark-gray{
-  background-color:#282828;
+.hex.blue-gray{
+  background-color:#F2F8FA;
 }
 
 .hex.light-gray{
@@ -784,10 +784,22 @@ p.wn{
   margin:5px auto 30px auto;
 }
 
-/********* name * Dockit Only **********/
+/********* type name  * Dockit Only **********/
+
+div.container-fluid.type.dockit-c{
+  background-color: #F3C2D9;
+}
+
+div.container-fluid.type.lg.dockit-c{
+  padding:60px 180px 60px 180px;
+}
+
+div.container-fluid.type.sm.dockit-c{
+  padding:40px;
+}
 
 div.container-fluid.name.dockit-c{
-  background-color: #F3C2D9;
+  background-color: #F7F9D1;
 }
 
 div.container-fluid.name.lg.dockit-c{
@@ -806,6 +818,10 @@ img.name-dockit.lg{
 img.name-dockit.sm{
   width:100%;
   margin:30px;
+}
+
+div.final-logo{
+  margin-top:40px;
 }
 
 
@@ -900,12 +916,12 @@ img.cicons{
 }
 
 div.container-fluid.icons.lg{
-  background-color:#E9A7C6;
+  background-color:#EFF2B5;
   padding:60px 180px 60px 180px;
 }
 
 div.container-fluid.icons.sm{
-  background-color:#E9A7C6;
+  background-color:#EFF2B5;
   padding:40px;
 }
 
