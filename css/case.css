@@ -750,6 +750,70 @@ p.color{ /* body text for color section */
 .hex.light-gray{
   background-color:#F4F4F4;
 }
+
+/* hex colors spotted */
+
+div.color.lg{
+  padding-right:30px;
+}
+
+div.type.lg{
+  padding-left:30px;
+}
+
+.hex-lg.container{
+  width:125px;
+  height:125px;
+  display: inline-block;
+  border: solid 4px white;
+  margin:30px 20px auto auto;
+}
+
+p.hex-lg{
+  margin: 42px 16px;
+  font-size: 18px;
+}
+
+.hex-lg.blck{
+  background-color:#2D2929;
+}
+
+.hex-lg.gray{
+  background-color:#797977;
+}
+
+.hex-lg.red{
+  background-color:#951500;
+}
+
+.hex-lg.org{
+  background-color:#FF5722;
+}
+
+.hex-lg.l-org{
+  background-color:#FA6536;
+}
+
+.hex-lg.ll-org{
+  background-color:#FF8A50;
+}
+
+.hex-lg.gray-spot{
+  background-color:#E6E6E6;
+}
+
+h3.sm.case.type{
+  margin-top:30px;
+}
+
+
+/* type spotted */
+
+p.s-header-1{
+  font-size:24px;
+  font-family:
+}
+
 /********* name ********** Wasted only */
 
 div.container-fluid.name.wasted-c{
