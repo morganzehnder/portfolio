@@ -754,11 +754,11 @@ p.color{ /* body text for color section */
 /* hex colors spotted */
 
 div.color.lg{
-  padding-right:30px;
+  padding-right:60px;
 }
 
 div.type.lg{
-  padding-left:30px;
+  padding-left:60px;
 }
 
 .hex-lg.container{
