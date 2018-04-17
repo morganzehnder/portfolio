@@ -806,6 +806,94 @@ h3.sm.case.type{
   margin-top:30px;
 }
 
+/* wasted color */
+
+.hex-lg.container.rd{
+  width:125px;
+  height:125px;
+  border-radius: 100px;
+  display: inline-block;
+  border: solid 4px white;
+  margin:30px 20px auto auto;
+}
+
+.hex-lg.bl{
+  background-color:#1D1F30;
+}
+
+.hex-lg.navy{
+  background-color:#2C2F4C;
+}
+
+.hex-lg.bl-gr{
+  background-color:#69688C;
+}
+
+.hex-lg.mauve{
+  background-color:#AD8392;
+}
+
+.hex-lg.cherry{
+  background-color:#F17271;
+}
+
+.hex-lg.baby{
+  background-color:#FFBEB2;
+}
+
+.hex-lg.light{
+  background-color:#E9E8EE;
+}
+
+/* wasted type */
+div.container-fluid.type.wasted-c{
+    background-color: #96DBBE;
+}
+
+div.container-fluid.type.wasted-c.lg{
+  padding:60px 180px 60px 180px;
+}
+div.container-fluid.type.wasted-c.sm{
+  padding:40px;
+}
+
+p.h-w-1{
+  font-family: "Josefin Sans";
+  font-size:64px;
+  font-weight:bold;
+}
+
+p.h-w-1.sm{
+  font-size:36px;
+}
+
+p.h-w-2{
+  font-family: "Josefin Sans";
+  font-size:36px;
+  font-weight:bold;
+}
+
+p.h-w-2.sm{
+  font-size:24px;
+}
+
+p.h-w-3{
+  font-family: "Josefin Sans";
+  font-size:20px;
+  text-transform:uppercase;
+}
+
+p.h-w-4{
+  font-family: "Josefin Sans";
+  font-size:18px;
+  font-weight:bold;
+}
+
+p.b-w{
+  font-family:Arial;
+  font-size:16px;
+}
+
 
 /* type spotted */
 
@@ -827,6 +915,8 @@ div.container-fluid.name.wasted-c.lg{
 div.container-fluid.name.wasted-c.sm{
   padding:40px;
 }
+
+
 
 img.nicon{
   width:70%;
