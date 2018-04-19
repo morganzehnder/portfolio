@@ -195,7 +195,7 @@ div.hero.container-fluid.wasted.case{
 }
 
 div.hero.container-fluid.wasted.lg.case{
-  min-height:1000px;
+  min-height:980px;
 }
 
 div.hero.container-fluid.wasted.sm.case{
@@ -203,10 +203,10 @@ div.hero.container-fluid.wasted.sm.case{
 }
 
 img.hero-logo.lg.wasted{
-  width:35%;
+  width:30%;
   height:auto;
-  margin-top:110px;
-  margin-bottom:70px;
+  margin-top:130px;
+  margin-bottom:90px;
 }
 
 img.hero-logo.sm.wasted{
@@ -253,8 +253,8 @@ div.hero.container-fluid.dockit.case{
 img.hero-logo.dockit.lg{
   width:20%;
   height:auto;
-  margin-top:100px;
-  margin-bottom:60px;
+  margin-top:120px;
+  margin-bottom:80px;
 }
 
 img.hero-logo.dockit.sm{
@@ -264,7 +264,7 @@ img.hero-logo.dockit.sm{
 }
 
 div.hero.container-fluid.dockit.lg.case{
-  min-height:1000px;
+  min-height:980px;
 }
 
 div.hero.container-fluid.dockit.sm.case{
