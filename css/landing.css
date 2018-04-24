@@ -119,12 +119,12 @@ h2{ /* basic */
 
 
   h1.lg{ /* basic */
-    font-family:'Source Sans Pro:900', Arial, sans-serif;
+    font-family:'Source Sans Pro', Arial, sans-serif;
     font-weight:900;
     font-size: 165px;
     padding: 0px;
-    margin: 0 0 -42px 165px;
-    letter-spacing:-15px;
+    margin: 0 0 -40px 165px;
+    letter-spacing:0px;
     -webkit-animation-delay: 1s;
   }
 
@@ -180,7 +180,7 @@ h1.marigold, p.marigold, a.marigold{
     padding-left:20px;
   }
 
-  img.desktop{
+  img.desktop.lg{
     width:97%;
     padding-top:45px;
     padding-bottom:45px;
@@ -188,8 +188,16 @@ h1.marigold, p.marigold, a.marigold{
     padding-right:0px!important;
   }
 
+  img.desktop.sm{
+    width:90%;
+    padding-top:30px;
+    padding-bottom:45px;
+    margin-right:0px!important;
+    padding-right:0px!important;
+  }
+
   div.container-fluid.wasted.landing{
-    background-color:#8ECDD6;
+    background-color:#B9D9EC;
     max-height:515px;
     height:70vh;
     overflow:hidden;
@@ -197,7 +205,7 @@ h1.marigold, p.marigold, a.marigold{
   }
 
   div.container-fluid.dockit.landing{
-    background-color:#94DDBF;
+    background-color:#BCE1D2;
     max-height:515px;
     height:70vh;
     overflow:hidden;
@@ -211,12 +219,12 @@ h1.marigold, p.marigold, a.marigold{
     font-weight:900;
     font-size: 72px;
     padding: 0px;
-    margin: 0 0 -24px 5px;
+    margin: 0 0 -18px 5px;
     letter-spacing:-8px;
   }
 
   h2.text-left.case-header.sm{
-    margin-top:80px;
+    margin-top:45px;
     margin-left:20px;
     font-size:48px;
   }
@@ -236,6 +244,7 @@ h1.marigold, p.marigold, a.marigold{
     margin-left: 20px;
     margin-top: 20px;
     color: white;
+    font-size:24px;
   }
 
   /* background images mobile*/
@@ -250,7 +259,7 @@ h1.marigold, p.marigold, a.marigold{
 
 
   div.container-fluid.d-md-none.wasted.landing{
-    background-color:#8ECDD6;
+    background-color:#B9D9EC;
     max-height:515px;
     min-height:515px;
     overflow:hidden;
@@ -259,7 +268,7 @@ h1.marigold, p.marigold, a.marigold{
   }
 
   div.container-fluid.d-md-none.dockit.landing{
-    background-color:#94DDBF;
+    background-color:#BCE1D2;
     min-height:515px;
     overflow:hidden;
     padding:0px;
@@ -277,17 +286,10 @@ h1.marigold, p.marigold, a.marigold{
   transition: .5s ease;
 }
 
-div.overlay.spotted{
+div.overlay{
     background-color: rgba(254,85,164,0.30);
 }
 
-div.overlay.wasted{
-    background-color: rgba(254,85,164,0.30);
-}
-
-div.overlay.dockit{
-  background: rgba(232,242,85,0.30);
-}
 
 div.container-fluid.image.d-none.d-md-block:hover .overlay {
   opacity: .8;
