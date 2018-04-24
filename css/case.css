@@ -46,7 +46,7 @@ ul.sm > li, ol.sm > li{
 
 h1.lg.case{
   margin: 120px 0 -40px 145px;
-  letter-spacing: 0px;
+  letter-spacing: -20px;
 }
 
 h1.sm.case{
@@ -57,6 +57,7 @@ h1.sm.case{
 h1.lg.case.stacked{
   line-height: 113px;
   margin: 120px 0px 4px 145px;
+  letter-spacing: -20px;
 }
 
 h1.sm.case.stacked{
@@ -309,7 +310,6 @@ div.hero.container-fluid.dockit.sm.case{
   font-weight:900;
   letter-spacing:2px;
   font-size: 20px;
-
 }
 
 .btn.lg{
