@@ -103,9 +103,11 @@ h1.seafoam, p.seafoam, a.seafoam, span.seafoam{ /* light green */
   color:#B6DCCC;
 }
 
-a.mint{
+a.mint, .mint{
   color:#BCE1D2;
 }
+
+
 
 h1.sail{
   color:#B9D9EC;
@@ -442,6 +444,31 @@ ul.specs{
 
 
 /********* user survey ********/
+
+img.infographic{
+  height:90%;
+  width:90%;
+}
+
+h4.info{
+  margin: 45px 0px 15px 0px;
+}
+
+.lilac{
+  color:#9C8EE4;
+}
+
+.electric{
+  color:#82BFA8;
+}
+
+.fire{
+  color:#EC7D7D;
+}
+
+p.info{
+  font-size:24px;
+}
 
 div.container-fluid.survey{
   background-color:#FFD4AE;
