@@ -451,7 +451,11 @@ img.infographic{
 }
 
 h4.info{
-  margin: 45px 0px 15px 0px;
+  margin: 45px auto 15px auto;
+}
+
+div.col-sm-4.pcs{
+  padding-left:30px;
 }
 
 .lilac{
