@@ -515,8 +515,16 @@ div.container-fluid.conclusions.sm{
   padding:40px;
 }
 
-ol.findings{
-  padding-left:20px;
+div.conclusions.color{
+  background-color:#FBFBFB;
+}
+
+h4.conclusions{
+  margin-bottom:20px;
+}
+
+h4.second{
+  margin-top:30px;
 }
 
 /*********** comp analyis ***********/
