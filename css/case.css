@@ -654,11 +654,11 @@ div.col-sm-6.right{
 }
 
 div.container-fluid.stories.lg.spotted-c{
-  background-color: #F1E4E4; /* spotted */
+  background-color: #F9CCCC; /* spotted */
 }
 
 div.container-fluid.stories.sm.spotted-c{
-  background-color: #F1E4E4; /* spotted */
+  background-color: #F9CCCC; /* spotted */
 }
 
 div.container-fluid.stories.lg.wasted-c{
@@ -726,7 +726,7 @@ div.container-fluid.sitemap.wasted-c{
 }
 
 div.container-fluid.sitemap.spotted-c{
-  background-color:#F9CCCC;
+  background-color:#F1E4E4;
 }
 
 div.container-fluid.sitemap.dockit-c{
